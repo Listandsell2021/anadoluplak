@@ -1,30 +1,5 @@
-<style>
-  .image-gallery-wrapper {
-    columns: 3;
-    column-gap: 1rem;
-  }
-
-  @media (min-width: 768px) {
-    .image-gallery-wrapper {
-      columns: 4;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .image-gallery-wrapper {
-      columns: 4;
-    }
-  }
-
-  .image-gallery-item img {
-    width: 100%;
-    margin-bottom: 1rem;
-    display: block;
-  }
-</style>
-test 12355
 <section class="image-gallery">
-  <div class="page-width">
+  <div class="herosilde">
     {% if section.settings.custom_text_title %}
       <h2 class="h1">{{ section.settings.custom_text_title }}</h2>
     {% endif %}
@@ -32,29 +7,33 @@ test 12355
     <div class="image-gallery-wrapper">
 
       {% for block in section.blocks %}
+      <a href="{{ block.settings.product.url }}" class="prdct-link">
         <div class="image-gallery-item">
           <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
         </div>
+      </a>
       {% endfor %}
      
     </div>
  
     <div class="image-gallery-wrapper">
-
       {% for block in section.blocks %}
+      <a href="{{ block.settings.product.url }}" class="prdct-link">
         <div class="image-gallery-item">
           <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
         </div>
+      </a>
       {% endfor %}
      
     </div>
      
     <div class="image-gallery-wrapper">
-
       {% for block in section.blocks %}
+      <a href="{{ block.settings.product.url }}" class="prdct-link">
         <div class="image-gallery-item">
           <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
         </div>
+      </a>
       {% endfor %}
      
     </div>
@@ -62,22 +41,10 @@ test 12355
     
   </div>
 </section>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    $('.grid-slick').slick({
-      autoplay: true,
-      dots: true,
-      arrows: true,
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    });
-  });
-</script>
-
 {% schema %}
 {
   "name": "Image Gallery",
+  "max_blocks": 15,
   "settings": [
     {
       "id": "custom_text_title",
@@ -95,6 +62,11 @@ test 12355
           "type": "image_picker",
           "id": "gallery_image",
           "label": "Gallery Image"
+        },
+        {
+        "type": "product",
+        "id": "product",
+        "label": "Product Url"
         },
         {
           "type": "text",

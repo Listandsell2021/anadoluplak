@@ -265,7 +265,12 @@
       {{ 'component-price.css' | asset_url | stylesheet_tag }}
       {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
     {%- endif -%}
-
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
+     
+         <!-- Slick CSS -->
+  {{ 'slick.css' | asset_url | stylesheet_tag }}
+  {{ 'slick-theme.css' | asset_url | stylesheet_tag }}
+  
     {%- unless settings.type_body_font.system? -%}
       {% comment %}theme-check-disable AssetPreload{% endcomment %}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -297,19 +302,12 @@
       }
     </script>
 
-
-    
-
-   <!-- Slick CSS -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
-    <!-- jQuery (required for Slick) -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <!-- jQuery (required for Slick) -->
+<script src="{{ 'jquery.min.js' | asset_url }}"></script>
 <!-- Slick JS -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-
+<script src="{{ 'slick.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
 
 
   </head>
