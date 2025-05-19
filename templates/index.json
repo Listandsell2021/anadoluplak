@@ -12,51 +12,31 @@
     "lshero_slider_JQ3Kwk": {
       "type": "lshero-slider",
       "blocks": {
-        "gallery_image_3bXm3h": {
-          "type": "gallery_image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/bner1.png",
-            "product": "",
-            "alt_text": "Gallery image"
-          }
-        },
-        "gallery_image_3EzqLg": {
-          "type": "gallery_image",
-          "settings": {
-            "gallery_image": "shopify://shop_images/banner2.png",
-            "product": "",
-            "alt_text": "Gallery image"
-          }
-        },
         "gallery_image_y8ga6L": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/banner3.png",
-            "product": "",
+            "product": "sezen-aksu-allahaismarladik",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_z3JgJe": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/banner4.png",
-            "product": "",
+            "product": "sezen-aksu-aglamak-guzeldir",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_ETHqbz": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/banner5.png",
-            "product": "",
+            "product": "sezen-aksu-biraz-pop-biraz-sezen-2-lps",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_pgXtXz": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/banner6.png",
-            "product": "",
+            "product": "sezen-aksu-optum",
             "alt_text": "Gallery image"
           }
         },
@@ -68,27 +48,38 @@
             "alt_text": "Gallery image"
           }
         },
+        "gallery_image_3EzqLg": {
+          "type": "gallery_image",
+          "settings": {
+            "product": "sezen-aksu-firuze",
+            "alt_text": "Gallery image"
+          }
+        },
         "gallery_image_yDkJPQ": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/banner8.png",
-            "product": "",
+            "product": "sezen-aksu-sen-aglama",
+            "alt_text": "Gallery image"
+          }
+        },
+        "gallery_image_3bXm3h": {
+          "type": "gallery_image",
+          "settings": {
+            "product": "sezen-aksu-deniz-yildizi",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_VHEgma": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/banner9.png",
-            "product": "",
+            "product": "tarkan-karma",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_ddjGje": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/banner10.png",
-            "product": "",
+            "product": "tarkan-aacayipsin",
             "alt_text": "Gallery image"
           }
         },
@@ -110,14 +101,14 @@
         }
       },
       "block_order": [
-        "gallery_image_3bXm3h",
-        "gallery_image_3EzqLg",
         "gallery_image_y8ga6L",
         "gallery_image_z3JgJe",
         "gallery_image_ETHqbz",
         "gallery_image_pgXtXz",
         "gallery_image_g3PbXb",
+        "gallery_image_3EzqLg",
         "gallery_image_yDkJPQ",
+        "gallery_image_3bXm3h",
         "gallery_image_VHEgma",
         "gallery_image_ddjGje",
         "gallery_image_9Mgm3z",
@@ -132,15 +123,15 @@
       "type": "featured-collection",
       "settings": {
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 10,
         "title": "Diese Woche gehört",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
+        "columns_desktop": 5,
+        "enable_desktop_slider": true,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "color_scheme": "scheme-1",
@@ -151,7 +142,7 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 44,
         "padding_bottom": 36
       }
@@ -160,7 +151,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "frontpage",
+        "collection": "pop",
         "products_to_show": 4,
         "title": "Meistverkaufte Produkte",
         "heading_size": "h2",
@@ -180,6 +171,47 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_4gJAij": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_wbK3pM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_RyKtEF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_rXQYNC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_wbK3pM",
+        "featured_collection_RyKtEF",
+        "featured_collection_rXQYNC"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Im Fokus",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -237,7 +269,7 @@
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "",
+        "collection": "pop",
         "products_to_show": 4,
         "title": "Meistverkaufte Sets",
         "heading_size": "h2",
@@ -353,7 +385,7 @@
         "caption": "",
         "heading": "FAQ",
         "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_alignment": "left",
         "layout": "none",
         "container_color_scheme": "",
         "color_scheme": "",
@@ -369,6 +401,7 @@
     "lshero_slider_JQ3Kwk",
     "featured_collection",
     "featured_collection_KAPFar",
+    "collection_list_4gJAij",
     "image_banner",
     "featured_collection_gTVNC4",
     "collapsible_content_hnKRnA"

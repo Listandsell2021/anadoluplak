@@ -13,12 +13,39 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "brand_information_neyXMe": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "link_list_jxqDkF": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Schnelle Links",
+            "menu": "schnelle-links"
+          }
+        },
+        "link_list_9xUyWd": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Kundenbetreuung",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_neyXMe",
+        "link_list_jxqDkF",
+        "link_list_9xUyWd"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
-        "show_social": true,
+        "show_social": false,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
