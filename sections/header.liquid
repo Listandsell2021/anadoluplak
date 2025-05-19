@@ -180,15 +180,6 @@
       {%- endif -%}
     {%- endif -%}
 
-    {%- liquid
-      if section.settings.menu != blank
-        if section.settings.menu_type_desktop == 'dropdown'
-          render 'header-dropdown-menu'
-        elsif section.settings.menu_type_desktop != 'drawer'
-          render 'header-mega-menu'
-        endif
-      endif
-    %}
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
@@ -249,7 +240,7 @@
           </localization-form>
         {%- endif -%}
       </div>
-     
+
 
       {%- if shop.customer_accounts_enabled -%}
         <a
@@ -304,7 +295,20 @@
         {%- endif -%}
       </a>
     </div>
+      <div class="container {% if section.settings.menu != blank %} header--has-menu{% endif %}">
+          {%- liquid
+      if section.settings.menu != blank
+        if section.settings.menu_type_desktop == 'dropdown'
+          render 'header-dropdown-menu'
+        elsif section.settings.menu_type_desktop != 'drawer'
+          render 'header-mega-menu'
+        endif
+      endif
+    %}
+    </div>
+
   </header>
+
 </{{ header_tag }}>
 
 {%- if settings.cart_type == 'notification' -%}

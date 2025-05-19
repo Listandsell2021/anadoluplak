@@ -1,83 +1,85 @@
-<style>
-  .image-gallery-wrapper {
-    columns: 3;
-    column-gap: 1rem;
-  }
-
-  @media (min-width: 768px) {
-    .image-gallery-wrapper {
-      columns: 4;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .image-gallery-wrapper {
-      columns: 4;
-    }
-  }
-
-  .image-gallery-item img {
-    width: 100%;
-    margin-bottom: 1rem;
-    display: block;
-  }
-</style>
-
 <section class="image-gallery">
-  <div class="page-width">
+  <div class="herosilde">
     {% if section.settings.custom_text_title %}
       <h2 class="h1">{{ section.settings.custom_text_title }}</h2>
     {% endif %}
-    <div class="grid-slick">
-    <div class="image-gallery-wrapper">
+<div class="heromarquee-container">
+  <div class="slidermarquee-track">
 
-      {% for block in section.blocks %}
-        <div class="image-gallery-item">
-          <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
-        </div>
-      {% endfor %}
-     
-    </div>
- 
-    <div class="image-gallery-wrapper">
+    {% assign pattern = "2,3,2,2,3" | split: "," %}
+    {% assign pattern_index = 0 %}
+    {% assign total = section.blocks.size %}
+    {% assign i = 0 %}
 
-      {% for block in section.blocks %}
-        <div class="image-gallery-item">
-          <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
-        </div>
-      {% endfor %}
-     
-    </div>
-     
-    <div class="image-gallery-wrapper">
+    {%- for block in section.blocks -%}
+      {% if i == 0 %}
+        {% assign current_count = pattern[pattern_index] | plus: 0 %}
+        <div class="heromasonry-column">
+      {% endif %}
 
-      {% for block in section.blocks %}
-        <div class="image-gallery-item">
+      <div class="herogallery-item">
+        <a href="{{ block.settings.product.url }}" class="prdct-link">
           <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
+        </a>
+      </div>
+
+      {% assign i = i | plus: 1 %}
+
+      {% if i == current_count %}
         </div>
-      {% endfor %}
-     
-    </div>
-    </div>
+        {% assign i = 0 %}
+        {% assign pattern_index = pattern_index | plus: 1 %}
+        {% if pattern_index == pattern.size %}
+          {% assign pattern_index = 0 %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if i > 0 %}
+      </div> {# close last column if not perfectly divisible #}
+    {% endif %}
+
+    <!-- Duplicate for seamless scroll -->
+    {% assign pattern_index = 0 %}
+    {% assign i = 0 %}
+
+    {%- for block in section.blocks -%}
+      {% if i == 0 %}
+        {% assign current_count = pattern[pattern_index] | plus: 0 %}
+        <div class="heromasonry-column">
+      {% endif %}
+
+      <div class="herogallery-item">
+        <a href="{{ block.settings.product.url }}" class="prdct-link">
+          <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
+        </a>
+      </div>
+
+      {% assign i = i | plus: 1 %}
+
+      {% if i == current_count %}
+        </div>
+        {% assign i = 0 %}
+        {% assign pattern_index = pattern_index | plus: 1 %}
+        {% if pattern_index == pattern.size %}
+          {% assign pattern_index = 0 %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if i > 0 %}
+      </div>
+    {% endif %}
+
+  </div>
+</div>
     
   </div>
 </section>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    $('.grid-slick').slick({
-      autoplay: true,
-      dots: true,
-      arrows: true,
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    });
-  });
-</script>
-
 {% schema %}
 {
   "name": "Image Gallery",
+  "max_blocks": 15,
   "settings": [
     {
       "id": "custom_text_title",
@@ -97,6 +99,11 @@
           "label": "Gallery Image"
         },
         {
+        "type": "product",
+        "id": "product",
+        "label": "Product Url"
+        },
+        {
           "type": "text",
           "id": "alt_text",
           "label": "Alt text",
@@ -105,6 +112,7 @@
       ]
     }
   ],
+
   "presets": [
     {
       "name": "Masonry Image Gallery",
