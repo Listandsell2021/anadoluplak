@@ -36,9 +36,10 @@
   0% { transform: translateX(0%); }
   100% { transform: translateX(-50%); }
 }
-/********************HEADER***********************/
-.header-wrapper {
-    background: #fef6eb !important;
+
+
+.announcement-bar, .announcement-bar__announcement{
+  background-color:red;
 }
 
 
