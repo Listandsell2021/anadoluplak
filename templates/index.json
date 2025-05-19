@@ -15,49 +15,96 @@
         "gallery_image_3bXm3h": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/image.jpg",
+            "gallery_image": "shopify://shop_images/bner1.png",
+            "product": "",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_3EzqLg": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/image-7.jpg",
+            "gallery_image": "shopify://shop_images/banner2.png",
+            "product": "",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_y8ga6L": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/image-1.jpg",
+            "gallery_image": "shopify://shop_images/banner3.png",
+            "product": "",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_z3JgJe": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/image-5.jpg",
+            "gallery_image": "shopify://shop_images/banner4.png",
+            "product": "",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_ETHqbz": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/image-3.jpg",
+            "gallery_image": "shopify://shop_images/banner5.png",
+            "product": "",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_pgXtXz": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/image-6.jpg",
+            "gallery_image": "shopify://shop_images/banner6.png",
+            "product": "",
             "alt_text": "Gallery image"
           }
         },
         "gallery_image_g3PbXb": {
           "type": "gallery_image",
           "settings": {
-            "gallery_image": "shopify://shop_images/image-7.jpg",
+            "gallery_image": "shopify://shop_images/banner7.png",
+            "product": "",
+            "alt_text": "Gallery image"
+          }
+        },
+        "gallery_image_yDkJPQ": {
+          "type": "gallery_image",
+          "settings": {
+            "gallery_image": "shopify://shop_images/banner8.png",
+            "product": "",
+            "alt_text": "Gallery image"
+          }
+        },
+        "gallery_image_VHEgma": {
+          "type": "gallery_image",
+          "settings": {
+            "gallery_image": "shopify://shop_images/banner9.png",
+            "product": "",
+            "alt_text": "Gallery image"
+          }
+        },
+        "gallery_image_ddjGje": {
+          "type": "gallery_image",
+          "settings": {
+            "gallery_image": "shopify://shop_images/banner10.png",
+            "product": "",
+            "alt_text": "Gallery image"
+          }
+        },
+        "gallery_image_9Mgm3z": {
+          "type": "gallery_image",
+          "settings": {
+            "gallery_image": "shopify://shop_images/banner11.png",
+            "product": "",
+            "alt_text": "Gallery image"
+          }
+        },
+        "gallery_image_C8qVdA": {
+          "type": "gallery_image",
+          "settings": {
+            "gallery_image": "shopify://shop_images/banner12.png",
+            "product": "",
             "alt_text": "Gallery image"
           }
         }
@@ -69,50 +116,16 @@
         "gallery_image_z3JgJe",
         "gallery_image_ETHqbz",
         "gallery_image_pgXtXz",
-        "gallery_image_g3PbXb"
+        "gallery_image_g3PbXb",
+        "gallery_image_yDkJPQ",
+        "gallery_image_VHEgma",
+        "gallery_image_ddjGje",
+        "gallery_image_9Mgm3z",
+        "gallery_image_C8qVdA"
       ],
       "name": "heroslider",
       "settings": {
-        "custom_text_title": "Gallery Title"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-3",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "custom_text_title": ""
       }
     },
     "featured_collection": {
@@ -120,7 +133,7 @@
       "settings": {
         "collection": "all",
         "products_to_show": 8,
-        "title": "Featured products",
+        "title": "Diese Woche gehört",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -142,11 +155,222 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "featured_collection_KAPFar": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "title": "Meistverkaufte Produkte",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Feine Auswahl. Faire Preise.",
+            "heading_size": "h0"
+          }
+        },
+        "text_7ngyFh": {
+          "type": "text",
+          "settings": {
+            "text": "Jetzt Vinyl-Schätze zum Schnäppchenpreis sichern!",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Zu den Angeoten",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text_7ngyFh",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Feineimg..png",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-3",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "featured_collection_gTVNC4": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "",
+        "products_to_show": 4,
+        "title": "Meistverkaufte Sets",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_hnKRnA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_E74cEt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie kann ich meine Bestellung verfolgen?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_UPF7pk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Welche Zahlungsarten werden akzeptiert?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_rdm8Gk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Gibt es eine Garantie auf Produkte?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_68CNad": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie erreiche ich Sie bei Fragen zur Bestellung?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_j3zgAN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Versenden Sie auch international, und wie sicher ist der Versand?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_BkUUz4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ich suche ein Geschenk – können Sie helfen?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_KcDWWR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie pflege ich meine alten Vinyls am besten?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_eUxFqe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_E74cEt",
+        "collapsible_row_UPF7pk",
+        "collapsible_row_rdm8Gk",
+        "collapsible_row_68CNad",
+        "collapsible_row_j3zgAN",
+        "collapsible_row_BkUUz4",
+        "collapsible_row_KcDWWR",
+        "collapsible_row_eUxFqe"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "lshero_slider_JQ3Kwk",
+    "featured_collection",
+    "featured_collection_KAPFar",
     "image_banner",
-    "featured_collection"
+    "featured_collection_gTVNC4",
+    "collapsible_content_hnKRnA"
   ]
 }
