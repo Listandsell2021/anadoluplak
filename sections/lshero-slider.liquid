@@ -17,9 +17,13 @@
         <div class="heromasonry-column">
       {% endif %}
 
-      <div class="herogallery-item">
+      <div class="herogallery-item ratio_{{current_count}}" >
         <a href="{{ block.settings.product.url }}" class="prdct-link">
-          <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
+          {% if block.settings.gallery_image %}
+            <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
+          {% else %}
+            <img src="{{ block.settings.product.featured_image | img_url: 'large' }}" alt="{{ block.settings.product.title }}">
+          {% endif %}
         </a>
       </div>
 
@@ -49,9 +53,13 @@
         <div class="heromasonry-column">
       {% endif %}
 
-      <div class="herogallery-item">
+      <div class="herogallery-item ratio_{{current_count}}">
         <a href="{{ block.settings.product.url }}" class="prdct-link">
-          <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
+            {% if block.settings.gallery_image %}
+              <img src="{{ block.settings.gallery_image | img_url: 'large' }}" alt="{{ block.settings.alt_text | default: section.settings.custom_text_title }}">
+            {% else %}
+              <img src="{{ block.settings.product.featured_image | img_url: 'large' }}" alt="{{ block.settings.product.title }}">
+            {% endif %}
         </a>
       </div>
 
