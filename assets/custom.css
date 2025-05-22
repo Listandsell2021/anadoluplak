@@ -400,6 +400,13 @@ a {
     text-align: left;
 }
 /*****************************/
+.fokus-sction .card__inner .card__media img{
+  max-height: 307px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/*****************************/
 .footer {
   background: var(--primary-color);
   border: 0;
