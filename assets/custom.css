@@ -438,6 +438,7 @@ a {
 /*****************************/
 .collection-hero{
   position: relative;
+      overflow: hidden;
 }
 .collection-hero .collection-hero__title {
     margin: 0;
