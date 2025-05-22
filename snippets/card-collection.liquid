@@ -104,6 +104,9 @@
                 {%- endif %}
               </a>
             </h3>
+             <a href="{{ block.settings.collection.url }}" class="explore-button">
+                 {{ link_collection }}
+            </a>
             {%- if card_collection.description != blank -%}
               <p class="card__caption">
                 {{- card_collection.description | strip_html | truncatewords: 12 -}}
