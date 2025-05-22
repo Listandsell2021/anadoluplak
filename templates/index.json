@@ -182,19 +182,22 @@
         "featured_collection_wbK3pM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "arabesk"
+            "collection": "arabesk",
+            "button_explore": "Explore Now"
           }
         },
         "featured_collection_RyKtEF": {
           "type": "featured_collection",
           "settings": {
-            "collection": "film-musik"
+            "collection": "film-musik",
+            "button_explore": "Explore"
           }
         },
         "featured_collection_rXQYNC": {
           "type": "featured_collection",
           "settings": {
-            "collection": "klassik-musik"
+            "collection": "klassik-musik",
+            "button_explore": "Explore"
           }
         }
       },
