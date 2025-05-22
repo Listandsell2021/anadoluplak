@@ -177,32 +177,7 @@
                           </facet-remove>
                         </div>
                       {%- endif -%}
-                  <fieldset class="facets-wrap facets-wrap-vertical">
-                      <legend class="visually-hidden">Collection</legend>
-                        <ul class="facets-layout facets-layout-list facets__list--vertical list-unstyled" role="list">
-                          {% assign collections_list = 'shoes,shirts,jackets' | split: ',' %}
-                          {% for collection in collections_list %}
-                            {% assign collection_tag = collection %}
-                            <li class="list-menu__item facets__item">
-                              <label class="facets__label facet-checkbox">
-                                <input
-                                  type="checkbox"
-                                  name="filter.v.availability"
-                                  value="{{ collection_tag }}"
-                                  {% if current_tags contains collection_tag %}
-                                    checked
-                                  {% endif %}
-                                >
-                                {{ 'square.svg' | inline_asset_content }}
-                                <div class="svg-wrapper">
-                                  {{ 'icon-checkmark.svg' | inline_asset_content }}
-                                </div>
-                                <span class="facet-checkbox__text">{{ collection | capitalize }}</span>
-                              </label>
-                            </li>
-                          {% endfor %}
-                        </ul>
-                    </fieldset>
+            
                       <fieldset class="facets-wrap parent-wrap {% if filter_type == 'vertical' %} facets-wrap-vertical{% endif %}">
                         <legend class="visually-hidden">{{ filter.label | escape }}</legend>
                         {%- liquid
@@ -321,6 +296,34 @@
                       {%- endif %}
                     </div>
                   </details>
+                <details class="facets__disclosure-vertical js-filter">
+                    <summary class="facets__summary caption-large focus-offset">
+                      <div>
+                        <span>Tags</span>
+                        {{- 'icon-caret.svg' | inline_asset_content -}}
+                      </div>
+                    </summary>
+                    <div class="facets__display-vertical">
+                      <fieldset class="facets-wrap facets-wrap-vertical">
+                        <legend class="visually-hidden">Tags</legend>
+                        <ul class="facets-layout facets-layout-list facets__list--vertical list-unstyled">
+                          {% for tag in collection.all_tags %}
+                            <li class="list-menu__item facets__item">
+                              <label class="facets__label facet-checkbox">
+                                <input type="checkbox" name="constraint[]" value="{{ tag | escape }}">
+                                {{- 'square.svg' | inline_asset_content -}}
+                                <div class="svg-wrapper">
+                                  {{- 'icon-checkmark.svg' | inline_asset_content -}}
+                                </div>
+                                <span class="facet-checkbox__text">{{ tag }}</span>
+                              </label>
+                            </li>
+                          {% endfor %}
+                        </ul>
+                      </fieldset>
+                    </div>
+               </details>
+
                 {% when 'price_range' %}
                   <details
                     id="Details-{{ filter.param_name | escape }}-{{ section.id }}"
