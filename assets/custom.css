@@ -408,6 +408,9 @@ a {
 .fokus-sction .card__inner{
   max-height: 307px;
 }
+.fokus-sction .card__content .card__information{
+  padding: 0px !important;
+}
 .fokus-sction .card__heading {
     display: flex;
     justify-content: space-between;
