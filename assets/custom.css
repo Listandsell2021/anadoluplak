@@ -400,8 +400,10 @@ a {
     text-align: left;
 }
 /*****************************/
-.fokus-sction .card__inner .card__media img{
+.fokus-sction .card__inner{
   max-height: 307px;
+}
+.fokus-sction .card__inner .card__media img{
   height: 100%;
   width: 100%;
   object-fit: cover;
