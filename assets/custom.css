@@ -400,8 +400,16 @@ a {
     text-align: left;
 }
 /*****************************/
+.fokus-sction {
+    background: #fff;
+    border-radius: 4.2px;
+    overflow: hidden;
+}
 .fokus-sction .card__inner{
   max-height: 307px;
+}
+.fokus-sction .card__content .card__information{
+  padding: 20px;
 }
 .fokus-sction .card__inner .card__media img{
   height: 100%;
