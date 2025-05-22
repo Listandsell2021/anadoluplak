@@ -296,33 +296,17 @@
                       {%- endif %}
                     </div>
                   </details>
-                <details class="facets__disclosure-vertical js-filter">
-                    <summary class="facets__summary caption-large focus-offset">
-                      <div>
-                        <span>Tags</span>
-                        {{- 'icon-caret.svg' | inline_asset_content -}}
-                      </div>
-                    </summary>
-                    <div class="facets__display-vertical">
-                      <fieldset class="facets-wrap facets-wrap-vertical">
-                        <legend class="visually-hidden">Tags</legend>
-                        <ul class="facets-layout facets-layout-list facets__list--vertical list-unstyled">
-                          {% for tag in collection.all_tags %}
-                            <li class="list-menu__item facets__item">
-                              <label class="facets__label facet-checkbox">
-                                <input type="checkbox" name="constraint[]" value="{{ tag | escape }}">
-                                {{- 'square.svg' | inline_asset_content -}}
-                                <div class="svg-wrapper">
-                                  {{- 'icon-checkmark.svg' | inline_asset_content -}}
-                                </div>
-                                <span class="facet-checkbox__text">{{ tag }}</span>
-                              </label>
-                            </li>
-                          {% endfor %}
-                        </ul>
-                      </fieldset>
-                    </div>
-               </details>
+                 {% if collection.all_tags.size > 0 %}
+              <ul class="tag-filters">
+                {% for tag in collection.all_tags %}
+                  {% if current_tags contains tag %}
+                    <li class="tag-filters__item active">{{ tag | link_to_remove_tag: tag }}</li>
+                  {% else %}
+                    <li class="tag-filters__item">{{ tag | link_to_add_tag: tag }}</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            {% endif %}
 
                 {% when 'price_range' %}
                   <details
