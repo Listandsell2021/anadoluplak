@@ -119,6 +119,7 @@
     {%- if card_collection != blank and card_style == 'card' or card_collection.featured_image -%}
       <div class="card__content">
         <div class="card__information">
+          <div class="explre-titles-sction">
           <h3 class="card__heading">
             <a
               {% if card_collection == blank %}
@@ -143,6 +144,7 @@
                  {{ link_collection }}
                 </a>
           </h3>
+          </div>
           {%- if card_collection.featured_image == null and card_collection.description != blank -%}
             <p class="card__caption">
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
