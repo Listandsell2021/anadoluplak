@@ -142,8 +142,8 @@
             <a {% if card_collection == blank %} role="link" aria-disabled="true"{% else %}
                 href="{% if link_collection != blank %}{{ link_collection }}
                   {% else %}{{ card_collection.url }}
-                  {% endif %}"{% endif %} class="full-unstyled-linkss">
-              hjhjpjp
+                  {% endif %}"{% endif %} class="explore-button">
+                 {{ link_collection }}
                 </a>
           </h3>
           {%- if card_collection.featured_image == null and card_collection.description != blank -%}
