@@ -133,7 +133,7 @@
         "enable_desktop_slider": true,
         "full_width": true,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -152,17 +152,17 @@
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "pop",
-        "products_to_show": 4,
+        "products_to_show": 10,
         "title": "Meistverkaufte Produkte",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 4,
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -270,17 +270,17 @@
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "pop",
-        "products_to_show": 4,
+        "products_to_show": 10,
         "title": "Meistverkaufte Sets",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
+        "enable_desktop_slider": true,
+        "full_width": true,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -395,6 +395,60 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "ls_imageicon_fbwJeA": {
+      "type": "ls-imageicon",
+      "blocks": {
+        "schallplatten_box_8EjHjk": {
+          "type": "Schallplatten_box",
+          "settings": {
+            "Schallplatten_icon_image": "shopify://shop_images/Handverlesene-Auswahl.webp",
+            "Schallplatten_box_title": "Handverlesene Auswahl",
+            "Schallplatten_box_text": "Jede Platte, jede CD wird von uns persönlich kuratiert..."
+          }
+        },
+        "schallplatten_box_FyHgeb": {
+          "type": "Schallplatten_box",
+          "settings": {
+            "Schallplatten_icon_image": "shopify://shop_images/Faire-Preise.webp",
+            "Schallplatten_box_title": "Faire Preise",
+            "Schallplatten_box_text": "Wir bieten faire, ehrliche Preise..."
+          }
+        },
+        "schallplatten_box_AkhgTC": {
+          "type": "Schallplatten_box",
+          "settings": {
+            "Schallplatten_icon_image": "shopify://shop_images/Schneller-Versand.webp",
+            "Schallplatten_box_title": "Schneller Versand",
+            "Schallplatten_box_text": "Ob Berlin, Köln oder Kalifornien – wir schicken Ihre Musik..."
+          }
+        },
+        "schallplatten_box_U3z9qC": {
+          "type": "Schallplatten_box",
+          "settings": {
+            "Schallplatten_icon_image": "shopify://shop_images/Mehrsprachiger-Support.webp",
+            "Schallplatten_box_title": "Mehrsprachiger Support",
+            "Schallplatten_box_text": "Ob auf Deutsch, Türkisch oder Englisch..."
+          }
+        }
+      },
+      "block_order": [
+        "schallplatten_box_8EjHjk",
+        "schallplatten_box_FyHgeb",
+        "schallplatten_box_AkhgTC",
+        "schallplatten_box_U3z9qC"
+      ],
+      "name": "Schallplatten Info Section",
+      "settings": {
+        "Schallplatten_main_heading": "Türkische Schallplatten & CDs – mit Herz ausgewählt",
+        "Schallplatten_intro_paragraph_1": "Willkommen bei Anadoluplak – Ihrem Online-Shop für türkische Schallplatten und CDs...",
+        "Schallplatten_intro_paragraph_2": "Wir verkaufen nicht einfach Musik – wir teilen Erinnerungen...",
+        "Schallplatten_sub_heading": "Klänge, die Geschichten erzählen",
+        "Schallplatten_detail_paragraph_1": "Was Sie bei uns erwartet? Eine liebevoll zusammengestellte Mischung...",
+        "Schallplatten_detail_paragraph_2": "Und wenn mal etwas nicht dabei ist – schreiben Sie uns...",
+        "Schallplatten_detail_paragraph_3": "Also: Neugierig geworden? Stöbern Sie los...",
+        "Schallplatten_side_image": "shopify://shop_images/SchallplattenImg.webp"
+      }
     }
   },
   "order": [
@@ -404,6 +458,7 @@
     "collection_list_4gJAij",
     "image_banner",
     "featured_collection_gTVNC4",
-    "collapsible_content_hnKRnA"
+    "collapsible_content_hnKRnA",
+    "ls_imageicon_fbwJeA"
   ]
 }
