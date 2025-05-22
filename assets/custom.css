@@ -409,7 +409,7 @@ a {
   max-height: 307px;
 }
 .fokus-sction .card__content .card__information{
-  padding: 20px;
+  padding: 20px !important;
 }
 .fokus-sction .card__inner .card__media img{
   height: 100%;
