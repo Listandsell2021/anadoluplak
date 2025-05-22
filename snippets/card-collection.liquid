@@ -139,6 +139,12 @@
                 </span>
               {%- endif %}
             </a>
+            <a {% if card_collection == blank %} role="link" aria-disabled="true"{% else %}
+                href="{% if link_collection != blank %}{{ link_collection }}
+                  {% else %}{{ card_collection.url }}
+                  {% endif %}"{% endif %} class="full-unstyled-linkss">
+              hjhjpjp
+                </a>
           </h3>
           {%- if card_collection.featured_image == null and card_collection.description != blank -%}
             <p class="card__caption">
