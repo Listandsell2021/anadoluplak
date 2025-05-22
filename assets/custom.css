@@ -408,8 +408,17 @@ a {
 .fokus-sction .card__inner{
   max-height: 307px;
 }
-.fokus-sction .card__content .card__information{
-  padding: 10px 20px !important;
+.fokus-sction .card__heading {
+    display: flex;
+    justify-content: space-between;
+}
+.fokus-sction .explore-button {
+    max-width: 30%;
+    width: 100%;
+    border-left: 0.8px solid #cecece;
+    color: #000;
+    text-align: center;
+    text-decoration: underline !important;
 }
 .fokus-sction .card__inner .card__media img{
   height: 100%;
