@@ -404,7 +404,7 @@
           "settings": {
             "Schallplatten_icon_image": "shopify://shop_images/Handverlesene-Auswahl.webp",
             "Schallplatten_box_title": "Handverlesene Auswahl",
-            "Schallplatten_box_text": "Jede Platte, jede CD wird von uns persönlich kuratiert..."
+            "Schallplatten_box_text": "Jede Platte, jede CD wird von uns persönlich kuratiert. Kein Algorithmus, kein Massenkatalog  – sondern Leidenschaft."
           }
         },
         "schallplatten_box_FyHgeb": {
@@ -412,7 +412,7 @@
           "settings": {
             "Schallplatten_icon_image": "shopify://shop_images/Faire-Preise.webp",
             "Schallplatten_box_title": "Faire Preise",
-            "Schallplatten_box_text": "Wir bieten faire, ehrliche Preise..."
+            "Schallplatten_box_text": "Wir bieten faire, ehrliche Preise – ohne künstliche Verknappung, überzogene Raritätenpreise oder Sammler-Abzocke."
           }
         },
         "schallplatten_box_AkhgTC": {
@@ -420,7 +420,7 @@
           "settings": {
             "Schallplatten_icon_image": "shopify://shop_images/Schneller-Versand.webp",
             "Schallplatten_box_title": "Schneller Versand",
-            "Schallplatten_box_text": "Ob Berlin, Köln oder Kalifornien – wir schicken Ihre Musik..."
+            "Schallplatten_box_text": "Ob Berlin, Köln oder Kalifornien – wir schicken Ihre Musik direkt zu Ihnen: zuverlässig und sicher verpackt."
           }
         },
         "schallplatten_box_U3z9qC": {
@@ -428,7 +428,7 @@
           "settings": {
             "Schallplatten_icon_image": "shopify://shop_images/Mehrsprachiger-Support.webp",
             "Schallplatten_box_title": "Mehrsprachiger Support",
-            "Schallplatten_box_text": "Ob auf Deutsch, Türkisch oder Englisch..."
+            "Schallplatten_box_text": "Ob auf Deutsch, Türkisch oder Englisch: \nWir hören zu, beraten gerne und helfen, wenn’s mal hakt."
           }
         }
       },
@@ -441,12 +441,12 @@
       "name": "Schallplatten Info Section",
       "settings": {
         "Schallplatten_main_heading": "Türkische Schallplatten & CDs – mit Herz ausgewählt",
-        "Schallplatten_intro_paragraph_1": "Willkommen bei Anadoluplak – Ihrem Online-Shop für türkische Schallplatten und CDs...",
-        "Schallplatten_intro_paragraph_2": "Wir verkaufen nicht einfach Musik – wir teilen Erinnerungen...",
+        "Schallplatten_intro_paragraph_1": "Willkommen bei Anadoluplak – Ihrem Online-Shop für türkische Schallplatten und CDs. Ob Anatolischer Rock aus den 70ern, arabeskes Herzschmerz-Drama oder moderne Sounds aus Istanbul: Unsere Auswahl ist persönlich kuratiert, vielseitig und tief verwurzelt in einer Klangkultur, die mehr sagt als Worte je könnten.",
+        "Schallplatten_intro_paragraph_2": "Wir verkaufen nicht einfach Musik – wir teilen Erinnerungen. Manche Kunden entdecken bei uns das Lied, das früher auf Familienfesten lief. Andere finden einen Song, den sie nie gehört haben, der sich aber sofort vertraut anfühlt. Genau für Euch machen wir das.",
         "Schallplatten_sub_heading": "Klänge, die Geschichten erzählen",
-        "Schallplatten_detail_paragraph_1": "Was Sie bei uns erwartet? Eine liebevoll zusammengestellte Mischung...",
-        "Schallplatten_detail_paragraph_2": "Und wenn mal etwas nicht dabei ist – schreiben Sie uns...",
-        "Schallplatten_detail_paragraph_3": "Also: Neugierig geworden? Stöbern Sie los...",
+        "Schallplatten_detail_paragraph_1": "Was Sie bei uns erwartet? Eine liebevoll zusammengestellte Mischung aus Originalpressungen, Reissues, Klassikern, Geheimtipps und Neuentdeckungen. Keine Massenware, sondern echte Fundstücke.",
+        "Schallplatten_detail_paragraph_2": "Und wenn mal etwas nicht dabei ist – schreiben Sie uns! Wir schauen, ob wir’s auftreiben können. Oder geben Ihnen eine Empfehlung, die vielleicht noch besser passt.",
+        "Schallplatten_detail_paragraph_3": "Also: Neugierig geworden? Stöbern Sie los. Tauchen Sie ein in eine Musikwelt zwischen Bosporus und Berliner Hinterhof – und finden Sie den Sound, der Sie nicht mehr loslässt.",
         "Schallplatten_side_image": "shopify://shop_images/SchallplattenImg.webp"
       }
     }
