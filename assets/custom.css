@@ -300,6 +300,27 @@ a {
 }
 
 /*****************************/
+.slider-button .svg-wrapper {
+    width: 100%;
+    height: 100%;
+}
+.slider-button .icon {
+    height: 100%;
+}
+.slider-button {
+    color: #a3a3a3;
+      position: absolute;
+    top: 40%;
+    width: 60px;
+    height: 60px;
+}
+.slider-button--next{
+    right: -40px;
+}
+.slider-button--prev{
+    left: -40px;
+}
+/*****************************/
 .SchallplattenSec {
   padding: 50px 0;
 }
