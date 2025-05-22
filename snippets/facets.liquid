@@ -177,6 +177,32 @@
                           </facet-remove>
                         </div>
                       {%- endif -%}
+                  <fieldset class="facets-wrap facets-wrap-vertical">
+                      <legend class="visually-hidden">Collection</legend>
+                        <ul class="facets-layout facets-layout-list facets__list--vertical list-unstyled" role="list">
+                          {% assign collections_list = 'shoes,shirts,jackets' | split: ',' %}
+                          {% for collection in collections_list %}
+                            {% assign collection_tag = collection %}
+                            <li class="list-menu__item facets__item">
+                              <label class="facets__label facet-checkbox">
+                                <input
+                                  type="checkbox"
+                                  name="filter.v.availability"
+                                  value="{{ collection_tag }}"
+                                  {% if current_tags contains collection_tag %}
+                                    checked
+                                  {% endif %}
+                                >
+                                {{ 'square.svg' | inline_asset_content }}
+                                <div class="svg-wrapper">
+                                  {{ 'icon-checkmark.svg' | inline_asset_content }}
+                                </div>
+                                <span class="facet-checkbox__text">{{ collection | capitalize }}</span>
+                              </label>
+                            </li>
+                          {% endfor %}
+                        </ul>
+                    </fieldset>
                       <fieldset class="facets-wrap parent-wrap {% if filter_type == 'vertical' %} facets-wrap-vertical{% endif %}">
                         <legend class="visually-hidden">{{ filter.label | escape }}</legend>
                         {%- liquid
