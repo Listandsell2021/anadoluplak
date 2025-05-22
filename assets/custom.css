@@ -422,6 +422,12 @@ a {
   } */
 
 @media (max-width: 767px) {
+  .menu-drawer__account{
+    font-size: 1.8rem !important;
+  }
+  .header-localization .disclosure .localization-form__select {
+    font-size: 1.8rem !important;
+  }
   @keyframes marquee {
     0% {
       transform: translateX(0%);
