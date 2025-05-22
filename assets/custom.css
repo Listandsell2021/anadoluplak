@@ -414,6 +414,12 @@ a {
 .fokus-sction .card__heading {
     display: flex;
     justify-content: space-between;
+      align-items: center;
+}
+.fokus-sction a.full-unstyled-link {
+    padding-left: 20px;
+    font-size: 24px;
+    color: #000;
 }
 .fokus-sction .explore-button {
     max-width: 30%;
@@ -422,6 +428,7 @@ a {
     color: #000;
     text-align: center;
     text-decoration: underline !important;
+      padding: 10px 20px;
 }
 .fokus-sction .card__inner .card__media img{
   height: 100%;

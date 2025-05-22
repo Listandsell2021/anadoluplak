@@ -14,7 +14,8 @@
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
-        "color_scheme": "scheme-1"
+        "color_scheme": "scheme-1",
+        "collection_second": "shopify://shop_images/Mask_group.png"
       }
     },
     "product-grid": {
