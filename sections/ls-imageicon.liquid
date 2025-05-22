@@ -1,59 +1,159 @@
 <div class="SchallplattenSec">
 <div class="page-width">
-<div class="SchallplattenRow">
-<div class="leftSchallplatten">
-<div class="cmnTlt">
-<h4>Türkische Schallplatten & CDs – mit Herz ausgewählt</h4>
-</div>
-<p>Willkommen bei Anadoluplak – Ihrem Online-Shop für türkische Schallplatten und CDs. Ob Anatolischer Rock aus den 70ern, arabeskes Herzschmerz-Drama oder moderne Sounds aus Istanbul: Unsere Auswahl ist persönlich kuratiert, vielseitig und tief verwurzelt in einer Klangkultur, die mehr sagt als Worte je könnten.
-</p>
-<p>Wir verkaufen nicht einfach Musik – wir teilen Erinnerungen. Manche Kunden entdecken bei uns das Lied, das früher auf Familienfesten lief. Andere finden einen Song, den sie nie gehört haben, der sich aber sofort vertraut anfühlt. Genau für Euch machen wir das.</p>
+    <div class="SchallplattenRow">
+     <div class="leftSchallplatten">
+        <div class="cmnTlt">
+         <h4 class="commonTitle">{{ section.settings.Schallplatten_main_heading }}</h4>
+        </div>
+        <p>{{ section.settings.Schallplatten_intro_paragraph_1 }}</p>
+        <p>{{ section.settings.Schallplatten_intro_paragraph_2 }}</p>
 
-<div class="marginTSchallplatten">
-<div class="cmnTlt">
-<h4>Klänge, die Geschichten erzählen</h4>
-</div>
-<p>Was Sie bei uns erwartet? Eine liebevoll zusammengestellte Mischung aus Originalpressungen, Reissues, Klassikern, Geheimtipps und Neuentdeckungen. Keine Massenware, sondern echte Fundstücke.
-</p>
-<p>Und wenn mal etwas nicht dabei ist – schreiben Sie uns! Wir schauen, ob wir’s auftreiben können. Oder geben Ihnen eine Empfehlung, die vielleicht noch besser passt.
-</p>
-<p>Also: Neugierig geworden? Stöbern Sie los. Tauchen Sie ein in eine Musikwelt zwischen Bosporus und Berliner Hinterhof – und finden Sie den Sound, der Sie nicht mehr loslässt.
-</p>
+        <div class="marginTSchallplatten">
+         <div class="cmnTlt">
+            <h4 class="commonTitle">{{ section.settings.Schallplatten_sub_heading }}</h4>
+         </div>
+         <p>{{ section.settings.Schallplatten_detail_paragraph_1 }}</p>
+         <p>{{ section.settings.Schallplatten_detail_paragraph_2 }}</p>
+         <p>{{ section.settings.Schallplatten_detail_paragraph_3 }}</p>
+        </div>
 
+        <div class="SchallplattenBox">
+         {% for block in section.blocks %}
+            <div class="SchallplattenIconBox">
+             {% if block.settings.Schallplatten_icon_image %}
+                <img src="{{ block.settings.Schallplatten_icon_image | image_url }}" alt="">
+             {% endif %}
+             <h4>{{ block.settings.Schallplatten_box_title }}</h4>
+             <p>{{ block.settings.Schallplatten_box_text }}</p>
+            </div>
+         {% endfor %}
+        </div>
+     </div>
+
+     <div class="imageSchallplatten">
+        <div class="imgInnerSchallplatten">
+         {% if section.settings.Schallplatten_side_image %}
+            <img src="{{ section.settings.Schallplatten_side_image | image_url }}" alt="">
+         {% endif %}
+        </div>
+     </div>
+    </div>
+</div>
 </div>
 
-<div class="SchallplattenBox">
-<div class="SchallplattenIconBox">
-<img src="" alt="">
-<h4>Handverlesene Auswahl</h4>
-<p>Jede Platte, jede CD wird von uns persönlich kuratiert. Kein Algorithmus, kein Massenkatalog  – sondern Leidenschaft.
-</p>
-</div>
-<div class="SchallplattenIconBox">
-<img src="" alt="">
-<h4>Faire Preise</h4>
-<p>Wir bieten faire, ehrliche Preise – ohne künstliche Verknappung, überzogene Raritätenpreise oder Sammler-Abzocke.
-</p>
-</div>
-<div class="SchallplattenIconBox">
-<img src="" alt="">
-<h4>Schneller Versand</h4>
-<p>Ob Berlin, Köln oder Kalifornien – wir schicken Ihre Musik direkt zu Ihnen: zuverlässig und sicher verpackt.
-</p>
-</div>
-<div class="SchallplattenIconBox">
-<img src="" alt="">
-<h4>Mehrsprachiger Support</h4>
-<p>Ob auf Deutsch, Türkisch oder Englisch: 
-Wir hören zu, beraten gerne und helfen, wenn’s mal hakt.</p>
-</div>
-</div>
-</div>
-<div class="imageSchallplatten">
-<div class="imgInnerSchallplatten">
-<img src="" alt="">
-</div>
-</div>
-</div>
-</div>
-</div>
+{% schema %}
+{
+"name": "Schallplatten Info",
+"settings": [
+    {
+     "type": "text",
+     "id": "Schallplatten_main_heading",
+     "label": "Main Heading",
+     "default": "Türkische Schallplatten & CDs – mit Herz ausgewählt"
+    },
+    {
+     "type": "textarea",
+     "id": "Schallplatten_intro_paragraph_1",
+     "label": "Intro Paragraph 1",
+     "default": "Willkommen bei Anadoluplak – Ihrem Online-Shop für türkische Schallplatten und CDs..."
+    },
+    {
+     "type": "textarea",
+     "id": "Schallplatten_intro_paragraph_2",
+     "label": "Intro Paragraph 2",
+     "default": "Wir verkaufen nicht einfach Musik – wir teilen Erinnerungen..."
+    },
+    {
+     "type": "text",
+     "id": "Schallplatten_sub_heading",
+     "label": "Sub Heading",
+     "default": "Klänge, die Geschichten erzählen"
+    },
+    {
+     "type": "textarea",
+     "id": "Schallplatten_detail_paragraph_1",
+     "label": "Detail Paragraph 1",
+     "default": "Was Sie bei uns erwartet? Eine liebevoll zusammengestellte Mischung..."
+    },
+    {
+     "type": "textarea",
+     "id": "Schallplatten_detail_paragraph_2",
+     "label": "Detail Paragraph 2",
+     "default": "Und wenn mal etwas nicht dabei ist – schreiben Sie uns..."
+    },
+    {
+     "type": "textarea",
+     "id": "Schallplatten_detail_paragraph_3",
+     "label": "Detail Paragraph 3",
+     "default": "Also: Neugierig geworden? Stöbern Sie los..."
+    },
+    {
+     "type": "image_picker",
+     "id": "Schallplatten_side_image",
+     "label": "Right Side Image"
+    }
+],
+"blocks": [
+    {
+     "type": "Schallplatten_box",
+     "name": "Feature Box",
+     "settings": [
+        {
+         "type": "image_picker",
+         "id": "Schallplatten_icon_image",
+         "label": "Icon Image"
+        },
+        {
+         "type": "text",
+         "id": "Schallplatten_box_title",
+         "label": "Box Title",
+         "default": "Box Title"
+        },
+        {
+         "type": "textarea",
+         "id": "Schallplatten_box_text",
+         "label": "Box Text",
+         "default": "Box description goes here."
+        }
+     ]
+    }
+],
+"max_blocks": 4,
+"presets": [
+    {
+     "name": "Schallplatten Info Section",
+     "category": "Custom",
+     "blocks": [
+        {
+         "type": "Schallplatten_box",
+         "settings": {
+            "Schallplatten_box_title": "Handverlesene Auswahl",
+            "Schallplatten_box_text": "Jede Platte, jede CD wird von uns persönlich kuratiert..."
+         }
+        },
+        {
+         "type": "Schallplatten_box",
+         "settings": {
+            "Schallplatten_box_title": "Faire Preise",
+            "Schallplatten_box_text": "Wir bieten faire, ehrliche Preise..."
+         }
+        },
+        {
+         "type": "Schallplatten_box",
+         "settings": {
+            "Schallplatten_box_title": "Schneller Versand",
+            "Schallplatten_box_text": "Ob Berlin, Köln oder Kalifornien – wir schicken Ihre Musik..."
+         }
+        },
+        {
+         "type": "Schallplatten_box",
+         "settings": {
+            "Schallplatten_box_title": "Mehrsprachiger Support",
+            "Schallplatten_box_text": "Ob auf Deutsch, Türkisch oder Englisch..."
+         }
+        }
+     ]
+    }
+]
+}
+{% endschema %}
