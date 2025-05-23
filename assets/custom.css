@@ -470,6 +470,12 @@ a {
     width: 100%;
     border: 1px solid #cecece;
 }
+.product-media-modal__content{
+      padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .product__media-wrapper ul.product__media-list .product__media-item.is-active .product-media-container .media {
     padding-top: 0px;
   max-height: 500px;
