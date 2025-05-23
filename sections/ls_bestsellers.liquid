@@ -1,4 +1,4 @@
-{% assign collection_handle = section.settings.bestseller_collection | default: 'bestsellers' %}
+{% assign collection_handle = section.settings.bestseller_collection | default: 'all' %}
 {% assign collection = collections[collection_handle] %}
 
 {% if collection != blank %}
