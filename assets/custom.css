@@ -459,18 +459,18 @@ a {
 /*****************************/
 .product__media-wrapper ul.product__media-list .product__media-item.is-active{
   width: 100%;
-  max-height: 400px;
+  max-height: 500px;
 }
 .product__media-wrapper ul.product__media-list .product__media-item.is-active .product-media-container, .product__media-wrapper ul.product__media-list .product__media-item.is-active .product-media-container.constrain-height{
   width: 100%;
-  min-height:400px;
-  max-height: 400px;
+  min-height:500px;
+  max-height: 500px;
   --constrained-min-height:400px !important;
 }
 .product__media-wrapper ul.product__media-list .product__media-item.is-active img{
    width: 100%;
-  min-height:400px;
-  max-height: 400px;
+  min-height:500px;
+  max-height: 500px;
 }
 .product__media-wrapper ul.product__media-list .product__media-item{
   width: 120px;
