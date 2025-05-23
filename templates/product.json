@@ -23,8 +23,8 @@
           "type": "title",
           "settings": {}
         },
-        "erscheinungsdatum_BQ9KEB": {
-          "type": "erscheinungsdatum",
+        "rating_TapB7b": {
+          "type": "rating",
           "settings": {}
         },
         "price": {
@@ -38,9 +38,32 @@
             "swatch_shape": "circle"
           }
         },
+        "erscheinungsdatum_BQ9KEB": {
+          "type": "erscheinungsdatum",
+          "settings": {}
+        },
+        "sku_PmgnyJ": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
+        },
+        "complementary_RDGUH4": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -63,10 +86,13 @@
       "block_order": [
         "vendor",
         "title",
-        "erscheinungsdatum_BQ9KEB",
+        "rating_TapB7b",
         "price",
         "variant_picker",
+        "erscheinungsdatum_BQ9KEB",
+        "sku_PmgnyJ",
         "quantity_selector",
+        "complementary_RDGUH4",
         "buy_buttons",
         "description",
         "share"
