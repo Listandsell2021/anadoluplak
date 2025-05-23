@@ -104,6 +104,7 @@
       "type": "ls_bestsellers",
       "name": "Bestsellers",
       "settings": {
+        "bestseller_title": "Bestsellers",
         "bestseller_collection": "bestseller",
         "products_to_show": 12
       }
