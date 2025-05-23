@@ -42,6 +42,14 @@
           "type": "erscheinungsdatum",
           "settings": {}
         },
+        "inventory_zHWmce": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
         "sku_PmgnyJ": {
           "type": "sku",
           "settings": {
@@ -77,6 +85,7 @@
         "price",
         "variant_picker",
         "erscheinungsdatum_BQ9KEB",
+        "inventory_zHWmce",
         "sku_PmgnyJ",
         "quantity_selector",
         "buy_buttons",
