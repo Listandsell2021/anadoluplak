@@ -4,22 +4,19 @@
 {% if collection != blank %}
   {% assign sorted_products = collection.products | sort: 'best-selling' %}
   {% assign products_to_show = sorted_products | slice: 0, section.settings.products_to_show %}
-
-  <div class="bestsellers-section page-width">
-    <h2 class="text-2xl font-bold mb-4">Bestsellers</h2>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      {% for product in products_to_show %}
-        <div class="product-card border p-2 rounded shadow hover:shadow-lg">
-          <a href="{{ product.url }}">
-            <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="mb-2">
-            <p class="font-semibold">{{ product.title }}</p>
-            <p class="text-sm text-gray-500">{{ product.price | money }}</p>
-          </a>
+     <div class="bestsellers-slider">
+          {% for product in products_to_show %}
+            <div class="product-card border p-2 rounded shadow hover:shadow-lg text-center">
+              <a href="{{ product.url }}">
+                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="mb-2 mx-auto">
+                <p class="font-semibold">{{ product.title }}</p>
+                <p class="text-sm text-gray-500">{{ product.price | money }}</p>
+              </a>
+            </div>
+          {% endfor %}
         </div>
-      {% endfor %}
-    </div>
-  </div>
-{% else %}
+      </div>
+  {% else %}
     <div class="no-collection page-width">
   <p>No collection available for bestsellers.</p>
     </div>
