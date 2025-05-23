@@ -205,8 +205,8 @@ a {
   padding: 50px 0 !important;
 }
 
-.collection .grid {
-  gap: 25px;
+.collection .grid .grid__item{
+  padding:0 15px;
 }
 
 .collection .grid__item {
