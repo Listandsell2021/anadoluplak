@@ -465,7 +465,7 @@ a {
   width: 100%;
   min-height:400px;
   max-height: 400px;
-  --constrained-min-height:400px;
+  --constrained-min-height:400px !important;
 }
 .product__media-wrapper ul.product__media-list .product__media-item{
   width: 120px;
