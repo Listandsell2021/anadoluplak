@@ -668,3 +668,14 @@ a {
     font-size: 16px;
   }
 }
+(min-width: 990px) {
+    .product--large:not(.product--no-media) .product__media-wrapper {
+        max-width: 50%;
+        width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    }
+      .product--large:not(.product--no-media) .product__info-wrapper {
+        padding: 0 0 0 4rem;
+        max-width: 50%;
+        width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    }
+}
