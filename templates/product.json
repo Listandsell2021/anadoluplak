@@ -40,7 +40,9 @@
         },
         "erscheinungsdatum_BQ9KEB": {
           "type": "erscheinungsdatum",
-          "settings": {}
+          "settings": {
+            "release_title": "Erscheinungs datum"
+          }
         },
         "inventory_zHWmce": {
           "type": "inventory",
