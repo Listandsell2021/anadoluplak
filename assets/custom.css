@@ -464,7 +464,7 @@ a {
     height: 100%;
 }
 .product__media-wrapper ul.product__media-list .product__media-item {
-    max-width: 120px !important;
+    max-width: 125% !important;
     max-height: 120px;
     height: 100%;
     width: 100%;
@@ -477,11 +477,11 @@ a {
   height: 100%;
 }
 
-.product__media-wrapper ul.product__media-list .product__media-item{
+/* .product__media-wrapper ul.product__media-list .product__media-item{
   width: 120px;
   max-height: 120px;
   height: 100%
-}
+} */
 .product__media-wrapper ul.product__media-list .product__media-item img{
   width: 100%;
   height: 100%;
