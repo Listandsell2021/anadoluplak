@@ -20,7 +20,7 @@
       </div>
   {% else %}
     <div class="no-collection page-width">
-  <p>No collection available for bestsellers.</p>
+  <p>Für Bestseller ist keine Sammlung verfügbar.</p>
     </div>
 {% endif %}
 
@@ -28,6 +28,11 @@
 {
   "name": "Bestsellers",
   "settings": [
+    {
+      "type": "text",
+      "id": "bestseller_title",
+      "label": "Bestseller Title"
+    },
     {
       "type": "collection",
       "id": "bestseller_collection",
