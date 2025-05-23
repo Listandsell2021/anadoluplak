@@ -224,7 +224,7 @@ a {
   margin-left: 0 !important;
 }
 
-.collection .card-wrapper>.card {
+.card-wrapper>.card {
   border: 1px solid #CECECE;
   padding: 15px;
   background: #fff;
