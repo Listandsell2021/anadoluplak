@@ -461,6 +461,10 @@ a {
   width: 100%;
   max-height: 400px;
 }
+.product__media-wrapper ul.product__media-list .product__media-item .product-media-container{
+  width: 100%;
+  min-height: 100%;
+}
 .product__media-wrapper ul.product__media-list .product__media-item{
   width: 120px;
   max-height: 120px;
