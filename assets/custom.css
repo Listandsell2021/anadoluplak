@@ -300,6 +300,7 @@ a {
 }
 
 /*****************************/
+.slider-counter{display: none;}
 .slider-button .svg-wrapper {
     width: 100%;
     height: 100%;
