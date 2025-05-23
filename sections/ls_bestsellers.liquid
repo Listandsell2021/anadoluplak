@@ -3,9 +3,9 @@
 
 {% if collection != blank %}
   {% assign sorted_products = collection.products | sort: 'best-selling' %}
-  {% assign products_to_show = sorted_products | slice: 0, section.settings.products_to_show %}
+  {% assign products_to_show = sorted_products | slice: 0, section.settings.bestseller_title %}
     <div class="bestsellers-section page-width">
-    <h2 class="text-2xl font-bold mb-4"> Bestsellers</h2>
+    <h2 class="text-2xl font-bold mb-4">{{section.settings.products_to_show}}</h2>
      <div class="bestsellers-slider">
           {% for product in products_to_show %}
             <div class="product-card border p-2 rounded shadow hover:shadow-lg text-center">
