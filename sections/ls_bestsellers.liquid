@@ -1,7 +1,9 @@
+{% assign collection_handle = section.settings.bestseller_collection | default: 'all' %}
+{% assign collection = collections[collection_handle] %}
 
-{% if section.settings.bestseller_collection != blank %}
-  {% assign collection = collections[section.settings.bestseller_collection] %}
-  {% assign products_to_show = collection.products | slice: 0, section.settings.products_to_show %}
+{% if collection != blank %}
+  {% assign sorted_products = collection.products | sort: 'best-selling' %}
+  {% assign products_to_show = sorted_products | slice: 0, section.settings.products_to_show %}
 
   <div class="bestsellers-section">
     <h2 class="text-2xl font-bold mb-4">🔥 Bestsellers</h2>
@@ -18,8 +20,9 @@
     </div>
   </div>
 {% else %}
-  <p>No bestseller collection selected.</p>
+  <p>No collection available for bestsellers.</p>
 {% endif %}
+
 {% schema %}
 {
   "name": "Bestsellers",
