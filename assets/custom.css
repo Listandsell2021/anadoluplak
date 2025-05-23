@@ -681,12 +681,12 @@ a {
 }
 (min-width: 990px) {
     .product--large:not(.product--no-media) .product__media-wrapper {
-        max-width: 50%;
-        width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+        max-width: 50% !important;
+        width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2) !important;
     }
       .product--large:not(.product--no-media) .product__info-wrapper {
         padding: 0 0 0 4rem;
-        max-width: 50%;
-        width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+        max-width: 50% !important;
+        width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2) !important;
     }
 }
