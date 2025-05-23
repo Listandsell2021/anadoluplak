@@ -463,7 +463,7 @@ a {
     max-height: 100%;
     height: 100%;
 }
-.product__media-wrapper .product__media-wrapper ul.product__media-list .product__media-item {
+.product__media-wrapper ul.product__media-list .product__media-item {
     max-width: 120px !important;
     max-height: 120px;
     height: 100%;
