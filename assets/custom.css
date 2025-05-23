@@ -204,8 +204,8 @@ a {
 .collection {
   padding: 50px 0 !important;
 }
-.collection .grid{column-gap: 0;row-gap: 30px;}
-.collection .grid .grid__item{
+.grid{column-gap: 0;row-gap: 30px;}
+.grid .grid__item{
   padding:0 15px;
 }
 
