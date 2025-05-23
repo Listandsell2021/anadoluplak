@@ -464,13 +464,10 @@ a {
 .product__media-wrapper ul.product__media-list .product__media-item.is-active .product-media-container .media {
     padding-top: 0px;
   max-height: 500px;
+  min-height: 500px;
   height: 100%;
 }
-.product__media-wrapper ul.product__media-list .product__media-item.is-active img{
-   width: 100%;
-  min-height:500px;
-  max-height: 500px;
-}
+
 .product__media-wrapper ul.product__media-list .product__media-item{
   width: 120px;
   max-height: 120px;
