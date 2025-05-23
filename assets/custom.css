@@ -478,6 +478,8 @@ a {
 }
 .product-media-modal__dialog .global-media-settings--no-shadow{display: none !important;}
 .product-media-modal__dialog .global-media-settings--no-shadow.active{
+      max-width: 800px;
+  object-fit: scale-down;
   display: block!important;
 }
 /* .product__media-wrapper ul.product__media-list .product__media-item{
