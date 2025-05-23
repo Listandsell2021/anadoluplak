@@ -11,7 +11,7 @@
       {% for product in products_to_show %}
         <div class="product-card border p-2 rounded shadow hover:shadow-lg">
           <a href="{{ product.url }}">
-            <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.title }}" class="mb-2">
+            <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="mb-2">
             <p class="font-semibold">{{ product.title }}</p>
             <p class="text-sm text-gray-500">{{ product.price | money }}</p>
           </a>
