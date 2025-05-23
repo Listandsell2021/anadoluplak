@@ -9,8 +9,12 @@
     <h2 class="text-2xl font-bold mb-4">Bestsellers</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       {% for product in products_to_show %}
-        <div class="best-sellers__item grid__item">
-          {% render 'card-product', product: product %}
+        <div class="product-card border p-2 rounded shadow hover:shadow-lg">
+          <a href="{{ product.url }}">
+            <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="mb-2">
+            <p class="font-semibold">{{ product.title }}</p>
+            <p class="text-sm text-gray-500">{{ product.price | money }}</p>
+          </a>
         </div>
       {% endfor %}
     </div>
