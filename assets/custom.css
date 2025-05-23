@@ -477,7 +477,7 @@ a {
     justify-content: center;
 }
 .product__media-wrapper ul.product__media-list .product__media-item.is-active .product-media-container .media {
-    padding-top: 0px;
+    padding-top: 0px !important;
   max-height: 500px;
   min-height: 500px;
   height: 100%;
