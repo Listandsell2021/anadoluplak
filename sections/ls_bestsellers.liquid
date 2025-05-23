@@ -1,6 +1,46 @@
+
+{% if section.settings.bestseller_collection != blank %}
+  {% assign collection = collections[section.settings.bestseller_collection] %}
+  {% assign products_to_show = collection.products | slice: 0, section.settings.products_to_show %}
+
+  <div class="bestsellers-section">
+    <h2 class="text-2xl font-bold mb-4">🔥 Bestsellers</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      {% for product in products_to_show %}
+        <div class="product-card border p-2 rounded shadow hover:shadow-lg">
+          <a href="{{ product.url }}">
+            <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="mb-2">
+            <p class="font-semibold">{{ product.title }}</p>
+            <p class="text-sm text-gray-500">{{ product.price | money }}</p>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% else %}
+  <p>No bestseller collection selected.</p>
+{% endif %}
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Bestsellers",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "bestseller_collection",
+      "label": "Bestseller Collection"
+    },
+    {
+      "type": "number",
+      "id": "products_to_show",
+      "label": "Number of Products",
+      "default": 4
+    }
+  ],
+  "presets": [
+    {
+      "name": "Bestsellers",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
