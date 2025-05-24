@@ -563,9 +563,19 @@ a {
     font-size: 18px;
     color: #fff;
 }
-  .faqSec {
+  .faqSec, .SchallplattenSec {
     padding: 30px 0 !important;
 }
+  .faqGrid>.grid__item {
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 0px;
+}
+  .faqGrid .accordion summary {
+    padding: 1.5rem 0;
+  }
+  .faqSec .accordion__title {
+    font-size: 16px;
+  }
   .fokus-sction .card__inner {
     max-height: 150px;
 }
