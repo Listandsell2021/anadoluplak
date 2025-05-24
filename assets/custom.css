@@ -543,7 +543,7 @@ a {
 
 @media (max-width: 767px) {
   slider-component.page-width {
-        padding: 0;
+        padding: 0 !important;
     }
   .grid {
     row-gap: 16px;
