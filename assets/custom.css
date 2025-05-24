@@ -549,6 +549,20 @@ a {
   } */
 
 @media (max-width: 767px) {
+  .ctaBanner .banner__content .banner__box {
+    padding: 30px 15px;
+}
+  .ctaBanner .banner__heading {
+    font-size: 30px;
+  }
+  .ctaBanner .banner__text {
+    padding: 0;
+    margin-top: 0px !important;
+}
+  .ctaBanner .banner__text p {
+    font-size: 18px;
+    color: #fff;
+}
   .fokus-sction .card__inner {
     max-height: 150px;
 }
