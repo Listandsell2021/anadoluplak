@@ -563,6 +563,9 @@ a {
     font-size: 18px;
     color: #fff;
 }
+  .faqSec {
+    padding: 30px 0 !important;
+}
   .fokus-sction .card__inner {
     max-height: 150px;
 }
