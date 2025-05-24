@@ -549,6 +549,18 @@ a {
   } */
 
 @media (max-width: 767px) {
+  .fokus-sction .card__inner {
+    max-height: 150px;
+}
+  .fokus-sction .explore-button {
+    max-width: 40%;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+  .fokus-sction a.full-unstyled-link {
+    padding-left: 10px;
+    font-size: 16px;
+}
   .collectionProducts {
     padding: 30px 0;
     margin-top: 0;
