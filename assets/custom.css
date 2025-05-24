@@ -548,6 +548,9 @@ a {
   } */
 
 @media (max-width: 767px) {
+  .product-card-wrapper.card-wrapper>.card .card__inner .card__media img {
+    height: 90px;
+}
   .card:not(.ratio)>.card__content {
     grid-template-rows: none !important;
 }
