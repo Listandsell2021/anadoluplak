@@ -542,6 +542,12 @@ a {
   } */
 
 @media (max-width: 767px) {
+  .slider-button--next {
+    right: -10px;
+}
+  .slider-button--prev {
+    left: -10px;
+}
   .slider-button {
     width: 34px;
     height: 34px;
