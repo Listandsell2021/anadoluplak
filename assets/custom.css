@@ -542,6 +542,9 @@ a {
   } */
 
 @media (max-width: 767px) {
+  .grid .grid__item {
+    padding: 0 8px;
+}
   .titleBtn {
     grid-template-columns: 2fr 1fr;
     padding-bottom: 10px;
