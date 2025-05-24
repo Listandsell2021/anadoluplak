@@ -721,6 +721,12 @@ a {
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
+  .faqSec, .SchallplattenSec {
+    padding: 30px 0 !important;
+}
+  .ctaBanner .banner__content .banner__box {
+    padding: 30px 15px;
+}
   .herogallery-item.ratio_3 img {
     width: 270px;
     height: 130px;
