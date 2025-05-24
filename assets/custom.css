@@ -202,7 +202,8 @@ a {
 
 /*****************************/
 .collection {
-  padding: 50px 0 !important;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
 .grid{column-gap: 0;row-gap: 30px;}
 .grid .grid__item{
