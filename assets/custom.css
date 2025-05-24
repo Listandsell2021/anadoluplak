@@ -542,6 +542,9 @@ a {
   } */
 
 @media (max-width: 767px) {
+  .grid {
+    row-gap: 16px;
+}
   .slider-button--next {
     right: -10px;
 }
