@@ -579,6 +579,25 @@ a {
   .leftSchallplatten, .imageSchallplatten {
     max-width: 100%;
   }
+  .marginTSchallplatten {
+    margin-top: 15px;
+}
+  .SchallplattenBox {
+    padding:15px 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    row-gap: 25px;
+}
+  .SchallplattenIconBox {
+    max-width: 100%;
+  }
+  .SchallplattenIconBox img {
+    max-width: 50px;
+  }
+  .SchallplattenIconBox h4 {
+    font-size: 18px;
+    margin-bottom: 2px;
+}
   .fokus-sction .card__inner {
     max-height: 150px;
 }
