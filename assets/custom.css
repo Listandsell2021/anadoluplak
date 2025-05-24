@@ -576,6 +576,9 @@ a {
   .faqSec .accordion__title {
     font-size: 16px;
   }
+  .leftSchallplatten, .imageSchallplatten {
+    max-width: 100%;
+  }
   .fokus-sction .card__inner {
     max-height: 150px;
 }
