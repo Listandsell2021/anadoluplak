@@ -722,14 +722,14 @@ a {
 
 @media (min-width: 768px) and (max-width:989.9px) {
   .ctaBanner .banner__heading {
-    font-size: 50px;
+    font-size: 50px !important;
   }
   .ctaBanner .banner__text {
     padding: 0;
     margin-top: 0px !important;
 }
 .ctaBanner .banner__text p {
-    font-size: 26px;
+    font-size: 26px !important;
 }
   .slider-button--prev {
     left: -20px;
