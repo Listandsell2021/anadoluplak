@@ -563,6 +563,9 @@ a {
     font-size: 18px;
     color: #fff;
 }
+  .footer__content-top .grid>.footer-block {
+    padding: 0rem 0px;
+}
   .faqSec, .SchallplattenSec {
     padding: 30px 0 !important;
 }
