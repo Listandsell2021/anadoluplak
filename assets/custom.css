@@ -548,6 +548,9 @@ a {
   } */
 
 @media (max-width: 767px) {
+  .card:not(.ratio)>.card__content {
+    grid-template-rows: none;
+}
   .product-card-wrapper.card-wrapper>.card .card__information h3 {
     font-size: 14px;
     min-height: 37px;
