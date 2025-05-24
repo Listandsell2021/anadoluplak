@@ -721,6 +721,9 @@ a {
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
+      slider-component.page-width {
+        padding: 0rem;
+    }
   .collection {
     padding: 50px 15px 0 !important;
 }
