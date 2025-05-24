@@ -542,6 +542,10 @@ a {
   } */
 
 @media (max-width: 767px) {
+  .product-card-wrapper.card-wrapper>.card .card__information h3 {
+    font-size: 14px;
+    min-height: 37px;
+}
   .product-card-wrapper.card-wrapper>.card {
     padding: 5px;
 }
