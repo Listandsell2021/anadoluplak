@@ -542,6 +542,9 @@ a {
   } */
 
 @media (max-width: 767px) {
+  slider-component.page-width {
+        padding: 0;
+    }
   .grid {
     row-gap: 16px;
 }
