@@ -586,6 +586,9 @@ margin-top:0.7rem;
         color: #000 !important;
         font-weight: 400;
 }
+.footer__list-social li.list-social__item a{
+  padding: 0 20px;
+}
 .footer__list-social li.list-social__item{
   border-right: 1px solid #000;
 }
