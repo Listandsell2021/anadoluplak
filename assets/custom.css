@@ -466,6 +466,10 @@ a {
     text-align: center;
 }
 /*****************************/
+.bestsellers-slider .product-card{
+  padding:0 15px;
+}
+/*****************************/
 .product__media-wrapper ul.product__media-list .product__media-item.is-active{
   width: 100%;
   max-width: 100% !important;
