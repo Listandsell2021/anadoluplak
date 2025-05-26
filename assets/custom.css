@@ -500,6 +500,7 @@ a {
 .bestsellers-slider .product-card > a p.text-sm{
 margin-top:0.7rem;
       font-size: 1.6rem;
+    color: #000;
     letter-spacing: .1rem;
     line-height: calc(1 + .5 / var(--font-body-scale));
   margin-bottom: 0;
