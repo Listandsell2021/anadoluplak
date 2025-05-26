@@ -721,6 +721,9 @@ a {
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
+  .header-localization .disclosure .localization-form__select {
+    font-size: 1.8rem !important;
+  }
       .leftSchallplatten, .imageSchallplatten {
         max-width: 100%;
     }
