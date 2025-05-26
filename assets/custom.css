@@ -548,7 +548,7 @@ a {
     column-gap: 1rem;
   } */
 
-@media (max-width: 767px) {
+@media (max-width: 767.9px) {
   .ctaBanner .banner__content .banner__box {
     padding: 30px 15px;
 }
@@ -721,6 +721,9 @@ a {
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
+      .leftSchallplatten, .imageSchallplatten {
+        max-width: 100%;
+    }
   .ctaBanner .banner__heading {
     font-size: 50px !important;
   }
