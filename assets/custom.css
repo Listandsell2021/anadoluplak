@@ -582,8 +582,8 @@ margin-top:0.7rem;
 }
 .footer-block__details-content .list-menu__item--link {
         display: inline-block;
-        font-size: 16px;
-        color: #000;
+        font-size: 16px !important;
+        color: #000 !important;
         font-weight: 400;
 }
 /* .header__icon .icon {
