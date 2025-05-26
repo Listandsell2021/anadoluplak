@@ -869,9 +869,9 @@ a {
     margin-top: -10px !important;
 }
     .slider-button--next {
-    right: 0px;
+    right: 0px !important;
 }
     .slider-button--prev {
-    left: 0px;
+    left: 0px !important;
 }
 }
