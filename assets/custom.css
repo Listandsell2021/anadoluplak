@@ -724,6 +724,9 @@ a {
       .leftSchallplatten, .imageSchallplatten {
         max-width: 100%;
     }
+  .SchallplattenBox {
+    margin-right: 0;
+  }
   .ctaBanner .banner__heading {
     font-size: 50px !important;
   }
@@ -735,10 +738,10 @@ a {
     font-size: 26px !important;
 }
   .slider-button--prev {
-    left: -20px;
+    left: -10px;
 }
   .slider-button--next {
-    right: -20px;
+    right: -10px;
 }
       slider-component.page-width {
         padding: 0rem !important;
