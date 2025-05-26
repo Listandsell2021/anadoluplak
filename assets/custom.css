@@ -482,6 +482,26 @@ a {
     background: #fff;
   display: block;
 }
+.bestsellers-slider .product-card > a p.font-semibold{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 47px;
+  margin: 0;
+  padding-top:10px;
+}
+.bestsellers-slider .product-card > a p.text-sm{
+margin-top:0.7rem;
+      font-size: 1.6rem;
+    letter-spacing: .1rem;
+    line-height: calc(1 + .5 / var(--font-body-scale));
+  margin-bottom: 0;
+}
 /*****************************/
 .product__media-wrapper ul.product__media-list .product__media-item.is-active{
   width: 100%;
