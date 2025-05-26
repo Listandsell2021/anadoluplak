@@ -493,7 +493,7 @@ a {
     -webkit-box-orient: vertical;
     min-height: 47px;
   margin: 0;
-  padding-top:10px;
+  margin-top:10px;
 }
 .bestsellers-slider .product-card > a p.text-sm{
 margin-top:0.7rem;
