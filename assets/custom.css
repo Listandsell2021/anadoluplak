@@ -848,3 +848,14 @@ a {
         width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2) !important;
     }
 }
+@media (min-width: 990px) and (max-width:1278.9px) {
+  .fokus-sction a.full-unstyled-link {
+    padding-left: 10px;
+    font-size: 18px;
+}
+  .fokus-sction .explore-button {
+    max-width: 42%;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+}
