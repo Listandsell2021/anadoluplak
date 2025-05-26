@@ -472,7 +472,10 @@ a {
 .bestsellers-slider .product-card > a{
   height: 100%;
     width: 100%;
-    border: 1px solid #cecece;
+        border: 1px solid #CECECE;
+    padding: 15px;
+    background: #fff;
+  display: block;
 }
 /*****************************/
 .product__media-wrapper ul.product__media-list .product__media-item.is-active{
