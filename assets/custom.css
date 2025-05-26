@@ -600,6 +600,13 @@ margin-top:0.7rem;
 .footer__list-social li.list-social__item{
   border-right: 1px solid #000;
 }
+    .footer-block--newsletter .field:after{
+      display: none;
+    }
+    .footer-block--newsletter {
+        width: 100%;
+        max-width: 25%;
+    }
 /* .header__icon .icon {
     height: 22px;
     width: 22px;
