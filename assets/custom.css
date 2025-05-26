@@ -867,7 +867,7 @@ a {
     font-size: 14px;
 
   .ctaBanner .banner__heading {
-    font-size: 70px;
+    font-size: 70px !important;
   }
     .ctaBanner .banner__text p {
     font-size: 30px;
