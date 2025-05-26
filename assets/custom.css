@@ -375,7 +375,7 @@ a {
 }
 .SchallplattenBox {
     background: var(--secondary-color);
-    padding: 40px 25px;
+    padding: 80px 25px;
     margin-right: -100px;
     z-index: 1;
     position: relative;
