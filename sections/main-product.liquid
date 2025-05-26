@@ -452,7 +452,14 @@
                   {%- endif -%}
                 </div>
               {%- when 'paymenticons' -%}
-              gfkuhfki
+           {% if block.settings.payment_image != blank %}
+            <img 
+              class="image"
+              src="{{ block.settings.payment_image | image_url }}" 
+              loading="lazy" />
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
               
               {%- when 'popup' -%}
                 <modal-opener
