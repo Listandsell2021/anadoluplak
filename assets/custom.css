@@ -626,10 +626,9 @@ margin-top:0.7rem;
 .footer__content-bottom {
     border-top: 0;
     padding: 1rem 0 !important;
-    display: flex
-;
+    display: flex;
     align-items: center;
-    flex-wrap: wrap-reverse;
+     flex-direction: row-reverse;
 }
 /* .header__icon .icon {
     height: 22px;
