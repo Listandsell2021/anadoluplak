@@ -494,6 +494,7 @@ a {
     min-height: 47px;
   margin: 0;
   margin-top:10px;
+  line-height: calc(1 + .3/max(1,var(--font-heading-scale)));
 }
 .bestsellers-slider .product-card > a p.text-sm{
 margin-top:0.7rem;
