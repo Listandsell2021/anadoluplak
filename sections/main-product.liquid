@@ -453,7 +453,14 @@
                 </div>
               {%- when 'paymenticons' -%}
            {% if block.settings.payment_image != blank %}
-            <img class="image" src="{{ block.settings.payment_image | image_url }}" loading="lazy" />
+            <img
+              class="image"
+              src="{{ block.settings.payment_image | image_url }}"
+              width="{{ block.settings.payment_image_width }}"
+              height="{{ block.settings.payment_image_height }}"
+              loading="lazy"
+              alt="Payment icons"
+            />
           {% else %}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {% endif %}
