@@ -499,7 +499,8 @@ a {
 }
 .bestsellers-slider .product-card > a p.text-sm{
 margin-top:0.7rem;
-      font-size: 1.6rem;
+         font-size: 18px;
+    font-weight: 500;
     color: #000;
     letter-spacing: .1rem;
     line-height: calc(1 + .5 / var(--font-body-scale));
