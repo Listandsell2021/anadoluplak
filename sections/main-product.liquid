@@ -453,7 +453,7 @@
                 </div>
               {%- when 'paymenticons' -%}
            {% if block.settings.payment_image != blank %}
-            <img  class="image" src="{{ block.settings.payment_image | image_url }}" loading="lazy" />
+            <img class="image" src="{{ block.settings.payment_image | image_url }}" loading="lazy" />
           {% else %}
             {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
           {% endif %}
@@ -814,7 +814,19 @@
         "type": "image_picker",
         "id": "payment_image",
         "label": "Payment Icons Image"
-      }
+      },
+      {
+      "type": "number",
+      "id": "payment_image_width",
+      "label": "Width (px)",
+      "default": 100
+    },
+    {
+      "type": "number",
+      "id": "payment_image_height",
+      "label": "Height (px)",
+      "default": 50
+    }
       ]
     },
     {
