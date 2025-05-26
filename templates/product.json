@@ -73,7 +73,7 @@
           "type": "paymenticons",
           "settings": {
             "payment_image": "shopify://shop_images/paymenticons.png",
-            "payment_image_width": 500,
+            "payment_image_width": 600,
             "payment_image_height": 80
           }
         },
