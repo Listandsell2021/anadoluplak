@@ -623,7 +623,14 @@ margin-top:0.7rem;
 .newsletter-form__field-wrapper .field__input {
     border-radius: 0 30px 30px 0;
 }
-
+.footer__content-bottom {
+    border-top: 0;
+    padding: 1rem 0 !important;
+    display: flex
+;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
 /* .header__icon .icon {
     height: 22px;
     width: 22px;
