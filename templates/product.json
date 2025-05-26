@@ -69,6 +69,12 @@
             "show_gift_card_recipient": true
           }
         },
+        "paymenticons_fTpkG3": {
+          "type": "paymenticons",
+          "settings": {
+            "payment_image": "shopify://shop_images/paymenticons.png"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -91,6 +97,7 @@
         "sku_PmgnyJ",
         "quantity_selector",
         "buy_buttons",
+        "paymenticons_fTpkG3",
         "description",
         "share"
       ],
