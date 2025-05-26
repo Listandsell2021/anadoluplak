@@ -637,6 +637,11 @@ margin-top:0.7rem;
 .footer__localization > localization-form .localization-form {
         width: 100% !important;
     }
+.footer__copyright * {
+    font-size: 16px !important;
+    color: #fff;
+    font-weight: 400;
+}
 /* .header__icon .icon {
     height: 22px;
     width: 22px;
