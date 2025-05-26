@@ -271,7 +271,8 @@ a {
 
 /*****************************/
 .collectionProducts .collection-list-wrapper {
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .collectionProducts {
