@@ -122,7 +122,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
+        "collection": "arabesk",
         "products_to_show": 4,
         "title": "Diese Woche gehört",
         "heading_size": "h2",
