@@ -1,3 +1,4 @@
+/* Pangea Afrikan - Regular */
 @font-face {
   font-family: 'PangeaAfrikanTrial';
   src: url('{{ "PangeaAfrikanTrial-Regular.woff2" | asset_url }}') format('woff2');
@@ -6,6 +7,7 @@
   font-display: swap;
 }
 
+/* Pangea Afrikan - Bold */
 @font-face {
   font-family: 'PangeaAfrikanTrial';
   src: url('{{ "PangeaAfrikanTrial-Bold.woff2" | asset_url }}') format('woff2');
@@ -14,6 +16,7 @@
   font-display: swap;
 }
 
+/* Pangea Afrikan - Bold Italic */
 @font-face {
   font-family: 'PangeaAfrikanTrial';
   src: url('{{ "PangeaAfrikanTrial-BoldItalic.woff2" | asset_url }}') format('woff2');
@@ -22,17 +25,19 @@
   font-display: swap;
 }
 
-/* Apply to entire site */
-body {
-  font-family: 'PangeaAfrikanTrial', sans-serif;
+/* Set as default font for the entire site */
+:root {
+  --font-body: 'PangeaAfrikanTrial', sans-serif;
 }
 
-/* Optional utility class */
+body {
+  font-family: var(--font-body);
+}
+
+/* Optional: Utility class for manual use */
 .font-pangea {
   font-family: 'PangeaAfrikanTrial', sans-serif;
 }
-
-
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
