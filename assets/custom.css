@@ -772,7 +772,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 
 @media (max-width: 767.9px) 
     .footer-block__newsletter {
-        width: 100%;
+        width: 100% !important;
 }
   .footer-block--newsletter {
     width: 100%;
