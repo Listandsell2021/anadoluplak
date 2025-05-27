@@ -637,8 +637,8 @@ html.gf-theme-version-15.spf-has-filter .checked .gf-Checkbox{
 .gf-actions {
     flex-direction: row-reverse;
 }
-html.gf-theme-version-15.spf-has-filter .gf-filter-selection label, }
-html.gf-theme-version-15.spf-has-filter.gf-filter-selection select{
+html.gf-theme-version-15.spf-has-filter .gf-filter-selection label, 
+html.gf-theme-version-15.spf-has-filter .gf-filter-selection select{
       font-size: 14px !important;
     font-weight: 400;
     color: #000 !important;
