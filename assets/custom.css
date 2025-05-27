@@ -771,6 +771,10 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   } */
 
 @media (max-width: 767.9px) {
+  .footer__content-bottom-wrapper .footer__localization {
+    order: 2;
+    text-align: center;
+}
     .footer-block__newsletter {
         width: 100% !important;
 }
