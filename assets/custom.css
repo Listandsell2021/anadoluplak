@@ -536,7 +536,7 @@ a {
     height: 262px;
     object-fit: cover;
 }
-.bestsellers-slider .product-card > a{
+.bestsellers-slider .product-card > a, .spf-product-card{
   height: 100%;
     width: 100%;
         border: 1px solid #CECECE;
