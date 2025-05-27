@@ -594,7 +594,8 @@ margin-top:0.7rem;
   padding:10px 15px !important;
 }
 .gf-option-box li button{
-  font-size: 14px;
+  font-size: 14px !important;
+  color:#000 !important;
   font-weight: 400;
 }
 /*****************************/
