@@ -632,7 +632,7 @@ html.gf-theme-version-15.spf-has-filter .checked .gf-Checkbox{
     height: 19px;
 }
 .gf-theme-version-15.spf-has-filter .gf-range-inputs input[type=text]{
-  border-color: #c1c1c1;  
+  border-color: #c1c1c1 !important;  
 }
 /*****************************/
 .footer {
