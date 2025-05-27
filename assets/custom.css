@@ -634,6 +634,9 @@ html.gf-theme-version-15.spf-has-filter .checked .gf-Checkbox{
 .gf-theme-version-15.spf-has-filter .gf-range-inputs input[type=text]{
   border-color: #c1c1c1 !important;  
 }
+.gf-actions {
+    flex-direction: row-reverse;
+}
 /*****************************/
 .footer {
   background: var(--primary-color);
