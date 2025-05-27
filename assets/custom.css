@@ -593,7 +593,7 @@ margin-top:0.7rem;
   border: 1px solid #eee;
   padding:10px 15px !important;
 }
-.gf-option-box li button span, .gf-theme-version-15.spf-has-filter .gf-option-block ul li button span.gf-count{
+.gf-option-box li button span, body.gf-theme-version-15.spf-has-filter .gf-option-block ul li button span.gf-count{
   font-size: 14px !important;
   color:#000 !important;
   font-weight: 400;
