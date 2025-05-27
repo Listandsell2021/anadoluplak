@@ -647,6 +647,8 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   text-align: end;
 }
 /*****************************/
+.spf-product-card .spf-product-card__image-wrapper{padding:0 !important;}
+/*****************************/
 .footer {
   background: var(--primary-color);
   border: 0;
