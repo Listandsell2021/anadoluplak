@@ -59,10 +59,10 @@ font-style: normal;
   font-style: italic;
 }
 body{
-  font-family: 'PangeaAfrikanTrial-Regular' !important;
+ font-family: 'PangeaAfrikanTrial-Regular', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: 'PangeaAfrikanTrial-Bold' !important;
+ font-family: 'PangeaAfrikanTrial-Bold', sans-serif;
 }
 a {
   text-decoration: none !important;
