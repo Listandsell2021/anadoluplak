@@ -569,7 +569,7 @@ margin-top:0.7rem;
   font-size: 20px !important;
   color:#000 !important;
 }
-input.gf-search {
+.gf-block-content input.gf-search {
     height: 45px !important;
     font-size: 14px !important;
     background-color: #fafafa !important;
