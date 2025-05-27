@@ -647,7 +647,14 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   text-align: end;
 }
 /*****************************/
-.spf-product-card .spf-product-card__image-wrapper{padding:0 !important;}
+.spf-product-card .spf-product-card__image-wrapper{
+      padding: 0 !important;
+    display: block;
+    width: 100%;
+}
+.spf-product-card .spf-product-card__image-wrapper img{
+  position: static;
+}
 /*****************************/
 .footer {
   background: var(--primary-color);
