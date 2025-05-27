@@ -593,6 +593,10 @@ margin-top:0.7rem;
   border: 1px solid #eee;
   padding:10px 15px !important;
 }
+.gf-option-box li button{
+  font-size: 14px;
+  font-weight: 400;
+}
 /*****************************/
 .footer {
   background: var(--primary-color);
