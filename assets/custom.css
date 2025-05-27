@@ -4,7 +4,60 @@
   --primary-color: #FEF5EB;
   --secondary-color: #C47959;
 }
-
+@font-face {
+font-family: 'PangeaAfrikanTrial-Bold';
+src: url('{{ "PangeaAfrikanTrial-Bold.woff2" | asset_url }}') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+  font-family: 'PangeaAfrikanTrial-BoldItalic';
+  src: url('{{ "PangeaAfrikanTrial-BoldItalic.woff2" | asset_url }}') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PangeaAfrikanTrial-Italic';
+  src: url('{{ "PangeaAfrikanTrial-Italic.woff2" | asset_url }}') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PangeaAfrikanTrial-Light';
+  src: url('{{ "PangeaAfrikanTrial-Light.woff2" | asset_url }}') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PangeaAfrikanTrial-Medium';
+  src: url('{{ "PangeaAfrikanTrial-Medium.woff2" | asset_url }}') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PangeaAfrikanTrial-MediumItalic';
+  src: url('{{ "PangeaAfrikanTrial-MediumItalic.woff2" | asset_url }}') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'PangeaAfrikanTrial-Regular';
+  src: url('{{ "PangeaAfrikanTrial-Regular.woff2" | asset_url }}') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PangeaAfrikanTrial-SemiBold';
+  src: url('{{ "PangeaAfrikanTrial-SemiBold.woff2" | asset_url }}') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PangeaAfrikanTrial-SemiBoldItalic';
+  src: url('{{ "PangeaAfrikanTrial-SemiBoldItalic.woff2" | asset_url }}') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
 a {
   text-decoration: none !important;
 }
