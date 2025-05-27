@@ -642,6 +642,7 @@ margin-top:0.7rem;
     color: #fff;
     font-weight: 400;
 }
+#FooterLanguageLabel{display: none;}
 /* .header__icon .icon {
     height: 22px;
     width: 22px;
