@@ -550,6 +550,12 @@ margin-top:0.7rem;
   object-fit: cover;
 }
 /*****************************/
+.gf-filter-contents .gf-option-block .gf-block-title h3{
+  font-size: 20px;
+  font-weight: 500;
+  color:#000;
+}
+/*****************************/
 .footer {
   background: var(--primary-color);
   border: 0;
