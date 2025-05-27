@@ -593,7 +593,7 @@ margin-top:0.7rem;
   border: 1px solid #eee;
   padding:10px 15px !important;
 }
-.gf-option-box li button{
+.gf-option-box li button span{
   font-size: 14px !important;
   color:#000 !important;
   font-weight: 400;
