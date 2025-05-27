@@ -979,7 +979,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   
   .footer-block--newsletter {
     width: 100%;
-    max-width: 100%;
+    max-width: 50%;
 }
 .footer-block__newsletter {
         width: 100% !important;
