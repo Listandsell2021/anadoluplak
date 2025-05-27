@@ -293,6 +293,7 @@ a {
 .product-card-wrapper.card-wrapper>.card {
   border: 1px solid #CECECE;
   padding: 15px;
+  border-radius: 5px;
   background: #fff;
 }
 
@@ -539,6 +540,7 @@ a {
   height: 100%;
     width: 100%;
         border: 1px solid #CECECE;
+  border-radius: 5px;
     padding: 15px;
     background: #fff;
   display: block;
