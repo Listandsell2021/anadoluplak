@@ -642,6 +642,7 @@ margin-top:0.7rem;
     color: #fff;
     font-weight: 400;
 }
+.footer__copyright{margin-top: 0 !important;}
 #FooterLanguageLabel{display: none;}
 .disclosure__button.localization-form__select{
   padding:0 !important;
