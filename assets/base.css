@@ -1,31 +1,4 @@
-/* Pangea Afrikan - Regular */
-@font-face {
-  font-family: 'PangeaAfrikanTrial';
-  src: url('https://cdn.shopify.com/.../PangeaAfrikanTrial-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
 
-/* Pangea Afrikan - Bold */
-@font-face {
-  font-family: 'PangeaAfrikanTrial';
-  src: url('https://cdn.shopify.com/.../PangeaAfrikanTrial-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Pangea Afrikan - Bold Italic */
-@font-face {
-  font-family: 'PangeaAfrikanTrial';
-  src: url('https://cdn.shopify.com/.../PangeaAfrikanTrial-BoldItalic.woff2') format('woff2');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Apply font globally */
 body {
   font-family: 'PangeaAfrikanTrial', sans-serif;
 }
