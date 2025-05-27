@@ -592,6 +592,26 @@ margin-top:0.7rem;
 .gf-option-box{
   border: 1px solid #eee;
   padding:10px 15px !important;
+      max-height: 395px;
+    overflow-y: scroll !important;
+}
+.gf-option-box::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.gf-option-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.gf-option-box::-webkit-scrollbar-thumb {
+  background: red;
+}
+
+/* Handle on hover */
+.gf-option-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 .gf-option-box li button span, html.gf-theme-version-15.spf-has-filter .gf-option-block ul li button span.gf-count{
   font-size: 14px !important;
