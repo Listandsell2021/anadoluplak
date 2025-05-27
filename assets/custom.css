@@ -634,15 +634,23 @@ margin-top:0.7rem;
 .footer__localization > localization-form{
   width: 100%;
 }
-.footer__localization > localization-form .localization-form {
+/* .footer__localization > localization-form .localization-form {
         width: 100% !important;
-    }
+    } */
 .footer__copyright * {
     font-size: 16px !important;
     color: #fff;
     font-weight: 400;
 }
 #FooterLanguageLabel{display: none;}
+.disclosure__button.localization-form__select{
+  padding:0;
+  margin:0;
+  background: transparent;
+    border: 0;
+    color: #fff;
+}
+.disclosure__button.localization-form__select::after{display: none;}
 /* .header__icon .icon {
     height: 22px;
     width: 22px;
