@@ -772,10 +772,16 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 
 @media (max-width: 767.9px) {
   .footer__content-top {
-    padding-bottom: 3rem;
     padding-left: 15px;
     padding-right: 15px;
 }
+  .footer-block__heading {
+    margin-bottom: 10px;
+  }
+      .footer-block__details-content .list-menu__item--link {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
   .SchallplattenSec .page-width{padding:0 !important;}
   .footer__content-top .grid>.footer-block {
     max-width: 100%;
