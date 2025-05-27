@@ -21,6 +21,7 @@ font-style: italic;
 
 body, .link, .customer a{
  font-family: 'PangeaAfrikanTrial';
+  font-weight: 400;
 
 }
 :root {
