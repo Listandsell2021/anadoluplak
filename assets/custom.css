@@ -600,7 +600,7 @@ margin-top:0.7rem;
   opacity: 1 !important;
 }
 .gf-theme-version-15.spf-has-filter .gf-option-block .gf-Checkbox {
-    border: 1px solid #c1c1c1;
+    border: 1px solid #c1c1c1 !important;
     border-radius: 2px;
     min-width: 19px;
     height: 19px;
