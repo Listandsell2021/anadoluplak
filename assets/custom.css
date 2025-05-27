@@ -772,9 +772,6 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   } */
 
 @media (max-width: 767.9px) {
-  .footer__content-top .grid>.footer-block {
-      max-width: 50% !important;
-  }
     .footer__content-bottom, .footer__content-bottom-wrapper{
     gap:0 !important;
   }
@@ -979,6 +976,10 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
+  
+  .footer__content-top .grid>.footer-block {
+      max-width: 50% !important;
+  }
   .header-localization .disclosure .localization-form__select {
     font-size: 1.8rem !important;
   }
