@@ -651,13 +651,15 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
       padding: 0 !important;
     display: block;
     width: 100%;
+  max-height: 200px;
+  position:relative;
 }
-.spf-product-card .spf-product-card__image-wrapper img{
+/* .spf-product-card .spf-product-card__image-wrapper img{
   position: static;
 }
 .spf-product-card__image-wrapper.hover-effect:hover .spf-product-card__image-main, img.spf-product-card__image.spf-product-card__image-secondary{
   display: none;
-}
+} */
 /*****************************/
 .footer {
   background: var(--primary-color);
