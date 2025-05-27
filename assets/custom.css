@@ -771,7 +771,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   } */
 
 @media (max-width: 767.9px) {
-  .SchallplattenSec .page-width:0 !important;
+  .SchallplattenSec .page-width{padding:0 !important;}
   .footer__content-top .grid>.footer-block {
     max-width: 100%;
 }
