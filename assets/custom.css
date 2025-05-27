@@ -631,6 +631,9 @@ html.gf-theme-version-15.spf-has-filter .checked .gf-Checkbox{
     min-width: 19px;
     height: 19px;
 }
+.gf-theme-version-15.spf-has-filter .gf-range-inputs input[type=text]{
+  border-color: #c1c1c1;  
+}
 /*****************************/
 .footer {
   background: var(--primary-color);
