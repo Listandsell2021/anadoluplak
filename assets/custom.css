@@ -976,6 +976,11 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
+  
+  .footer-block--newsletter {
+    width: 100%;
+    max-width: 100%;
+}
 .footer-block__newsletter {
         width: 100% !important;
 }  
