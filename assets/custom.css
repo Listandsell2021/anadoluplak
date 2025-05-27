@@ -651,6 +651,7 @@ margin-top:0.7rem;
     color: #fff !important;
       font-size: 16px !important;
   font-weight: 400;
+      padding-right: 35px !important;
 }
 .disclosure__button.localization-form__select::after{display: none;}
 /* .header__icon .icon {
