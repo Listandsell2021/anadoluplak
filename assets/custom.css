@@ -658,6 +658,10 @@ margin-top:0.7rem;
         order: 2;
         text-align: end;
     }
+.footer__localization .localization-form{
+  padding:0 !important;
+  margin:0 !important;
+}
 /* .header__icon .icon {
     height: 22px;
     width: 22px;
