@@ -582,6 +582,12 @@ margin-top:0.7rem;
     padding: 3px 35px 3px 10px !important;
   color:#ACACAC !important;
 }
+.gf-left #gf-tree {
+    width: 25%;
+}
+.gf-left #gf-tree:not(.spf-hidden) + #gf-grid {
+    width: 75%;
+}
 /*****************************/
 .footer {
   background: var(--primary-color);
