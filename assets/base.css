@@ -18,7 +18,7 @@ src: url({{ "PangeaAfrikanTrial-BoldItalic.woff2" | asset_url }}) format('woff2'
 font-weight: 700;
 font-style: italic;
 }
-{{ "PangeaAfrikanTrial-BoldItalic.woff2" | asset_url }}
+
 body, .link, .customer a{
  font-family: 'PangeaAfrikanTrial', sans-serif;
   font-weight: 400;
