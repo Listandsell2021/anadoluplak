@@ -654,6 +654,10 @@ margin-top:0.7rem;
       padding-right: 35px !important;
 }
 .disclosure__button.localization-form__select::after{display: none;}
+   .footer__content-bottom-wrapper .footer__localization {
+        order: 2;
+        text-align: end;
+    }
 /* .header__icon .icon {
     height: 22px;
     width: 22px;
