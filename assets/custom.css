@@ -230,8 +230,8 @@ a {
 
 /*****************************/
     .slider--desktop.grid--4-col-desktop .grid__item {
-        width: 100%;
-        max-width: 25%;
+        width: 100% !important;
+        max-width: 25% ;
     }
 .collection {
   padding-top: 50px !important;
