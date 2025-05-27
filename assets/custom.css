@@ -644,11 +644,11 @@ margin-top:0.7rem;
 }
 #FooterLanguageLabel{display: none;}
 .disclosure__button.localization-form__select{
-  padding:0;
-  margin:0;
-  background: transparent;
+  padding:0 !important;
+  margin:0 !important;
+  background: transparent !important;
     border: 0;
-    color: #fff;
+    color: #fff !important;
 }
 .disclosure__button.localization-form__select::after{display: none;}
 /* .header__icon .icon {
