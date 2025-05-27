@@ -653,7 +653,8 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     width: 100%;
   max-height: 200px;
   height:100%;
-  position:relative;
+ position: relative;
+    min-height: 200px;
 }
 /* .spf-product-card .spf-product-card__image-wrapper img{
   position: static;
