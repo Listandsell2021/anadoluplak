@@ -773,7 +773,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 
 @media (max-width: 767.9px) {
   .footer__content-top .grid>.footer-block {
-      max-width: 50%;
+      max-width: 50% !important;
   }
     .footer__content-bottom, .footer__content-bottom-wrapper{
     gap:0 !important;
