@@ -556,6 +556,15 @@ margin-top:0.7rem;
   color:#000 !important;
       text-transform: capitalize;
 }
+.gf-filter-contents .gf-option-block .gf-block-title .h3{
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gf-filter-contents .gf-option-block .gf-block-title .h3::after{
+  font-size: 20px !important;
+  color:#000 !important;
+}
 /*****************************/
 .footer {
   background: var(--primary-color);
