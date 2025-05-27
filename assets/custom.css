@@ -607,6 +607,9 @@ margin-top:0.7rem;
 }
 html.gf-theme-version-15.spf-has-filter .checked .gf-Checkbox{
   border-color: #c1c1c1 !important;
+    border-radius: 2px;
+    min-width: 19px;
+    height: 19px;
 }
 /*****************************/
 .footer {
