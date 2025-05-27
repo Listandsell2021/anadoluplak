@@ -649,6 +649,8 @@ margin-top:0.7rem;
   background: transparent !important;
     border: 0;
     color: #fff !important;
+      font-size: 16px !important;
+  font-weight: 400;
 }
 .disclosure__button.localization-form__select::after{display: none;}
 /* .header__icon .icon {
