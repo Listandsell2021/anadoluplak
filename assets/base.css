@@ -20,8 +20,8 @@ font-style: italic;
 }
 
 body, .link, .customer a{
- font-family: 'PangeaAfrikanTrial', sans-serif;
-  font-weight: 400;
+ font-family: 'PangeaAfrikanTrial';
+
 }
 :root {
   --alpha-button-background: 1;
