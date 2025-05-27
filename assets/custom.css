@@ -601,17 +601,17 @@ margin-top:0.7rem;
 
 /* Track */
 .gf-option-box::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #F5F5F5;
 }
 
 /* Handle */
 .gf-option-box::-webkit-scrollbar-thumb {
-  background: red;
+  background:#D9D9D9;
 }
 
 /* Handle on hover */
 .gf-option-box::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #D9D9D9;
 }
 .gf-option-box li button span, html.gf-theme-version-15.spf-has-filter .gf-option-block ul li button span.gf-count{
   font-size: 14px !important;
