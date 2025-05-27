@@ -589,7 +589,7 @@ margin-top:0.7rem;
 .gf-left #gf-tree:not(.spf-hidden) + #gf-grid {
     width: 75% !important;
 }
-.gf-option-box{
+.gf-filter-contents .gf-block-content .gf-scroll{
   border: 1px solid #eee;
   padding:10px 15px !important;
       max-height: 395px;
