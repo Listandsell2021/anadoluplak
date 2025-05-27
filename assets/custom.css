@@ -643,6 +643,9 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select{
     font-weight: 400;
     color: #000 !important;
 }
+.gf-sctions .gf-summary{
+  text-align: end;
+}
 /*****************************/
 .footer {
   background: var(--primary-color);
