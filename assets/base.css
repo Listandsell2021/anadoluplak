@@ -22,12 +22,16 @@
   font-display: swap;
 }
 
-
-body, .link, .customer a{
- font-family: 'PangeaAfrikanTrial';
-  font-weight: 400;
-
+/* Apply to entire site */
+body {
+  font-family: 'PangeaAfrikanTrial', sans-serif;
 }
+
+/* Optional utility class */
+.font-pangea {
+  font-family: 'PangeaAfrikanTrial', sans-serif;
+}
+
 
 :root {
   --alpha-button-background: 1;
