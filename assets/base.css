@@ -24,10 +24,7 @@ body, .link, .customer a{
   font-weight: 400;
 
 }
-#HeaderMenu-arabesk{
-   font-family: 'PangeaAfrikanTrial' !important;
-  font-weight: 700;
-}
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
