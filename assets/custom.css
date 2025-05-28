@@ -777,7 +777,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 .footer__copyright * {
     font-size: 16px !important;
     color: #fff;
-    font-weight: 400;
+    font-weight: 100;
 }
 .footer__copyright{margin-top: 0 !important;}
 #FooterLanguageLabel{display: none;}
