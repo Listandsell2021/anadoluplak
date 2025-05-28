@@ -50,6 +50,15 @@
             </a>
           {%- endif -%}
         {%- endif -%}
+      {%- if section.blocks.first.settings.anmenu != blank -%}
+        <ul class="announcement-bar__menu">
+          {%- for link in linklists[section.blocks.first.settings.anmenu].links -%}
+            <li>
+              <a href="{{ link.url }}" class="announcement-bar__menu-link">{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
       </div>
     {%- elsif section.blocks.size > 1 -%}
       <slideshow-component
