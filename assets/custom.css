@@ -832,6 +832,9 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   } */
 ul.product-grid{margin-bottom: 0;}
 @media (max-width: 767.9px) {
+      .collection .slider--tablet.product-grid {
+        scroll-padding-left: 0;
+    }
   .product-card-wrapper.card-wrapper>.card {
   margin: 0 5px 1px;
 }
