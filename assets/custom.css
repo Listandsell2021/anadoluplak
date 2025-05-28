@@ -232,14 +232,15 @@ a {
 
 /*****************************/
     .slider--desktop.grid--4-col-desktop .grid__item {
-        width: 100% !important;
-        max-width: 25% ;
+           width: 100% !important;
+    max-width: 25%;
+    padding: 0;
     }
-.slider--desktop.grid--4-col-desktop .grid__item:first-child{
-  padding-left: 0;
+.slider--desktop.grid--4-col-desktop .grid__item:first-child .product-card-wrapper.card-wrapper>.card{
+  margin-left: : 0;
 }
-.slider--desktop.grid--4-col-desktop .grid__item:last-child{
-  padding-right: 0;
+.slider--desktop.grid--4-col-desktop .grid__item:last-child .product-card-wrapper.card-wrapper>.card{
+  margin-right: 0;
 }
 .collection {
   padding-top: 50px !important;
@@ -275,6 +276,7 @@ a {
   padding: 15px;
   border-radius: 5px;
   background: #fff;
+  margin: 0 15px 2px;
 }
 
 .product-card-wrapper.card-wrapper>.card .card__inner, .product-card-wrapper.card-wrapper>.card .card__inner .card__media img {
