@@ -259,7 +259,7 @@
           "type": "text",
           "settings": {
             "text": "Jetzt Vinyl-Schätze zum Schnäppchenpreis sichern!",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "button": {
