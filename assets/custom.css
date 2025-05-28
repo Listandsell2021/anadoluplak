@@ -6,34 +6,7 @@
   --font-body-family: 'PangeaAfrikanTrial', sans-serif;
     --font-heading-family: 'PangeaAfrikanTrial', sans-serif;
 }
-@font-face {
-  font-family: 'PangeaAfrikanTrial';
-  src: url({{ "PangeaAfrikanTrial-Light.woff2" | asset_url }}) format('woff2');
-  font-weight: 100; /* Thin */
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PangeaAfrikanTrial';
-  src: url({{ "PangeaAfrikanTrial-Regular.woff2" | asset_url }}) format('woff2');
-  font-weight: 400; /* Normal */
-  font-style: normal;
-}
-
-@font-face {
-font-family: 'PangeaAfrikanTrial';
-src: url({{ "PangeaAfrikanTrial-Bold.woff2" | asset_url }}) format('woff2');
-font-weight: 700;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'PangeaAfrikanTrial';
-src: url({{ "PangeaAfrikanTrial-BoldItalic.woff2" | asset_url }}) format('woff2');
-font-weight: 700;
-font-style: italic;
-}
-body, .link, .customer a{
+.link, .customer a{
  font-family: 'PangeaAfrikanTrial', sans-serif;
   font-weight: 100;
 }
