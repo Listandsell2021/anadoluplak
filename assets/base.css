@@ -1,4 +1,9 @@
-
+@font-face {
+  font-family: 'PangeaAfrikanTrial';
+  src: url({{ "https://cdn.shopify.com/s/files/1/0948/5051/5273/files/PangeaAfrikanTrial-Light.woff2?v=1748421008" | asset_url }}) format('woff2');
+  font-weight: 100; /* Thin */
+  font-style: normal;
+}
 /* Pangea Afrikan - Regular */
 @font-face {
   font-family: 'PangeaAfrikanTrial';
