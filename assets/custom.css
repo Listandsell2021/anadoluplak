@@ -976,6 +976,10 @@ ul.product-grid{margin-bottom: 0;}
   .product-card-wrapper.card-wrapper>.card .card__inner, .product-card-wrapper.card-wrapper>.card .card__inner .card__media img {
     height: 90px;
 }
+  .spf-product-card .spf-product-card__image-wrapper{
+    max-height: 90px;
+    min-height: 90px;
+  }
   .card:not(.ratio)>.card__content {
     grid-template-rows: none !important;
 }
