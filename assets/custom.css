@@ -980,6 +980,9 @@ ul.product-grid{margin-bottom: 0;}
     max-height: 90px;
     min-height: 90px;
   }
+  .spf-product-card {
+   padding: 5px !important;
+     }
   .card:not(.ratio)>.card__content {
     grid-template-rows: none !important;
 }
