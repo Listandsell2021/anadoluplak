@@ -36,13 +36,14 @@
     </div>
   
     {%- if section.blocks.size == 1 -%}
-      <div
+  
+         <div class="topbar_left topbarAnnouncement">
+            <div
         class="announcement-bar{% if section.settings.show_social %} announcement-bar--one-announcement{% endif %}"
         role="region"
         aria-label="{{ 'sections.header.announcement' | t }}"
         {{ section.blocks.first.shopify_attributes }}
       >
-         <div class="topbar_left topbarAnnouncement">
          {%- if section.blocks.first.settings.text != blank -%}
           {%- if section.blocks.first.settings.link != blank -%}
             <a
@@ -60,6 +61,7 @@
             </a>
           {%- endif -%}
         {%- endif -%}
+      </div>
     </div>
     <div class="topbar_right">
       <div class="topbarMenu">
@@ -79,7 +81,6 @@
     {%- endif -%}
       </div>
   
-      </div>
     {%- elsif section.blocks.size > 1 -%}
       <slideshow-component
         class="announcement-bar"
