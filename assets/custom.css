@@ -152,10 +152,10 @@ a {
   padding-right:20px;
   border-right: 1px solid #000;
 }
-.topbarMenu ul.announcement-bar__menu li{
+/* .topbarMenu ul.announcement-bar__menu li{
     height: 20px;
     line-height: 20px;
-}
+} */
 .topbarMenu ul.announcement-bar__menu li a{
   color: #000;
   font-size: 14px;
