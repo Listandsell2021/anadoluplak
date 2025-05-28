@@ -1043,8 +1043,8 @@ ul.product-grid{margin-bottom: 0;}
   .collection {
   padding-top: 30px !important;
   padding-bottom: 0px !important;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
 }
   .menu-drawer__account{
     font-size: 1.8rem !important;
