@@ -237,7 +237,7 @@ a {
     padding: 0;
     }
 .slider--desktop.grid--4-col-desktop .grid__item:first-child .product-card-wrapper.card-wrapper>.card{
-  margin-left: : 0;
+  margin-left: 0;
 }
 .slider--desktop.grid--4-col-desktop .grid__item:last-child .product-card-wrapper.card-wrapper>.card{
   margin-right: 0;
