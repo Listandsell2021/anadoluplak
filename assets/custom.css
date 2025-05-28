@@ -964,6 +964,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   .commonTitle {
     font-size: 18px;
   }
+  .viewallBtn a{font-size: 14px;}
   .collection {
   padding: 30px 15px !important;
 }
