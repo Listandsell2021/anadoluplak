@@ -781,6 +781,9 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 }
 .footer__copyright{margin-top: 0 !important;}
 #FooterLanguageLabel{display: none;}
+.footer__content-bottom .page-width{
+  width:100%;
+}
 .disclosure__button.localization-form__select{
   padding:0 !important;
   margin:0 !important;
