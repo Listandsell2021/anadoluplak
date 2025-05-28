@@ -282,9 +282,9 @@ a {
 }
 
 .product-card-wrapper.card-wrapper>.card .card__information .price-item, .spf-product__info .spf-product-card__price {
-  font-size: 18px;
+  font-size: 18px !important;
   font-weight: 500;
-  color: #000;
+  color: #000 !important;
 }
 
 .product-card-wrapper.card-wrapper>.card .card__information {
