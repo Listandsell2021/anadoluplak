@@ -452,6 +452,7 @@ a {
     padding-left: 20px;
     font-size: 20px;
     color: #000;
+  font-weight: 100;
 }
 .fokus-sction .explore-button {
      max-width: 35%;
@@ -462,6 +463,7 @@ a {
     text-decoration: underline !important;
     padding: 15px 20px;
     font-size: 14px;
+  font-weight: 100;
 }
 .fokus-sction .card__inner .card__media img{
   height: 100%;
