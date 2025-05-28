@@ -288,7 +288,7 @@ a {
 
 .product-card-wrapper.card-wrapper>.card .card__information h3 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 100;
   color: #000;
   overflow: hidden;
   display: -webkit-box;
