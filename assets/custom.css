@@ -3,6 +3,8 @@
   /* --page-width: 145rem; */
   --primary-color: #FEF5EB;
   --secondary-color: #C47959;
+  --font-body-family: 'PangeaAfrikanTrial', sans-serif;
+    --font-heading-family: 'PangeaAfrikanTrial', sans-serif;
 }
 @font-face {
 font-family: 'PangeaAfrikanTrial';
