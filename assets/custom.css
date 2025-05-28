@@ -7,16 +7,17 @@
     --font-heading-family: 'PangeaAfrikanTrial', sans-serif;
 }
 @font-face {
-font-family: 'PangeaAfrikanTrial';
-src: url({{ "PangeaAfrikanTrial-Light.woff2" | asset_url }}) format('woff2');
-font-weight: 100;
-font-style: normal;
+  font-family: 'PangeaAfrikanTrial';
+  src: url({{ "PangeaAfrikanTrial-Light.woff2" | asset_url }}) format('woff2');
+  font-weight: 100; /* Thin */
+  font-style: normal;
 }
+
 @font-face {
-font-family: 'PangeaAfrikanTrial';
-src: url({{ "PangeaAfrikanTrial-Regular.woff2" | asset_url }}) format('woff2');
-font-weight: 400;
-font-style: normal;
+  font-family: 'PangeaAfrikanTrial';
+  src: url({{ "PangeaAfrikanTrial-Regular.woff2" | asset_url }}) format('woff2');
+  font-weight: 400; /* Normal */
+  font-style: normal;
 }
 
 @font-face {
