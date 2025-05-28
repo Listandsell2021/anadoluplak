@@ -34,9 +34,7 @@
         
       </div>
     </div>
-    {%- if section.settings.show_social and social_icons -%}
-      {%- render 'social-icons' -%}
-    {%- endif -%}
+  
     {%- if section.blocks.size == 1 -%}
       <div
         class="announcement-bar{% if section.settings.show_social %} announcement-bar--one-announcement{% endif %}"
@@ -44,7 +42,8 @@
         aria-label="{{ 'sections.header.announcement' | t }}"
         {{ section.blocks.first.shopify_attributes }}
       >
-        {%- if section.blocks.first.settings.text != blank -%}
+         <div class="topbar_left topbarAnnouncement">
+         {%- if section.blocks.first.settings.text != blank -%}
           {%- if section.blocks.first.settings.link != blank -%}
             <a
               href="{{ section.blocks.first.settings.link }}"
@@ -61,7 +60,10 @@
             </a>
           {%- endif -%}
         {%- endif -%}
-      {%- if section.blocks.first.settings.anmenu != blank -%}
+    </div>
+    <div class="topbar_right">
+      <div class="topbarMenu">
+           {%- if section.blocks.first.settings.anmenu != blank -%}
         <ul class="announcement-bar__menu">
           {%- for link in linklists[section.blocks.first.settings.anmenu].links -%}
             <li>
@@ -70,6 +72,13 @@
           {%- endfor -%}
         </ul>
       {%- endif -%}
+      </div>
+      <div class="topbarSocial">
+          {%- if section.settings.show_social and social_icons -%}
+      {%- render 'social-icons' -%}
+    {%- endif -%}
+      </div>
+  
       </div>
     {%- elsif section.blocks.size > 1 -%}
       <slideshow-component
