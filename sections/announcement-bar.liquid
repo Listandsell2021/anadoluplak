@@ -62,13 +62,12 @@
         </ul>
       {%- endif -%}
       </div>
-    </div>
-      <div class="topbarSocial">
+        <div class="topbarSocial">
           {%- if section.settings.show_social and social_icons -%}
       {%- render 'social-icons' -%}
     {%- endif -%}
       </div>
-  
+    </div>
     {%- elsif section.blocks.size > 1 -%}
       <slideshow-component
         class="announcement-bar"
