@@ -6,6 +6,9 @@
   --font-body-family: 'PangeaAfrikanTrial', sans-serif;
     --font-heading-family: 'PangeaAfrikanTrial', sans-serif;
 }
+body{
+  font-weight: 100;
+}
 .link, .customer a{
  font-family: 'PangeaAfrikanTrial', sans-serif;
   font-weight: 100;
@@ -197,6 +200,7 @@ a {
 .faqSec .accordion__title {
   font-size: 18px;
   text-decoration: none !important;
+  font-weight: 100;
 }
 
 .faqGrid>.grid__item {
