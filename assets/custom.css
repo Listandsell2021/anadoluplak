@@ -1043,7 +1043,15 @@ ul.product-grid{margin-bottom: 0;}
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
-  
+  .collection .slider--tablet.product-grid {
+        scroll-padding-left: 0 !important;
+    }
+  .product-card-wrapper.card-wrapper>.card {
+  margin: 0 10px 1px;
+}
+  .slider--desktop.grid--4-col-desktop .grid__item {
+    max-width: 33.33%;
+}
   .footer-block--newsletter {
     width: 100%;
     max-width: 50%;
