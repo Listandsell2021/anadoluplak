@@ -419,11 +419,11 @@ a {
 }
 
 .SchallplattenIconBox h4 {
-    margin: 0;
-    font-size: 23px;
+        margin: 0;
+    font-size: 20px;
     color: #fff;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .SchallplattenIconBox p {
