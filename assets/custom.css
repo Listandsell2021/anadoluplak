@@ -990,6 +990,18 @@ ul.product-grid{margin-bottom: 0;}
   .h4.spf-product-card__title a{
     font-size: 14px;
   }
+  .product-grid .spf-product-card .spf-product__form button.spf-product__form-btn-addtocart {
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+}
+  .spf-product-card {
+    max-height: 265px;
+}
+  .spf-product-card__vendor a {
+    font-size: 8px !important;
+    margin-bottom: 5px;
+}
   .card:not(.ratio)>.card__content {
     grid-template-rows: none !important;
 }
