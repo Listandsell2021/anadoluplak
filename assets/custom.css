@@ -641,7 +641,7 @@ margin-top:0.7rem;
 .gf-option-box li button span, html.gf-theme-version-15.spf-has-filter .gf-option-block ul li button span.gf-count{
   font-size: 14px !important;
   color:#000 !important;
-  font-weight: 400;
+  font-weight: 100;
   opacity: 1 !important;
 }
 .gf-theme-version-15.spf-has-filter .gf-option-block .gf-Checkbox {
@@ -665,7 +665,7 @@ html.gf-theme-version-15.spf-has-filter .checked .gf-Checkbox{
 html.gf-theme-version-15.spf-has-filter .gf-filter-selection label, 
 html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-theme-version-15.spf-has-filter .gf-actions .gf-summary{
       font-size: 14px !important;
-    font-weight: 400;
+    font-weight: 100;
     color: #000 !important;
 }
 .gf-actions .gf-summary{
