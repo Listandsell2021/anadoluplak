@@ -135,6 +135,19 @@ a {
         margin: 0;
         justify-content: flex-start;
 }
+.topbar_right {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    align-items: center;
+}
+.topbarMenu ul.announcement-bar__menu{
+      padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
 .topHeader {
   background: var(--primary-color);
 }
