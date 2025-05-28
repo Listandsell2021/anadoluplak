@@ -984,6 +984,8 @@ ul.product-grid{margin-bottom: 0;}
   .viewallBtn a{font-size: 14px;}
   .collection {
   padding-top: 30px !important;
+    padding-left: 15px;
+    padding-right: 15px;
 }
   .menu-drawer__account{
     font-size: 1.8rem !important;
