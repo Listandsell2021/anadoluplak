@@ -50,9 +50,9 @@
             </a>
           {%- endif -%}
         {%- endif -%}
-      {% if block.settings.anmenu %}
+        {% if section.block.settings.anmenu %}
         <ul class="announcement-menu">
-          {% for link in linklists[block.settings.anmenu].links %}
+          {% for link in linklists[section.block.settings.anmenu].links %}
             <li>
               <a href="{{ link.url }}">{{ link.title }}</a>
             </li>
