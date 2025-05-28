@@ -41,7 +41,7 @@
         "erscheinungsdatum_BQ9KEB": {
           "type": "erscheinungsdatum",
           "settings": {
-            "release_title": "Erscheinungs datum"
+            "release_title": "Erscheinungsdatum"
           }
         },
         "inventory_zHWmce": {
@@ -139,7 +139,6 @@
     },
     "ls_bestsellers_DfBcJ7": {
       "type": "ls_bestsellers",
-      "name": "Bestsellers",
       "settings": {
         "bestseller_title": "Bestsellers",
         "bestseller_collection": "bestseller",
