@@ -18,7 +18,8 @@
           "type": "announcement",
           "settings": {
             "text": "Kostenloser Versand für Einkäufe von 50€ oder mehr!",
-            "link": ""
+            "link": "",
+            "anmenu": "announcement-menu"
           }
         }
       },
