@@ -772,7 +772,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
         width: 100% !important;
     } */
 .footer__copyright * {
-    font-size: 15px !important;
+    font-size: 16px !important;
     color: #fff;
     font-weight: 100;
 }
@@ -790,15 +790,15 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   background: transparent !important;
     border: 0;
     color: #fff !important;
-      font-size: 15px !important;
+      font-size: 16px !important;
   font-weight: 100;
       padding-right: 35px !important;
 }
 .footer__content-bottom .footer__content-bottom-wrapper:first-child{
-  max-width: 20%;
+  max-width: 15%;
 }
 .footer__content-bottom .footer__content-bottom-wrapper{
-  max-width: 80%;
+  max-width: 85%;
   width:100%;
 }
     .footer__content-bottom-wrapper:not(.footer__content-bottom-wrapper--center) .footer__copyright {
