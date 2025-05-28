@@ -122,6 +122,9 @@ a {
 }
 
 /******************HEADER*************/
+.utility-bar--bottom-border.header-localization .utility-bar__grid{
+          grid-template-columns: repeat(2, 1fr);
+}
 .topHeader {
   background: var(--primary-color);
 }
