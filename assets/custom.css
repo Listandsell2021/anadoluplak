@@ -235,6 +235,12 @@ a {
         width: 100% !important;
         max-width: 25% ;
     }
+.slider--desktop.grid--4-col-desktop .grid__item:first-child{
+  padding-left: 0;
+}
+.slider--desktop.grid--4-col-desktop .grid__item:last-child{
+  padding-right: 0;
+}
 .collection {
   padding-top: 50px !important;
 }
