@@ -34,7 +34,7 @@
 @font-face {
   font-family: 'PangeaAfrikanTrial';
   src: url('https://cdn.shopify.com/s/files/1/0948/5051/5273/files/PangeaAfrikanTrial-Medium.woff2?v=1748356424') format('woff2');
-  font-weight: 400; /* Typically 400 for regular italic */
+  font-weight: 300; /* Typically 400 for regular italic */
   font-style: normal;
   font-display: swap;
 }
