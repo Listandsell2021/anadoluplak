@@ -137,7 +137,7 @@ a {
 }
 .topbar_right {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     justify-content: end;
     align-items: center;
 }
