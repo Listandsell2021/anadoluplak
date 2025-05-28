@@ -114,7 +114,6 @@
         "gallery_image_9Mgm3z",
         "gallery_image_C8qVdA"
       ],
-      "name": "heroslider",
       "settings": {
         "custom_text_title": ""
       }
@@ -149,7 +148,6 @@
     },
     "featured_collection_KAPFar": {
       "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "pop",
         "products_to_show": 10,
@@ -206,7 +204,6 @@
         "featured_collection_RyKtEF",
         "featured_collection_rXQYNC"
       ],
-      "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "Im Fokus",
         "heading_size": "h1",
@@ -270,7 +267,6 @@
     },
     "featured_collection_gTVNC4": {
       "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "pop",
         "products_to_show": 10,
@@ -366,9 +362,9 @@
         "collapsible_row_eUxFqe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Wie erkenne ich, ob eine Platte original oder nachgepresst ist?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Wir geben das bei jedem Artikel transparent an. Wenn es sich um eine Reissue oder Nachpressung handelt, steht das klar dabei – samt Jahr und Labelinfo. Keine Tricks, kein Ratespiel.<br/><br/></p>",
             "page": ""
           }
         }
@@ -383,7 +379,6 @@
         "collapsible_row_KcDWWR",
         "collapsible_row_eUxFqe"
       ],
-      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
         "heading": "FAQ",
@@ -441,7 +436,6 @@
         "schallplatten_box_AkhgTC",
         "schallplatten_box_U3z9qC"
       ],
-      "name": "Schallplatten Info Section",
       "settings": {
         "Schallplatten_main_heading": "Türkische Schallplatten & CDs – mit Herz ausgewählt",
         "Schallplatten_intro_paragraph_1": "Willkommen bei Anadoluplak – Ihrem Online-Shop für türkische Schallplatten und CDs. Ob Anatolischer Rock aus den 70ern, arabeskes Herzschmerz-Drama oder moderne Sounds aus Istanbul: Unsere Auswahl ist persönlich kuratiert, vielseitig und tief verwurzelt in einer Klangkultur, die mehr sagt als Worte je könnten.",
