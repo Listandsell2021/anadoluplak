@@ -641,7 +641,7 @@ margin-top:0.7rem;
 .gf-option-box li button span, html.gf-theme-version-15.spf-has-filter .gf-option-block ul li button span.gf-count{
   font-size: 14px !important;
   color:#000 !important;
-  font-weight: 100;
+  font-weight: 100 !important;
   opacity: 1 !important;
 }
 .gf-theme-version-15.spf-has-filter .gf-option-block .gf-Checkbox {
