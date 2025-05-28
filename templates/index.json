@@ -252,14 +252,14 @@
           "type": "heading",
           "settings": {
             "heading": "Feine Auswahl. Faire Preise.",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "text_7ngyFh": {
           "type": "text",
           "settings": {
             "text": "Jetzt Vinyl-Schätze zum Schnäppchenpreis sichern!",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button": {
