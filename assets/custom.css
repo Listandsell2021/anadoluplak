@@ -281,7 +281,7 @@ a {
   padding: 0;
 }
 
-.product-card-wrapper.card-wrapper>.card .card__information .price-item {
+.product-card-wrapper.card-wrapper>.card .card__information .price-item, .spf-product__info .spf-product-card__price {
   font-size: 18px;
   font-weight: 500;
   color: #000;
