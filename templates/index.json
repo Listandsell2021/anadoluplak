@@ -219,9 +219,8 @@
     },
     "featured_collection_3kLqtf": {
       "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "orchestra-muzik",
+        "collection": "ozgun-muzik",
         "products_to_show": 4,
         "title": "Wieder auf Lager",
         "heading_size": "h1",
