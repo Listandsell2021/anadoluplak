@@ -795,10 +795,10 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
       padding-right: 35px !important;
 }
 .footer__content-bottom .footer__content-bottom-wrapper:first-child{
-  max-width: 80%;
+  max-width: 20%;
 }
 .footer__content-bottom .footer__content-bottom-wrapper{
-  max-width: 20%;
+  max-width: 80%;
   width:100%;
 }
 .disclosure__button.localization-form__select::after{display: none;}
