@@ -638,6 +638,9 @@ margin-top:0.7rem;
 .gf-filter-contents .gf-block-content .gf-scroll::-webkit-scrollbar-thumb:hover {
   background: #D9D9D9;
 }
+html.gf-theme-version-15.spf-has-filter .gf-option-block ul li button{
+  text-decoration: none !important;
+}
 .gf-option-box li button span, html.gf-theme-version-15.spf-has-filter .gf-option-block ul li button span.gf-count{
   font-size: 14px !important;
   color:#000 !important;
