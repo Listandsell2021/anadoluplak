@@ -125,6 +125,16 @@ a {
 .utility-bar--bottom-border.header-localization .utility-bar__grid{
           grid-template-columns: repeat(2, 1fr);
 }
+.topbarAnnouncement .announcement-bar .announcement-bar__message{
+      font-size: 16px;
+    font-weight: 100;
+    color: #000;
+}
+.topbarAnnouncement .announcement-bar{
+          width: 100%;
+        margin: 0;
+        justify-content: flex-start;
+}
 .topHeader {
   background: var(--primary-color);
 }
