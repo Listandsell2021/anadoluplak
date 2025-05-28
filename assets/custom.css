@@ -703,6 +703,14 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     border-radius: 5px;
 }
 .spf-product-card__price-wrapper{margin-top: .7rem;}
+.spf-product__form button.spf-product__form-btn-addtocart {
+    border-radius: 5px;
+    height: 45px;
+    background: #c47959 !important;
+    border: 0 !important;
+    font-size: 16px;
+    font-weight: unset;
+}
 /*****************************/
 .footer {
   background: var(--primary-color);
