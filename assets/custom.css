@@ -794,8 +794,11 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   font-weight: 400;
       padding-right: 35px !important;
 }
-.footer__content-bottom-wrapper{
-  max-width: 50%;
+.footer__content-bottom .footer__content-bottom-wrapper:first-child{
+  max-width: 80%;
+}
+.footer__content-bottom .footer__content-bottom-wrapper{
+  max-width: 20%;
   width:100%;
 }
 .disclosure__button.localization-form__select::after{display: none;}
