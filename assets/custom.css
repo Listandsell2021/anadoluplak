@@ -893,6 +893,30 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   } */
 ul.product-grid{margin-bottom: 0;}
 @media (max-width: 767.9px) {
+  .footer__content-bottom-wrapper:not(.footer__content-bottom-wrapper--center) .footer__copyright {
+    text-align: center;
+}
+  .footer__localization {
+    padding: 0;
+}
+  disclosure__button.localization-form__select {
+    font-size: 12px !important;
+}
+  .policies {
+    display: block;
+    margin-left: -5px;
+    text-align: center;
+}
+
+.footer__copyright * {
+    font-size: 12px !important;
+}
+  .policies li:before {
+    padding: 0 .5rem;
+}
+  .policies li a {
+    padding: .1rem 0;
+  }
   .topbarAnnouncement .announcement-bar .announcement-bar__message {
     font-size: 10px;
   }
