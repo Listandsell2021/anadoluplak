@@ -906,7 +906,7 @@ ul.product-grid{margin-bottom: 0;}
   .footer__localization {
     padding: 0;
 }
- #FooterLanguageLabel .disclosure .localization-form__select {
+ #FooterLanguageLabel .disclosure__button.localization-form__select {
     font-size: 12px !important;
 }
   .policies {
