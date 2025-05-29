@@ -581,11 +581,13 @@ margin-top:0.7rem;
     margin-bottom: 0 !important;
 }
 .product__inventory{
-    display: inline-flex;
+   display: inline-flex !important
+;
     background: #fef5eb;
-    gap: 10px;
-  color: var(--secondary-color);
-  font-weight: 400;
+    gap: 10px !important;
+    color: var(--secondary-color);
+    font-weight: 300;
+    padding: 15px;
 }
 .product__tax {
     margin-top: -2.4rem;
