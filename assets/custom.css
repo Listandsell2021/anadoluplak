@@ -1354,6 +1354,11 @@ ul.product-grid{margin-bottom: 0;}
   }
 }
 
+@media (min-width: 1024.9px) and (max-width:1199.9px) {
+  .footer__copyright * {
+    font-size: 12px !important;
+  }
+}
 @media (min-width: 990px) and (max-width:1024.9px) {
    .product-card-wrapper.card-wrapper>.card .card__inner, .product-card-wrapper.card-wrapper>.card .card__inner .card__media img {
     height: 150px;
