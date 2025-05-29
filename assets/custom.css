@@ -616,7 +616,7 @@ margin-top:0.7rem;
 /*****************************/
 .active-facets, .facets__summary .icon{display:none !important;}
 .facets__disclosure-vertical{border:0 !important;}
-.gf-filter-contents .gf-option-block .gf-block-title .h3 span, .facets__summary .facets__summary-label{
+.gf-filter-contents .gf-option-block .gf-block-title .h3 span, .facets__summary > span{
   font-size: 20px !important;
   font-weight: 500 !important;
   color:#000 !important;
