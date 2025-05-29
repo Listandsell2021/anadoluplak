@@ -906,7 +906,7 @@ ul.product-grid{margin-bottom: 0;}
   .footer__localization {
     padding: 0;
 }
-  disclosure__button.localization-form__select span{
+ #FooterLanguageLabel disclosure__button.localization-form__select {
     font-size: 12px !important;
 }
   .policies {
@@ -922,7 +922,7 @@ ul.product-grid{margin-bottom: 0;}
     padding: 0 .5rem;
 }
   .policies li a {
-    padding: .1rem 0;
+    padding: .1rem 0 !important;
   }
   .topbarAnnouncement .announcement-bar .announcement-bar__message {
     font-size: 10px;
