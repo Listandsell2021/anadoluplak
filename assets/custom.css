@@ -910,7 +910,7 @@ ul.product-grid{margin-bottom: 0;}
     font-size: 12px !important;
 }
   .policies {
-    display: block;
+    display: block !important;
     margin-left: -5px;
     text-align: center;
 }
