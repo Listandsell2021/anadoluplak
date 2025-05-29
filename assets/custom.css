@@ -581,8 +581,7 @@ margin-top:0.7rem;
     margin-bottom: 0 !important;
 }
 .product__inventory{
-   display: inline-flex !important
-;
+   display: inline-flex !important;
     background: #fef5eb;
     gap: 10px !important;
     color: var(--secondary-color);
