@@ -572,6 +572,12 @@ margin-top:0.7rem;
   margin-bottom: 0;
 }
 /*****************************/
+.product-release-date strong{min-width:100px;}
+.product-release-date {
+    background: #F7F7F7;
+    padding: 15px;
+    margin-bottom: 0 !important;
+}
 .product__tax {
     margin-top: -2.4rem;
     font-size: 14px;
