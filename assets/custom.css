@@ -578,13 +578,15 @@ margin-top:0.7rem;
     background: #fff;
     padding: 15px;
     margin: 0 !important;
+  color: #000;
 }
-.product__sku .sku-txt{min-width:50%;}
+.product__sku .sku-txt{min-width:50%;font-weight: bolder;}
 .product-release-date strong{min-width:50%;}
 .product-release-date {
   display: flex;
     align-items: center;
     background: #F7F7F7;
+  color: #000;
     padding: 15px;
     margin-bottom: 0 !important;
 }
