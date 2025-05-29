@@ -893,6 +893,18 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   } */
 ul.product-grid{margin-bottom: 0;}
 @media (max-width: 767.9px) {
+  .topbarAnnouncement .announcement-bar .announcement-bar__message {
+    font-size: 10px;
+  }
+  .topbarAnnouncement .announcement-bar {
+    justify-content: center;
+}
+  .utility-bar--bottom-border.header-localization .utility-bar__grid {
+    grid-template-columns: repeat(1, 1fr);
+        padding-left: 1rem;
+    padding-right: 1rem;
+}
+  .topbar_right{display:none;}
   .collection-hero {
     max-height: 200px;
 }
