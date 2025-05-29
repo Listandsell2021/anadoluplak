@@ -1354,7 +1354,7 @@ ul.product-grid{margin-bottom: 0;}
   }
 }
 
-@media (min-width: 1024px) and (max-width:1199.9px) {
+@media (min-width: 1024px) and (max-width:1234.9px) {
   .footer__list-social li.list-social__item a {
     padding: 0 15px;
 }
