@@ -572,6 +572,27 @@ margin-top:0.7rem;
   margin-bottom: 0;
 }
 /*****************************/
+.product__tax {
+    margin-top: -2.4rem;
+    font-size: 14px;
+    color: #000;
+}
+.price__regular .price-item--regular {
+    margin-right: 0;
+    font-size: 36px;
+    font-weight: 600;
+    color: #C47959;
+}
+.product__title h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+p.product__text {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 10px;
+}
 .product__media-wrapper ul.product__media-list .product__media-item.is-active{
   width: 100%;
   max-width: 100% !important;
