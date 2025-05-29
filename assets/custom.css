@@ -1354,7 +1354,7 @@ ul.product-grid{margin-bottom: 0;}
   }
 }
 
-@media (min-width: 1024.9px) and (max-width:1199.9px) {
+@media (min-width: 1024.1px) and (max-width:1199.9px) {
   .footer__copyright * {
     font-size: 12px !important;
   }
