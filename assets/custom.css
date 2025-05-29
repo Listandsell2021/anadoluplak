@@ -550,7 +550,7 @@ a {
 }
 .bestsellers-slider .product-card > a p.font-semibold{
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 100;
     color: #000;
     overflow: hidden;
     display: -webkit-box;
