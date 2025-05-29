@@ -1358,6 +1358,9 @@ ul.product-grid{margin-bottom: 0;}
   .footer__copyright * {
     font-size: 12px !important;
   }
+  .disclosure__button.localization-form__select {
+    font-size: 12px !important;
+}
 }
 @media (min-width: 990px) and (max-width:1024.9px) {
    .product-card-wrapper.card-wrapper>.card .card__inner, .product-card-wrapper.card-wrapper>.card .card__inner .card__media img {
