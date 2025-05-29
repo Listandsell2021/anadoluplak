@@ -581,8 +581,8 @@ margin-top:0.7rem;
   color: #000;
 }
 .product__sku .sku-txt{min-width:50%;font-weight: bolder;}
-.product-release-date strong{min-width:50%;}
-.product-release-date {
+.product-release-date strong, .productBarcode strong{min-width:50%;}
+.product-release-date, .productBarcode {
   display: flex;
     align-items: center;
     background: #F7F7F7;
