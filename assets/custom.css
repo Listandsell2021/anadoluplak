@@ -893,6 +893,9 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   } */
 ul.product-grid{margin-bottom: 0;}
 @media (max-width: 767.9px) {
+  .footer__content-bottom .footer__content-bottom-wrapper, .footer__content-bottom .footer__content-bottom-wrapper:first-child {
+    max-width: 100%;
+  }
   .footer__content-bottom-wrapper:not(.footer__content-bottom-wrapper--center) .footer__copyright {
     text-align: center;
 }
