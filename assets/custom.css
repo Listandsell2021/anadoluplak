@@ -909,19 +909,20 @@ ul.product-grid{margin-bottom: 0;}
  #FooterLanguageForm .disclosure__button.localization-form__select{
     font-size: 12px !important;
 }
-  .policies {
+  .footer__content-bottom .policies {
     display: block !important;
     margin-left: -5px;
+            margin-top: 5px;
     text-align: center;
 }
 
 .footer__copyright * {
     font-size: 12px !important;
 }
-  .policies li:before {
+  .footer__content-bottom .policies li:before {
     padding: 0 .5rem;
 }
-  .policies li a {
+  .footer__content-bottom .policies li a {
     padding: .1rem 0 !important;
   }
   .topbarAnnouncement .announcement-bar .announcement-bar__message {
