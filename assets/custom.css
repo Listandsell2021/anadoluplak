@@ -1197,7 +1197,9 @@ ul.product-grid{margin-bottom: 0;}
       .utility-bar .utility-bar__grid .list-social {
         display: flex;
     }
-
+.utility-bar--bottom-border.header-localization .utility-bar__grid {
+    align-items: baseline;
+}
 .topbarAnnouncement .announcement-bar .announcement-bar__message {
     font-size: 12px;
 }
