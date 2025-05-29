@@ -572,6 +572,14 @@ margin-top:0.7rem;
   margin-bottom: 0;
 }
 /*****************************/
+.product__sku{
+   display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+    margin: 0 !important;
+}
+.product__sku .sku-txt{min-width:50%;}
 .product-release-date strong{min-width:50%;}
 .product-release-date {
   display: flex;
