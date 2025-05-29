@@ -832,6 +832,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   background: var(--secondary-color);
     border-top: 0 !important;
     padding: 0rem 0 !important;
+  opacity: 1 !important;
 }
 .footer__localization > localization-form{
   width: 100%;
