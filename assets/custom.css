@@ -1194,6 +1194,10 @@ ul.product-grid{margin-bottom: 0;}
   .topbarMenu ul.announcement-bar__menu li a {
     font-size: 12px;
   }
+      .utility-bar .utility-bar__grid .list-social {
+        display: flex;
+    }
+
 .topbarAnnouncement .announcement-bar .announcement-bar__message {
     font-size: 12px;
 }
