@@ -578,6 +578,9 @@ margin-top:0.7rem;
     max-height: 100%;
     height: 100%;
 }
+.product__media-wrapper .product-media-container.media-type-image{
+  margin: 0 !important;
+}
 .product__media-wrapper ul.product__media-list .product__media-item {
     max-width: 24% !important;
     max-height: 120px;
@@ -585,6 +588,9 @@ margin-top:0.7rem;
     width: 100%;
       padding: 0;
     /* border: 1px solid #cecece; */
+}
+.thumbnail-list__item{
+  border: 1px solid #B3B3B3
 }
 .product-media-modal__content{
       padding: 0;
