@@ -949,7 +949,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   } */
 ul.product-grid{margin-bottom: 0;}
 @media (max-width: 767.9px) {
-  .ctaBanner .banner__content{margin-top: 30px;}
+  .ctaBanner.banner{margin-top: 30px;}
   .collection .slider.slider--tablet{padding-bottom: 1px;}
   .collection_details.collection{
     padding-left: 0 !important;
