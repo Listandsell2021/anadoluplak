@@ -1017,8 +1017,11 @@ ul.product-grid{margin-bottom: 0;}
   /* .product-card-wrapper.card-wrapper>.card {
   margin: 0 5px 1px;
 } */
-  .slider--desktop.grid--4-col-desktop .grid__item {
+  .slider--desktop.grid--4-col-desktop.slider .grid__item {
     max-width: 48%;
+  }
+  .slider--desktop.grid--4-col-desktop .grid__item {
+    max-width: 50%;
                padding: 0 3px;
 }
     .footer__content-bottom, .footer__content-bottom-wrapper{
