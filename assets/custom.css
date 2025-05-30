@@ -1022,7 +1022,7 @@ ul.product-grid{margin-bottom: 0;}
   }
   .slider--desktop.grid--4-col-desktop .grid__item {
     max-width: 50%;
-               padding: 0 3px;
+               padding: 0 5px;
 }
     .footer__content-bottom, .footer__content-bottom-wrapper{
     gap:0 !important;
