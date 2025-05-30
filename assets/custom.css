@@ -1016,7 +1016,8 @@ ul.product-grid{margin-bottom: 0;}
   margin: 0 5px 1px;
 } */
   .slider--desktop.grid--4-col-desktop .grid__item {
-    max-width: 50%;
+    max-width: 48%;
+               padding: 0 3px;
 }
     .footer__content-bottom, .footer__content-bottom-wrapper{
     gap:0 !important;
