@@ -1467,6 +1467,9 @@ ul.product-grid{margin-bottom: 0;}
     }
 }
 @media (min-width: 990px) and (max-width:1278.9px) {
+   .grid .grid__item {
+    padding: 0px 5px;
+}
     .slider-button--next {
     right: 0px !important;
 }
