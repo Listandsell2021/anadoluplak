@@ -830,6 +830,22 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 .quantity__button .svg-wrapper {
     width: 15px;
 }
+.product-form__buttons button.product-form__submit{
+  height: 60px;
+  border-radius: 5px;
+  font-size: 16px;
+  color:#fff;
+  font-weight: 300;
+  background:var(--secondary-color);
+}
+.product-form__buttons .shopify-payment-button{
+   height: 60px;
+  border-radius: 5px;
+  font-size: 16px;
+  color:#fff;
+  font-weight: 300;
+  background: #c6b378;
+}
 /*****************************/
 .footer {
   background: var(--primary-color);
