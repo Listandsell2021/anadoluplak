@@ -810,10 +810,12 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 }
 /*****************************/
 .product-form__quantity .quantity::after, .product-form__quantity .quantity::before{display:none;}
+.product-form__quantity{max-width: 50%;}
 .product-form__quantity .quantity{
   border: 1px solid #d2d2d2;
   border-radius: 5px;
   background:#F7F7F7;
+      width: 100%;
 }
 /*****************************/
 .footer {
