@@ -832,7 +832,8 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 }
 .product-form__buttons button.product-form__submit{
   height: 60px;
-  border-radius: 5px;
+  border:0;
+  border-radius: 5px !important;
   font-size: 16px;
   color:#fff;
   font-weight: 300;
@@ -840,7 +841,8 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 }
 .product-form__buttons .shopify-payment-button .shopify-payment-button__button{
    height: 60px;
-  border-radius: 5px;
+  border:0;
+  border-radius: 5px !important;
   font-size: 16px;
   color:#fff;
   font-weight: 300;
