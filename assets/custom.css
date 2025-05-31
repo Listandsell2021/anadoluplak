@@ -809,7 +809,9 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     max-height: 420px;
 }
 /*****************************/
-.product-form__quantity .quantity::after, .product-form__quantity .quantity::before, .product-form__quantity .quantity__label{display:none;}
+.product-form__quantity .quantity::after, .product-form__quantity .quantity::before, .product-form__quantity .quantity__label, .product-form__buttons button.product-form__submit::before, 
+.product-form__buttons button.product-form__submit::after{
+  display:none;}
 .product-form__quantity{max-width: 40% !important;}
 .product-form__quantity .quantity .quantity__button{
       min-width: 70px;
