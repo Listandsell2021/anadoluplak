@@ -809,6 +809,8 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     max-height: 420px;
 }
 /*****************************/
+.product-form__quantity .quantity::after, .product-form__quantity .quantity::before{display:none;}
+/*****************************/
 .footer {
   background: var(--primary-color);
   border: 0;
