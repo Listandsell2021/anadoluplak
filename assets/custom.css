@@ -810,7 +810,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 }
 /*****************************/
 .product-form__quantity .quantity::after, .product-form__quantity .quantity::before, .product-form__quantity .quantity__label, .product-form__buttons button.product-form__submit::before, 
-.product-form__buttons button.product-form__submit::after{
+.product-form__buttons button.product-form__submit::after, .product-form__buttons .shopify-payment-button .shopify-payment-button__button::before, .product-form__buttons .shopify-payment-button .shopify-payment-button__button::after{
   display:none;}
 .product-form__quantity{max-width: 40% !important;}
 .product-form__quantity .quantity .quantity__button{
