@@ -827,6 +827,9 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   background:#F7F7F7;
       width: 100%;
 }
+.quantity__button .svg-wrapper {
+    width: 15px;
+}
 /*****************************/
 .footer {
   background: var(--primary-color);
