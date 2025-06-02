@@ -848,6 +848,18 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     max-height: 420px;
 }
 /*****************************/
+.share-button__button svg{
+  min-width: 18px;
+}
+.share-button__button{
+      background: var(--secondary-color);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'PangeaAfrikanTrial';
+    font-weight: 100;
+}
 .rte li {
     list-style: inherit;
     color: #000;
