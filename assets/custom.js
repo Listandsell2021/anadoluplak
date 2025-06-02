@@ -36,8 +36,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 $(document).ready(function () {
   function loadCollectionContent(url, updateHistory = true) {
+    const ajaxUrl = url.includes('view=ajax')
+      ? url
+      : (url.includes('?') ? url + '&view=ajax' : url + '?view=ajax');
+
     $.ajax({
-      url: url.includes('?') ? url + '&view=ajax' : url + '?view=ajax',
+      url: ajaxUrl,
       type: 'GET',
       beforeSend: function () {
         $('#product-grid').html('<li>Loading...</li>');
@@ -50,7 +54,8 @@ $(document).ready(function () {
           $('#product-grid').html(newContent);
           if (updateHistory) {
             const cleanUrl = url.split('?')[0];
-            history.pushState(null, '', cleanUrl);
+            const query = url.includes('?') ? '?' + url.split('?')[1].replace('&view=ajax', '') : '';
+            history.pushState(null, '', cleanUrl + query);
           }
         } else {
           $('#product-grid').html('<li>No products found.</li>');
@@ -62,11 +67,11 @@ $(document).ready(function () {
     });
   }
 
-  // ✅ Collection links (sidebar)
+  // ✅ Handle collection filter link
   $('.collection-list__link').on('click', function (e) {
     e.preventDefault();
     const handle = $(this).data('handle');
-    const url = '/collections/' + handle;
+    const url = '/collections/' + handle + location.search; // keep query string
 
     $('.collection-list__item').removeClass('active');
     $(this).parent().addClass('active');
@@ -74,11 +79,20 @@ $(document).ready(function () {
     loadCollectionContent(url);
   });
 
-  // ✅ Pagination links (inside #product-grid)
+  // ✅ Handle pagination link
   $(document).on('click', '.pagination__item.link, .pagination__item-arrow.link', function (e) {
     e.preventDefault();
-    const url = $(this).attr('href');
-    if (url) loadCollectionContent(url, false); // Don't push history for pagination
+
+    // Merge clicked pagination URL with current filters
+    const clickedUrl = new URL($(this).attr('href'), window.location.origin);
+    const currentParams = new URLSearchParams(window.location.search);
+
+    // Combine current filters with new page param
+    clickedUrl.searchParams.forEach((value, key) => currentParams.set(key, value));
+
+    const finalUrl = clickedUrl.pathname + '?' + currentParams.toString();
+
+    loadCollectionContent(finalUrl, false); // don’t update full history for pagination
   });
 });
 
