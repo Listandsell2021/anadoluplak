@@ -141,19 +141,28 @@
                       <div>
                      <div class="collection-filters">
                         <div class="collection-list-wrapper">
-                         <h3 class="collection-list__title">Collections</h3>
-                         <ul class="collection-list">
-                          {% for collection in collections %}
-                          <li class="collection-list__item{% if collection.handle == current_collection.handle %} active{% endif %}">
-                           <a href="{{ collection.url }}" class="collection-list__link">
-                            {{ collection.title }}
-                         
-                            </a>
-                           </li>
-                          {% endfor %}
-                          </ul>
-                      </div>
-                       </div>
+                          <h3 class="collection-list__title">Collections</h3>
+                          <form id="collection-filter-form" method="get" action="">
+                            <ul class="collection-list">
+                              {% for collection in collections %}
+                                <li class="collection-list__item">
+                                  <label class="collection-list__checkbox">
+                                    <input
+                                      type="checkbox"
+                                      name="collection"
+                                      value="{{ collection.handle }}"
+                                      {% if collection.handle == current_collection.handle %}checked{% endif %}
+                                      onchange="document.getElementById('collection-filter-form').submit()"
+                                    >
+                                    {{ collection.title }}
+                                    <span class="collection-count">({{ collection.all_products_count }})</span>
+                                  </label>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          </form>
+                        </div>
+                    </div>
                         <span class="facets__summary-label">
                           {{- filter.label | escape }}
                           {%- if filter_type == 'vertical' -%}
