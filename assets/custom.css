@@ -639,6 +639,9 @@ p.product__text {
 .thumbnail-list__item{
   border: 1px solid #B3B3B3
 }
+.thumbnail{
+      border-color: #B3B3B3;
+}
 .product-media-modal__content{
       padding: 0;
     display: flex;
