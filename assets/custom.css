@@ -677,6 +677,10 @@ p.product__text {
       text-transform: capitalize;
   text-decoration: none !important;
 }
+.facets__selected{
+  font-size: 16px;
+    color: #000;
+}
 .gf-filter-contents .gf-option-block .gf-block-title .h3{
       display: flex;
     align-items: center;
