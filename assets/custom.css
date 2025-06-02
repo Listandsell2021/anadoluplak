@@ -642,6 +642,11 @@ p.product__text {
 .thumbnail{
       border-color: #B3B3B3;
 }
+.thumbnail[aria-current] {
+    box-shadow: none;
+    border-color: #B3B3B3;
+}
+
 .product-media-modal__content{
       padding: 0;
     display: flex;
