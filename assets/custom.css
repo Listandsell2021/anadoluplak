@@ -1150,6 +1150,9 @@ ul.product-grid{margin-bottom: 0;}
     max-width: 100% !important;
     width: 100%;
 }
+  .product-form__quantity .quantity .quantity__input, .product-form__buttons button.product-form__submit {
+    height: 50px;
+}
   .ctaBanner.banner{margin-top: 30px;}
   .collection .slider.slider--tablet{padding-bottom: 1px;}
   .collection_details.collection{
