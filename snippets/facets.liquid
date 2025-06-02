@@ -139,6 +139,7 @@
                       aria-label="{{ filter.label | escape }} ({{ 'products.facets.filters_selected.one' | t: count: filter.active_values.size }})"
                     >
                       <div>
+                <p>Current collection: {{ current_collection.handle }}</p>
                     <div class="collection-filters">
                         <div class="collection-list-wrapper">
                           <h3 class="collection-list__title">Collections</h3>
