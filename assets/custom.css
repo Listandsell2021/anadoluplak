@@ -687,6 +687,7 @@ p.product__text {
   font-weight: 500 !important;
   color:#000 !important;
       text-transform: capitalize;
+  margin-bottom: 5px !important;
   text-decoration: none !important;
 }
 .facets__selected{
