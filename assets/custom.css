@@ -1124,7 +1124,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 ul.product-grid{margin-bottom: 0;}
 @media (max-width: 767.9px) {
   .comn-inventry {
-    margin-top: 0;
+    margin-top: 0 !important;
 }
   .product__title h1 {
     font-size: 22px;
