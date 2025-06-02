@@ -145,8 +145,8 @@
                             <ul class="collection-list">
                               {% assign current_handle = collection.handle %}
                               {% for collection in collections %}
-                                <li class="collection-list__item{% if collection.handle == current_handle %} active{% endif %}">
-                                  <a href="{{ collection.url }}" class="collection-list__link">
+                               <li class="collection-list__item{% if collection.handle == current_handle %} active{% endif %}">
+                                  <a href="{{ collection.url }}" class="collection-list__link" data-handle="{{ collection.handle }}">
                                     {{ collection.title }}
                                   </a>
                                 </li>
