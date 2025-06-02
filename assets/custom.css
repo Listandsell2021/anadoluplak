@@ -740,6 +740,7 @@ p.product__text {
     width: 75% !important;
 }
 .facets__summary{padding:0 !important;}
+.facets__summary-label{margin-top:30px;}
 .collection-list.sidebarBox{list-style: none;}
 .sidebarBox .collection-list__item {
   padding: 1rem 2rem 1rem 0;
