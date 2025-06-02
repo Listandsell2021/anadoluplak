@@ -33,9 +33,33 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       ]
     });
-
   });
+  $(document).ready(function() {
+    $('.collection-list__link').on('click', function(e) {
+      e.preventDefault();
 
+      var handle = $(this).data('handle');
+      var url = '/collections/' + handle + '?view=ajax';
+
+      $('.collection-list__item').removeClass('active');
+      $(this).parent().addClass('active');
+
+      $.ajax({
+        url: url,
+        type: 'GET',
+        beforeSend: function() {
+          $('#products-container').html('<p>Loading...</p>');
+        },
+        success: function(data) {
+          $('#product-grid').html(data);
+          history.pushState(null, '', '/collections/' + handle);
+        },
+        error: function() {
+          $('#product-grid').html('<p>Error loading products.</p>');
+        }
+      });
+    });
+  });
 
 
 
