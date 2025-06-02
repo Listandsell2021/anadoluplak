@@ -848,6 +848,11 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     max-height: 420px;
 }
 /*****************************/
+.rte li {
+    list-style: inherit;
+    color: #000;
+    font-size: 16px;
+}
 .product-form__input.product-form__quantity{
       max-width: 48% !important;
     display: inline-block;
