@@ -56,21 +56,6 @@
             {% comment %} Pills are right below the title for filter type vertical {% endcomment %}
             {%- if filter_type == 'vertical' -%}
               <div class="active-facets active-facets-desktop">
-                <div class="collection-filters">
-                  <div class="collection-list-wrapper">
-                    <h3 class="collection-list__title">Collections</h3>
-                    <ul class="collection-list">
-                      {% for collection in collections %}
-                        <li class="collection-list__item{% if collection.handle == current_collection.handle %} active{% endif %}">
-                          <a href="{{ collection.url }}" class="collection-list__link">
-                            {{ collection.title }}
-                            <span class="collection-count">({{ collection.all_products_count }})</span>
-                          </a>
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  </div>
-               </div>
                 <div class="active-facets-vertical-filter">
                   {%- unless results.filters == empty -%}
                     <h2
@@ -87,6 +72,21 @@
                     </a>
                   </facet-remove>
                 </div>
+                  <div class="collection-filters">
+                  <div class="collection-list-wrapper">
+                    <h3 class="collection-list__title">Collections</h3>
+                    <ul class="collection-list">
+                      {% for collection in collections %}
+                        <li class="collection-list__item{% if collection.handle == current_collection.handle %} active{% endif %}">
+                          <a href="{{ collection.url }}" class="collection-list__link">
+                            {{ collection.title }}
+                            <span class="collection-count">({{ collection.all_products_count }})</span>
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+               </div>
                 {%- for filter in results.filters -%}
                   {%- for value in filter.active_values -%}
                     <facet-remove>
