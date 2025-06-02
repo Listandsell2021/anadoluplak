@@ -1470,7 +1470,7 @@ ul.product-grid{margin-bottom: 0;}
 
 @media (min-width: 768px) and (max-width:989.9px) {
       .slider--desktop.grid--4-col-desktop .grid__item {
-        padding: 0 5px;
+        padding: 0 4px;
     }
   .grid .grid__item {
     padding: 0px 5px;
