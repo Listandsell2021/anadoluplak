@@ -739,28 +739,28 @@ p.product__text {
 .gf-left #gf-tree:not(.spf-hidden) + #gf-grid {
     width: 75% !important;
 }
-.gf-filter-contents .gf-block-content .gf-scroll, .facets__display-vertical{
+.gf-filter-contents .gf-block-content .gf-scroll, .sidebarBox{
   border: 1px solid #eee;
   padding:10px 15px !important;
       max-height: 395px;
     overflow-y: scroll !important;
 }
-.gf-filter-contents .gf-block-content .gf-scroll::-webkit-scrollbar, .facets__display-vertical::-webkit-scrollbar {
+.gf-filter-contents .gf-block-content .gf-scroll::-webkit-scrollbar, .sidebarBox::-webkit-scrollbar {
   width: 10px !important;
 }
 
 /* Track */
-.gf-filter-contents .gf-block-content .gf-scroll::-webkit-scrollbar-track, .facets__display-vertical::-webkit-scrollbar-track {
+.gf-filter-contents .gf-block-content .gf-scroll::-webkit-scrollbar-track, .sidebarBox::-webkit-scrollbar-track {
   background: #F5F5F5;
 }
 
 /* Handle */
-.gf-filter-contents .gf-block-content .gf-scroll::-webkit-scrollbar-thumb, .facets__display-vertical::-webkit-scrollbar-thumb {
+.gf-filter-contents .gf-block-content .gf-scroll::-webkit-scrollbar-thumb, .sidebarBox::-webkit-scrollbar-thumb {
   background:#D9D9D9;
 }
 
 /* Handle on hover */
-.gf-filter-contents .gf-block-content .gf-scroll::-webkit-scrollbar-thumb:hover, .facets__display-vertical::-webkit-scrollbar-thumb:hover {
+.gf-filter-contents .gf-block-content .gf-scroll::-webkit-scrollbar-thumb:hover, .sidebarBox::-webkit-scrollbar-thumb:hover {
   background: #D9D9D9;
 }
 html.gf-theme-version-15.spf-has-filter .gf-option-block ul li button{
