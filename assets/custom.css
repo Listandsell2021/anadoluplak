@@ -849,7 +849,8 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 }
 /*****************************/
 .share-button__button svg{
-  min-width: 18px !important;
+      min-width: 16px !important;
+    height: 16px !important;
 }
 .share-button__button{
       background: var(--secondary-color);
