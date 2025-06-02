@@ -681,6 +681,14 @@ p.product__text {
   font-size: 16px;
     color: #000;
 }
+.facets-layout .list-menu__item .facets__label.facet-checkbox svg{
+      color: #c1c1c1;
+    border-radius: 2px;
+    background: transparent;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    stroke-linecap: round;
+}
 .gf-filter-contents .gf-option-block .gf-block-title .h3{
       display: flex;
     align-items: center;
