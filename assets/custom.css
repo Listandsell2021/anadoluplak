@@ -661,7 +661,7 @@ p.product__text {
   height: 100%;
 }
 .product__info-container .product-form, .product__info-container .product__description, .product__info-container .icon-with-text {
-    margin: 0;
+    margin: 0 !important;
 }
 .product-media-modal__dialog .global-media-settings--no-shadow{display: none !important;}
 .product-media-modal__dialog .global-media-settings--no-shadow.active{
