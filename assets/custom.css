@@ -982,6 +982,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 .shopify-policy__container *{color:#000;font-weight: 100;}
 .shopify-policy__container strong > strong{font-weight: 400;}
 .shopify-policy__title{text-align:start;}
+.shopify-policy__title h1{font-weight: 400;}
 /*****************************/
 .footer {
   background: var(--primary-color);
