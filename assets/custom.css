@@ -20,7 +20,9 @@ h1,h2,h3,h4,h5,h6{
 a {
   text-decoration: none !important;
 }
-
+.shopify-policy__container{
+  max-width: var(--page-width) !important;
+}
 .titleBtn {
   display: grid;
   grid-template-columns: 8fr 1fr;
