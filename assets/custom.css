@@ -740,7 +740,7 @@ p.product__text {
     width: 75% !important;
 }
 .facets__summary{padding:0 !important;}
-.facets__summary-label{margin-top:30px !important;}
+.facets__summary{margin-top:30px !important;}
 .collection-list.sidebarBox{list-style: none;}
 .sidebarBox .collection-list__item {
   padding: 1rem 2rem 1rem 0;
@@ -773,7 +773,7 @@ p.product__text {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.facets__disclosure-vertical{margin-bottom: 30px !important;}
+/* .facets__disclosure-vertical{margin-bottom: 30px !important;} */
 .gf-filter-contents .gf-block-content .gf-scroll, .sidebarBox{
   border: 1px solid #eee;
   padding:10px 15px !important;
