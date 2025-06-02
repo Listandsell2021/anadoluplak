@@ -1147,7 +1147,7 @@ ul.product-grid{margin-bottom: 0;}
 }
   .product_formls, .product-form__input.product-form__quantity {
     margin-right: 0;
-    max-width: 100%;
+    max-width: 100% !important;
     width: 100%;
 }
   .ctaBanner.banner{margin-top: 30px;}
