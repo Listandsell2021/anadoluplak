@@ -1145,6 +1145,11 @@ ul.product-grid{margin-bottom: 0;}
     max-height: 250px;
     min-height: 250px;
 }
+  .product_formls, .product-form__input.product-form__quantity {
+    margin-right: 0;
+    max-width: 100%;
+    width: 100%;
+}
   .ctaBanner.banner{margin-top: 30px;}
   .collection .slider.slider--tablet{padding-bottom: 1px;}
   .collection_details.collection{
