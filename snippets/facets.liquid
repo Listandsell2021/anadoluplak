@@ -311,29 +311,7 @@
                     </ul>
                   </div>
                </div>
-        <div class="filter-tags-wrapper">
-      {%- for filter in results.filters -%}
-        {%- case filter.type -%}
-          {%- when 'list' -%}
-            <div class="filter-group">
-              <h4 class="filter-group__title">{{ filter.label | escape }}</h4>
-              <ul class="filter-tags">
-                {%- for value in filter.values -%}
-                  <li class="filter-tag{% if value.active %} active{% endif %}{% if value.count == 0 and value.active == false %} disabled{% endif %}">
-                    <a href="{{ value.url_to_remove }}" class="filter-tag__remove" tabindex="-1">
-                      &times;
-                    </a>
-                    <a href="{{ value.url }}" class="filter-tag__link">
-                      {{ value.label | escape }}
-                      <span class="filter-tag__count">({{ value.count }})</span>
-                    </a>
-                  </li>
-                {%- endfor -%}
-              </ul>
-            </div>
-          {%- endcase -%}
-          {%- endfor -%}
-          </div>
+   
                 {% when 'price_range' %}
                   <details
                     id="Details-{{ filter.param_name | escape }}-{{ section.id }}"
