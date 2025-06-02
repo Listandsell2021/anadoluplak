@@ -773,6 +773,7 @@ p.product__text {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.facets__disclosure-vertical{margin-bottom: 30px !important;}
 .gf-filter-contents .gf-block-content .gf-scroll, .sidebarBox{
   border: 1px solid #eee;
   padding:10px 15px !important;
