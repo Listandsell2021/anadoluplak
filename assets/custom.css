@@ -750,12 +750,14 @@ p.product__text {
   position:relative;
 }
 .sidebarBox .collection-list__item a::before{
-  content:"";
-  border:1px solid #c1c1c1;
-  border-radius: 2px;
-  width: 16px;
-  height: 16px;
-  background: #fff;
+     content: "";
+    border: 1.5px solid #c1c1c1;
+    border-radius: 2px;
+    margin-right: 1.2rem;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    display: inline-block;
 }
 .sidebarBox .collection-list__item a::after{
   content:"";
