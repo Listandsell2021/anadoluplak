@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         url: url,
         type: 'GET',
         beforeSend: function() {
-          $('#products-container').html('<p>Loading...</p>');
+          $('#product-grid').html('<p>Loading...</p>');
         },
         success: function(data) {
           $('#product-grid').html(data);
