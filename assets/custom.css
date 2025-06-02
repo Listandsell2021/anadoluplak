@@ -1133,7 +1133,7 @@ ul.product-grid{margin-bottom: 0;}
     margin-right: 0;
     font-size: 30px;
   }
-  .product-release-date, .productBarcode, .product__sku {
+  .product-release-date, .productBarcode, .product__sku, .product__inventory {
     padding: 10px;
     font-size: 14px;
 }
