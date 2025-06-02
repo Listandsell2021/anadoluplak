@@ -975,6 +975,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   background: #c6b378;
 }
 /*****************************/
+.shopify-policy__container *{color:#000;}
 .shopify-policy__title{text-align:start;}
 /*****************************/
 .footer {
