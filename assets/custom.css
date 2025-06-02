@@ -1371,6 +1371,7 @@ ul.product-grid{margin-bottom: 0;}
   .product-card-wrapper.card-wrapper>.card, .bestsellers-slider .product-card > a, .spf-product-card {
     padding: 5px;
 }
+  .pymnt-icn-single{width:100%;}
   .related-products__heading {
     margin: 0 0 0rem 0px !important;
 }
