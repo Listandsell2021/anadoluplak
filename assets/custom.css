@@ -739,6 +739,7 @@ p.product__text {
 .gf-left #gf-tree:not(.spf-hidden) + #gf-grid {
     width: 75% !important;
 }
+.facets__summary{padding:0 !important;}
 .gf-filter-contents .gf-block-content .gf-scroll, .sidebarBox{
   border: 1px solid #eee;
   padding:10px 15px !important;
