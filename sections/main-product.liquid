@@ -238,7 +238,7 @@
                     </div>
                   </details>
                 </div>
-               <div class="quantity-pricecmn">
+
               {%- when 'quantity_selector' -%}
                 <div
                   id="Quantity-Form-{{ section.id }}"
@@ -497,7 +497,7 @@
                   section_id: section.id,
                   show_pickup_availability: true
                 -%}
-              </div>
+      
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class="rating-wrapper">
