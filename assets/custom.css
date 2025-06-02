@@ -667,7 +667,7 @@ p.product__text {
 }
 .product-media-modal__dialog .global-media-settings--no-shadow{display: none !important;}
 .product-media-modal__dialog .global-media-settings--no-shadow.active{
-      max-width: 800px;
+      max-height: 800px;
   object-fit: scale-down;
   display: block!important;
 }
