@@ -34,42 +34,54 @@ document.addEventListener("DOMContentLoaded", function () {
       ]
     });
   });
-$(document).ready(function() {
-  $('.collection-list__link').on('click', function(e) {
-    e.preventDefault();
+$(document).ready(function () {
+  function loadCollectionContent(url, updateHistory = true) {
+    $.ajax({
+      url: url.includes('?') ? url + '&view=ajax' : url + '?view=ajax',
+      type: 'GET',
+      beforeSend: function () {
+        $('#product-grid').html('<li>Loading...</li>');
+      },
+      success: function (data) {
+        const tempDom = $('<div>').append($.parseHTML(data));
+        const newContent = tempDom.find('#product-grid').html();
 
-    var handle = $(this).data('handle');
-    var url = '/collections/' + handle + '?view=ajax';
+        if (newContent) {
+          $('#product-grid').html(newContent);
+          if (updateHistory) {
+            const cleanUrl = url.split('?')[0];
+            history.pushState(null, '', cleanUrl);
+          }
+        } else {
+          $('#product-grid').html('<li>No products found.</li>');
+        }
+      },
+      error: function () {
+        $('#product-grid').html('<li>Error loading products.</li>');
+      }
+    });
+  }
+
+  // ✅ Collection links (sidebar)
+  $('.collection-list__link').on('click', function (e) {
+    e.preventDefault();
+    const handle = $(this).data('handle');
+    const url = '/collections/' + handle;
 
     $('.collection-list__item').removeClass('active');
     $(this).parent().addClass('active');
 
-    $.ajax({
-      url: url,
-      type: 'GET',
-      beforeSend: function() {
-        $('#product-grid').html('<li>Loading...</li>');
-      },
-      success: function(data) {
-        // Create a temporary DOM element to extract #product-grid
-        var tempDom = $('<div>').append($.parseHTML(data));
-        var newContent = tempDom.find('#product-grid').html();
+    loadCollectionContent(url);
+  });
 
-        if (newContent) {
-          $('#product-grid').html(newContent);
-        } else {
-          $('#product-grid').html('<li>No products found.</li>');
-        }
-
-        // Update URL without reloading the page
-        history.pushState(null, '', '/collections/' + handle);
-      },
-      error: function() {
-        $('#product-grid').html('<li>Error loading products.</li>');
-      }
-    });
+  // ✅ Pagination links (inside #product-grid)
+  $(document).on('click', '.pagination__item.link, .pagination__item-arrow.link', function (e) {
+    e.preventDefault();
+    const url = $(this).attr('href');
+    if (url) loadCollectionContent(url, false); // Don't push history for pagination
   });
 });
+
 
 
 
