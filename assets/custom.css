@@ -1130,6 +1130,14 @@ ul.product-grid{margin-bottom: 0;}
     margin-right: 0;
     font-size: 30px;
   }
+  .product-release-date, .productBarcode, .product__sku {
+    padding: 10px;
+    font-size: 14px;
+}
+  .product-release-date strong, .productBarcode strong, .product__sku .sku-txt {
+    min-width: 60%;
+}
+  
   .product__media-wrapper ul.product__media-list .product__media-item.is-active .product-media-container .media {
     max-height: 250px;
     min-height: 250px;
