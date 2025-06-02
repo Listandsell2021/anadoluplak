@@ -740,6 +740,7 @@ p.product__text {
     width: 75% !important;
 }
 .facets__summary{padding:0 !important;}
+.collection-list.sidebarBox{list-style: none;}
 .sidebarBox .collection-list__item a{
   font-size: 16px;
   color:#000;
