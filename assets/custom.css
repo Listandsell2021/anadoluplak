@@ -1368,7 +1368,7 @@ ul.product-grid{margin-bottom: 0;}
     font-size: 14px;
     min-height: 37px;
 }
-  .product-card-wrapper.card-wrapper>.card {
+  .product-card-wrapper.card-wrapper>.card, .bestsellers-slider .product-card > a, .spf-product-card {
     padding: 5px;
 }
   slider-component.page-width {
