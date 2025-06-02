@@ -1364,7 +1364,7 @@ ul.product-grid{margin-bottom: 0;}
   .card:not(.ratio)>.card__content {
     grid-template-rows: none !important;
 }
-  .product-card-wrapper.card-wrapper>.card .card__information h3 {
+  .product-card-wrapper.card-wrapper>.card .card__information h3, .bestsellers-slider .product-card > a p.font-semibold {
     font-size: 14px;
     min-height: 37px;
 }
