@@ -653,7 +653,7 @@ p.product__text {
     align-items: center;
     justify-content: center;
 }
-.comn-inventry{margin-bottom:0 !important;}
+.comn-inventry, .product__inventory{margin-bottom:0 !important;}
 .product__media-wrapper ul.product__media-list .product__media-item.is-active .product-media-container .media {
     padding-top: 0px !important;
   max-height: 500px;
