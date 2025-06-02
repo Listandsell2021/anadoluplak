@@ -741,6 +741,9 @@ p.product__text {
 }
 .facets__summary{padding:0 !important;}
 .collection-list.sidebarBox{list-style: none;}
+.sidebarBox .collection-list__item {
+  padding: 1rem 2rem 1rem 0;
+}
 .sidebarBox .collection-list__item a{
   font-size: 16px;
   color:#000;
