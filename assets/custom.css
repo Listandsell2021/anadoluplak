@@ -740,6 +740,10 @@ p.product__text {
     width: 75% !important;
 }
 .facets__summary{padding:0 !important;}
+.sidebarBox .collection-list__item a{
+  font-size: 16px;
+  color:#000;
+}
 .gf-filter-contents .gf-block-content .gf-scroll, .sidebarBox{
   border: 1px solid #eee;
   padding:10px 15px !important;
