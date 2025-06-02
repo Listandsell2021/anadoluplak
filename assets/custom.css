@@ -660,6 +660,9 @@ p.product__text {
   min-height: 500px;
   height: 100%;
 }
+.product__info-container .product-form, .product__info-container .product__description, .product__info-container .icon-with-text {
+    margin: 0;
+}
 .product-media-modal__dialog .global-media-settings--no-shadow{display: none !important;}
 .product-media-modal__dialog .global-media-settings--no-shadow.active{
       max-width: 800px;
