@@ -139,20 +139,20 @@
                       aria-label="{{ filter.label | escape }} ({{ 'products.facets.filters_selected.one' | t: count: filter.active_values.size }})"
                     >
                       <div>
-                     <div class="collection-filters">
+                    <div class="collection-filters">
                         <div class="collection-list-wrapper">
-                         <h3 class="collection-list__title">Collections</h3>
-                         <ul class="collection-list">
-                          {% for collection in collections %}
-                          <li class="collection-list__item{% if collection.handle == current_collection.handle %} active{% endif %}">
-                           <a href="{{ collection.url }}" class="collection-list__link">
-                            {{ collection.title }}
-                            </a>
-                           </li>
-                          {% endfor %}
+                          <h3 class="collection-list__title">Collections</h3>
+                          <ul class="collection-list">
+                            {% for collection in collections %}
+                              <li class="collection-list__item{% if current_collection and collection.handle == current_collection.handle %} active{% endif %}">
+                                <a href="{{ collection.url }}" class="collection-list__link">
+                                  {{ collection.title }}
+                                </a>
+                              </li>
+                            {% endfor %}
                           </ul>
+                        </div>
                       </div>
-                       </div>
                         <span class="facets__summary-label">
                           {{- filter.label | escape }}
                           {%- if filter_type == 'vertical' -%}
