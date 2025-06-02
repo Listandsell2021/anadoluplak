@@ -848,6 +848,19 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     max-height: 420px;
 }
 /*****************************/
+.product-form__input.product-form__quantity{
+      max-width: 48% !important;
+    display: inline-block;
+    width: 100%;
+    min-width: auto;
+    margin-right: 4%;
+    vertical-align: top;
+}
+.product_formls{
+      display: inline-block;
+    max-width: 47%;
+    width: 100%;
+}
 .product-form__quantity .quantity::after, .product-form__quantity .quantity::before, .product-form__quantity .quantity__label, .product-form__buttons button.product-form__submit::before, 
 .product-form__buttons button.product-form__submit::after, .product-form__buttons .shopify-payment-button .shopify-payment-button__button::before, .product-form__buttons .shopify-payment-button .shopify-payment-button__button::after{
   display:none;}
