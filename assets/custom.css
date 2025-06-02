@@ -1126,6 +1126,10 @@ ul.product-grid{margin-bottom: 0;}
   .product__title h1 {
     font-size: 22px;
   }
+  .price__regular .price-item--regular {
+    margin-right: 0;
+    font-size: 30px;
+  }
   .product__media-wrapper ul.product__media-list .product__media-item.is-active .product-media-container .media {
     max-height: 250px;
     min-height: 250px;
