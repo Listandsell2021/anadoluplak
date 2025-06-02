@@ -692,7 +692,8 @@ p.product__text {
 .facet-checkbox{align-items: center;}
 .facets-layout-list .facets__label:hover .facet-checkbox__text-label, .facets-layout-list input:focus~.facet-checkbox__text-label{text-decoration: none !important;}
 .facet-checkbox .svg-wrapper {
-    top: 17px !important;color: #000 !important;
+    top: 17px !important;}
+.facet-checkbox .svg-wrapper svg{color: #000 !important;
 }
 .gf-filter-contents .gf-option-block .gf-block-title .h3{
       display: flex;
