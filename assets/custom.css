@@ -643,8 +643,8 @@ p.product__text {
       border-color: #B3B3B3;
 }
 .thumbnail[aria-current] {
-    box-shadow: none;
-    border-color: #B3B3B3;
+    box-shadow: none !important;
+    border-color: #B3B3B3 !important;
 }
 
 .product-media-modal__content{
