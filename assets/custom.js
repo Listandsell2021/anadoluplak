@@ -34,32 +34,43 @@ document.addEventListener("DOMContentLoaded", function () {
       ]
     });
   });
-  $(document).ready(function() {
-    $('.collection-list__link').on('click', function(e) {
-      e.preventDefault();
+$(document).ready(function() {
+  $('.collection-list__link').on('click', function(e) {
+    e.preventDefault();
 
-      var handle = $(this).data('handle');
-      var url = '/collections/' + handle + '?view=ajax';
+    var handle = $(this).data('handle');
+    var url = '/collections/' + handle + '?view=ajax';
 
-      $('.collection-list__item').removeClass('active');
-      $(this).parent().addClass('active');
+    $('.collection-list__item').removeClass('active');
+    $(this).parent().addClass('active');
 
-      $.ajax({
-        url: url,
-        type: 'GET',
-        beforeSend: function() {
-          $('#product-grid').html('<p>Loading...</p>');
-        },
-        success: function(data) {
-          $('#product-grid').html(data);
-          history.pushState(null, '', '/collections/' + handle);
-        },
-        error: function() {
-          $('#product-grid').html('<p>Error loading products.</p>');
+    $.ajax({
+      url: url,
+      type: 'GET',
+      beforeSend: function() {
+        $('#product-grid').html('<li>Loading...</li>');
+      },
+      success: function(data) {
+        // Create a temporary DOM element to extract #product-grid
+        var tempDom = $('<div>').append($.parseHTML(data));
+        var newContent = tempDom.find('#product-grid').html();
+
+        if (newContent) {
+          $('#product-grid').html(newContent);
+        } else {
+          $('#product-grid').html('<li>No products found.</li>');
         }
-      });
+
+        // Update URL without reloading the page
+        history.pushState(null, '', '/collections/' + handle);
+      },
+      error: function() {
+        $('#product-grid').html('<li>Error loading products.</li>');
+      }
     });
   });
+});
+
 
 
 
