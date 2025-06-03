@@ -1026,6 +1026,16 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 .shopify-policy__title{text-align:start;}
 .shopify-policy__title h1{font-weight: 400;}
 /*****************************/
+.list-payment {
+        justify-content: start;
+        gap: 15px;
+}
+.list-payment__item {
+    max-width: 85px;
+    height: 43px;
+    background: #fff;
+    width: 100%;
+}
 .footer {
   background: var(--primary-color);
   border: 0;
