@@ -684,10 +684,15 @@ p.product__text {
   object-fit: cover;
 }
 /*****************************/
-.product-option, .price.price--end {
+.product-option {
     font-size: 20px;
     font-weight: 600;
     color: var(--secondary-color);
+}
+.price.price--end {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
 }
 /*****************************/
 .active-facets, .facets__summary .icon{display:none !important;}
