@@ -702,6 +702,12 @@ p.product__text {
     color: #000;
 }
 .quantity.cart-quantity::before, .quantity.cart-quantity::after{display:none;}
+.quantity.cart-quantity{
+  border:1px solid #D2D2D2;
+  border-radius: 5px;
+  background: #F7F7F7;
+  colot:#000;
+}
 /*****************************/
 .active-facets, .facets__summary .icon{display:none !important;}
 .facets__disclosure-vertical{border:0 !important;}
