@@ -707,6 +707,7 @@ p.product__text {
   border-radius: 5px;
   background: #F7F7F7;
   colot:#000;
+  overflow: hidden;
 }
 /*****************************/
 .active-facets, .facets__summary .icon{display:none !important;}
