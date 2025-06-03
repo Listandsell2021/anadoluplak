@@ -1470,6 +1470,15 @@ ul.product-grid{margin-bottom: 0;}
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
+    .product_formls, .product-form__input.product-form__quantity {
+    margin-right: 0;
+    max-width: 100% !important;
+    width: 100%;
+}
+  .product-form__quantity .quantity .quantity__input, .product-form__buttons button.product-form__submit, .product-form__buttons .shopify-payment-button .shopify-payment-button__button {
+    height: 50px;
+}
+  .product_formls{margin-top:0 !important;}
   .comn-inventry{margin-top: 0 !important;}
   .product__title h1 {
     font-size: 26px;
