@@ -1472,7 +1472,7 @@ ul.product-grid{margin-bottom: 0;}
 @media (min-width: 768px) and (max-width:989.9px) {
   .facets-vertical .facets-wrapper .facets__form-vertical{width: 100%;}
   .facets-vertical .facets-wrapper{
-    max-width: 30%;
+    max-width: 35%;
         width: 100%;
   }
       .collection_details.collection {
