@@ -698,6 +698,9 @@ p.product__text {
   color:#000;
   opacity: 1 !important;
 }
+.cart-drawer .cart-items th {
+    color: #000;
+}
 /*****************************/
 .active-facets, .facets__summary .icon{display:none !important;}
 .facets__disclosure-vertical{border:0 !important;}
