@@ -702,6 +702,10 @@ p.product__text {
     color: #000;
 }
 .quantity.cart-quantity::before, .quantity.cart-quantity::after{display:none;}
+.quantity.cart-quantity .quantity__input{
+   border-left:1px solid #D2D2D2;
+   border-right:1px solid #D2D2D2;
+}
 .quantity.cart-quantity{
   border:1px solid #D2D2D2;
   border-radius: 5px;
