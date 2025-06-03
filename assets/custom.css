@@ -1478,6 +1478,11 @@ ul.product-grid{margin-bottom: 0;}
   .product-form__quantity .quantity .quantity__input, .product-form__buttons button.product-form__submit, .product-form__buttons .shopify-payment-button .shopify-payment-button__button {
     height: 50px;
 }
+  .pymnt-icn-single {
+    width: 100%;
+    object-fit: scale-down;
+    margin: 0 !important;
+}
   .product_formls{margin-top:0 !important;}
   .comn-inventry{margin-top: 0 !important;}
   .product__title h1 {
