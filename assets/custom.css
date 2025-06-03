@@ -1026,8 +1026,6 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 .shopify-policy__title{text-align:start;}
 .shopify-policy__title h1{font-weight: 400;}
 /*****************************/
-
-  .footer-block--newsletter{flex-wrap: wrap !important;}
 .footer {
   background: var(--primary-color);
   border: 0;
@@ -1065,6 +1063,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
   align-items: flex-start !important;
   margin-top: 0 !important;
   gap: 0 !important;
+      flex-wrap: wrap !important;
 }
 .footer-block__details-content .list-menu__item--link {
         display: inline-block;
