@@ -1470,7 +1470,7 @@ ul.product-grid{margin-bottom: 0;}
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
-      .facets-vertical .facets-wrapper {
+      .facets-vertical .facets-wrapper, .collection_details.collection {
         padding-right: 0rem !important;
       }
       .slider--desktop.grid--4-col-desktop .grid__item, .bestsellers-slider .product-card {
