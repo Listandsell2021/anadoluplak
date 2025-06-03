@@ -1509,9 +1509,9 @@ ul.product-grid{margin-bottom: 0;}
 .topbarAnnouncement .announcement-bar .announcement-bar__message {
     font-size: 12px;
 }
-  .product-card-wrapper.card-wrapper>.card .card__inner, .product-card-wrapper.card-wrapper>.card .card__inner .card__media img {
+  /* .product-card-wrapper.card-wrapper>.card .card__inner, .product-card-wrapper.card-wrapper>.card .card__inner .card__media img {
     height: 150px;
-}
+} */
   .collection .slider--tablet.product-grid {
         scroll-padding-left: 0 !important;
     }
