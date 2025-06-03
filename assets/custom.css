@@ -1033,6 +1033,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 .list-payment__item svg{
       width: 100%;
     height: 100%;
+  object-fit: scale-down;
 }
 .list-payment__item {
     max-width: 85px;
