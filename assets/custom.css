@@ -713,6 +713,7 @@ p.product__text {
   colot:#000;
   overflow: hidden;
 }
+.cart-remove-button{color:red;}
 /*****************************/
 .active-facets, .facets__summary .icon{display:none !important;}
 .facets__disclosure-vertical{border:0 !important;}
