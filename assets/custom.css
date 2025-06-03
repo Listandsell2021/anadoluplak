@@ -694,6 +694,9 @@ p.product__text {
     font-weight: 400;
     color: #000;
 }
+.cart-item__details p{
+  color:#000;
+}
 /*****************************/
 .active-facets, .facets__summary .icon{display:none !important;}
 .facets__disclosure-vertical{border:0 !important;}
