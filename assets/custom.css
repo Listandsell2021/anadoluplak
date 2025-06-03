@@ -701,6 +701,7 @@ p.product__text {
 .cart-drawer .cart-items th {
     color: #000;
 }
+.quantity.cart-quantity::before, .quantity.cart-quantity::after{display:none;}
 /*****************************/
 .active-facets, .facets__summary .icon{display:none !important;}
 .facets__disclosure-vertical{border:0 !important;}
