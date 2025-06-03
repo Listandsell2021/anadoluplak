@@ -235,9 +235,7 @@
               {%- endform -%}
             </div>
           {%- endif -%}
-      
- </div>
-               <div class="footer__column footer__column--info">
+   
         {%- if section.settings.payment_enable -%}
           <div class="footer__payment">
             <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
@@ -250,7 +248,9 @@
             </ul>
           </div>
         {%- endif -%}
-      </div>
+
+ </div>
+
           {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
             <div class="footer__follow-on-shop">
               {{ shop | login_button: action: 'follow' }}
