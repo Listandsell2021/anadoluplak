@@ -1219,7 +1219,7 @@ ul.product-grid{margin-bottom: 0;}
     padding-right: 0 !important;
     padding-top: 10px !important;
   }
-  .footer-block--newsletter{flex-wrap: wrap;}
+  .footer-block--newsletter{flex-wrap: wrap !important;}
   .footer__content-bottom .page-width {
     flex-direction: column;
 }
