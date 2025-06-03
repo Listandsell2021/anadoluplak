@@ -1470,12 +1470,17 @@ ul.product-grid{margin-bottom: 0;}
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
+  .comn-inventry{margin-top: 0 !important;}
   .product__title h1 {
     font-size: 26px;
   }
   .price__regular .price-item--regular {
     font-size: 30px;
   }
+  .product-release-date, .productBarcode {
+    padding: 10px;
+    font-size: 14px;
+}
   .product__media-wrapper ul.product__media-list .product__media-item.is-active .product-media-container .media {
     max-height: 300px;
     min-height: 300px;
