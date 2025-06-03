@@ -1471,7 +1471,7 @@ ul.product-grid{margin-bottom: 0;}
 
 @media (min-width: 768px) and (max-width:989.9px) {
       .facets-vertical .facets-wrapper {
-        padding-right: 0rem;
+        padding-right: 0rem !important;
       }
       .slider--desktop.grid--4-col-desktop .grid__item, .bestsellers-slider .product-card {
         padding: 0 4px;
