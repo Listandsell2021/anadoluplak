@@ -684,6 +684,12 @@ p.product__text {
   object-fit: cover;
 }
 /*****************************/
+.product-option, .price.price--end {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+/*****************************/
 .active-facets, .facets__summary .icon{display:none !important;}
 .facets__disclosure-vertical{border:0 !important;}
 .gf-filter-contents .gf-option-block .gf-block-title .h3 span, .facets__summary > div > span, .collection-list__title{
