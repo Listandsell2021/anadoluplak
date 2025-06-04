@@ -249,6 +249,7 @@ a {
   column-gap: 3%;
   row-gap: 20px;
 }
+.faqGrid>.grid__item > .accordion{height: fit-content;}
 /* .faqGrid>.grid__item {
     display: flex;
     flex-wrap: wrap;
