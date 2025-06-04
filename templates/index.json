@@ -338,7 +338,7 @@
           "settings": {
             "heading": "Welche Zahlungsarten werden akzeptiert?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Sie können bequem per PayPal, Kreditkarte, Sofortüberweisung, Lastschrift oder Vorkasse zahlen. Alle Zahlungen laufen über sichere, verschlüsselte Systeme.<br/><br/></p>",
             "page": ""
           }
         },
@@ -390,9 +390,9 @@
         "collapsible_row_eUxFqe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Wie erkenne ich, ob eine Platte original oder nachgepresst ist?",
+            "heading": "Kann ich Artikel zurückgeben, wenn sie mir nicht gefallen?",
             "icon": "check_mark",
-            "row_content": "<p>Wir geben das bei jedem Artikel transparent an. Wenn es sich um eine Reissue oder Nachpressung handelt, steht das klar dabei – samt Jahr und Labelinfo. Keine Tricks, kein Ratespiel.<br/><br/></p>",
+            "row_content": "<p>Ja, selbstverständlich. Sie haben 14 Tage Rückgaberecht. Schreiben Sie uns kurz – wir kümmern uns unkompliziert darum.</p>",
             "page": ""
           }
         }
