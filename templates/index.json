@@ -374,7 +374,7 @@
           "settings": {
             "heading": "Ich suche ein Geschenk – können Sie helfen?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Natürlich! Schreiben Sie uns kurz, wer beschenkt werden soll und was Sie sich vorstellen. Wir empfehlen gern passende Alben.<br/><br/></p>",
             "page": ""
           }
         },
