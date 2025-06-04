@@ -329,7 +329,7 @@
           "settings": {
             "heading": "Wie kann ich meine Bestellung verfolgen?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Sobald Ihre Bestellung unterwegs ist, erhalten Sie von uns eine Versandbestätigung mit Sendungsnummer. So können Sie jederzeit sehen, wo Ihre Lieferung gerade steckt.<br/><br/></p>",
             "page": ""
           }
         },
