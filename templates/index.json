@@ -356,7 +356,7 @@
           "settings": {
             "heading": "Wie erreiche ich Sie bei Fragen zur Bestellung?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Einfach per E-Mail oder Kontaktformular. Wir melden uns schnell zurück – meist innerhalb eines Werktags, oft früher.<br/><br/></p>",
             "page": ""
           }
         },
