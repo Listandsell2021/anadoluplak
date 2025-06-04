@@ -1180,7 +1180,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     align-items: center;
      flex-direction: row-reverse;
 }
-.disclosure__button.localization-form__select{
+.footer__content-bottom-wrapper .disclosure__button.localization-form__select{
   padding:0 !important;
   margin:0 !important;
   background: transparent !important;
