@@ -121,7 +121,10 @@ a {
     transform: translateX(-50%);
   }
 }
-
+button::focus-visible{
+      outline: none;
+    box-shadow: none;
+}
 /******************HEADER*************/
 .header-localization .disclosure__list .disclosure__item:last-child {border-bottom: 0;}
 .header-localization .disclosure__list .disclosure__item {
