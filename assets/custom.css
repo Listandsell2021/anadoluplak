@@ -1490,14 +1490,14 @@ ul.product-grid{margin-bottom: 0;}
     row-gap: 16px;
 }
   .slider-button--next {
-    right: -10px;
+    right: -15px;
 }
   .slider-button--prev {
-    left: -10px;
+    left: -15px;
 }
   .slider-button {
-    width: 34px !important;
-    height: 34px !important;
+    width: 20px !important;
+    height: 20px !important;
 }
   .grid .grid__item {
     padding: 0 8px;
