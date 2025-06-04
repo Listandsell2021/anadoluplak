@@ -1601,6 +1601,12 @@ ul.product-grid{margin-bottom: 0;}
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
+  .fokus-sction .card__heading {
+    flex-direction: column;
+  }
+  .fokus-sction a.full-unstyled-link {
+    padding-right: 20px;
+  }
   .grid--3-col-tablet > li{
     max-width: 33.33%;
     width:100%;
