@@ -1317,8 +1317,15 @@ ul.product-grid{margin-bottom: 0;}
     padding-right: 1rem;
 }
   .topbar_right{display:none;}
+  .collection-hero img{
+        width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
   .collection-hero {
-    max-height: 200px;
+           max-height: 150px;
+        height: 150px;
 }
   .collection-hero__text-wrapper {
     display: flex;
