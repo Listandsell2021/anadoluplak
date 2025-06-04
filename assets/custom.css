@@ -1079,7 +1079,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     background: #fff;
     width: 100%;
 }
-.copyright__content a:hover{color: var(--primary-color);}
+.copyright__content a:hover{color: var(--primary-color) !important;}
 .footer {
   background: var(--primary-color);
   border: 0;
