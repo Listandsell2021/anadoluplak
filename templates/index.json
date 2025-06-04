@@ -347,7 +347,7 @@
           "settings": {
             "heading": "Gibt es eine Garantie auf Produkte?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Unsere Produkte unterliegen der gesetzlichen Gewährleistung. Sollte etwas nicht stimmen, melden Sie sich bitte – wir finden schnell eine Lösung.<br/><br/></p>",
             "page": ""
           }
         },
