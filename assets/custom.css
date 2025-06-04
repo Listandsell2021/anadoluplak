@@ -243,13 +243,24 @@ a {
   font-weight: 100;
 }
 
-.faqGrid>.grid__item {
+/* .faqGrid>.grid__item {
   display: grid;
   grid-template-columns: repeat(2, 48.5%);
   column-gap: 3%;
   row-gap: 20px;
 }
-
+ */
+.faqGrid>.grid__item {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0%;
+    row-gap: 20px;
+}
+.faqGrid>.grid__item > .accordion{
+    max-width: 50%;
+    width: 100%;
+    padding: 0 15px;
+}
 .faqGrid .accordion summary {
   padding: 2.5rem 0;
   background: transparent !important;
