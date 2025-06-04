@@ -360,15 +360,6 @@
             "page": ""
           }
         },
-        "collapsible_row_j3zgAN": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Versenden Sie auch international, und wie sicher ist der Versand?",
-            "icon": "check_mark",
-            "row_content": "<p>Ja, wir liefern nach ganz Europa und die USA. Jede Bestellung wird stabil verpackt – besonders unsere Schallplatten. So kommt alles sicher und unbeschädigt bei Ihnen an.</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_BkUUz4": {
           "type": "collapsible_row",
           "settings": {
@@ -387,6 +378,15 @@
             "page": ""
           }
         },
+        "collapsible_row_j3zgAN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Versenden Sie auch international, und wie sicher ist der Versand?",
+            "icon": "check_mark",
+            "row_content": "<p>Ja, wir liefern nach ganz Europa und die USA. Jede Bestellung wird stabil verpackt – besonders unsere Schallplatten. So kommt alles sicher und unbeschädigt bei Ihnen an.</p>",
+            "page": ""
+          }
+        },
         "collapsible_row_eUxFqe": {
           "type": "collapsible_row",
           "settings": {
@@ -402,9 +402,9 @@
         "collapsible_row_UPF7pk",
         "collapsible_row_rdm8Gk",
         "collapsible_row_68CNad",
-        "collapsible_row_j3zgAN",
         "collapsible_row_BkUUz4",
         "collapsible_row_KcDWWR",
+        "collapsible_row_j3zgAN",
         "collapsible_row_eUxFqe"
       ],
       "settings": {
