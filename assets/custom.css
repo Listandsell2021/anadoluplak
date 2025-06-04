@@ -1865,11 +1865,15 @@ ul.product-grid{margin-bottom: 0;}
    .grid .grid__item {
     padding: 0px 5px;
 }
+  .slider-button {
+    width: 25px !important;
+    height: 25px !important;
+  }
     .slider-button--next {
-    right: 0px !important;
+    right: -10px !important;
 }
     .slider-button--prev {
-    left: 0px !important;
+    left: -10px !important;
 }
   .fokus-sction a.full-unstyled-link {
     padding-left: 10px;
