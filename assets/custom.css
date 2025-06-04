@@ -232,6 +232,7 @@ a {
   margin-bottom: 0rem;
 }
 
+.faqSec .accordion summary{background: transparent !important;}
 .faqSec .accordion {
   border: 0;
   border-bottom: 1px solid #c8c8c8;
