@@ -123,6 +123,16 @@ a {
 }
 
 /******************HEADER*************/
+.header-localization .disclosure__list .disclosure__item {
+  border-bottom: 1px solid #1212121a;
+}
+.header-localization .disclosure__list .disclosure__item .disclosure__link .icon-checkmark {
+    width: 1.5rem;
+}
+.header-localization .disclosure__link {
+    color: #000 !important;
+    font-size: 16px;
+}
 .utility-bar--bottom-border.header-localization .utility-bar__grid{
           grid-template-columns: repeat(2, 1fr);
 }
