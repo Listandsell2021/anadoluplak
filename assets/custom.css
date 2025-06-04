@@ -1601,6 +1601,11 @@ ul.product-grid{margin-bottom: 0;}
 }
 
 @media (min-width: 768px) and (max-width:989.9px) {
+  .grid--3-col-tablet > li{
+    max-width: 33.33%;
+    width:100%;
+  }
+
   .grid--3-col-tablet .grid__item{
         max-width: 33.33%;
     width: 100%;
