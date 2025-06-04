@@ -1334,6 +1334,7 @@ ul.product-grid{margin-bottom: 0;}
 }
   .collection-hero .collection-hero__title {
     font-size: 40px;
+    text-shadow: 1px 1px 3px BLACK;
 }
       .collection .slider--tablet.product-grid {
         scroll-padding-left: 0 !important;
