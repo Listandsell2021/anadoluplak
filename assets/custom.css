@@ -123,6 +123,7 @@ a {
 }
 
 /******************HEADER*************/
+.header-localization .disclosure__list .disclosure__item:last-child {border-bottom: 0;}
 .header-localization .disclosure__list .disclosure__item {
   border-bottom: 1px solid #1212121a;
 }
