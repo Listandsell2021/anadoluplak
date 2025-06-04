@@ -329,7 +329,7 @@
           "settings": {
             "heading": "Wie kann ich meine Bestellung verfolgen?",
             "icon": "check_mark",
-            "row_content": "<p>Sobald Ihre Bestellung unterwegs ist, erhalten Sie von uns eine Versandbestätigung mit Sendungsnummer. So können Sie jederzeit sehen, wo Ihre Lieferung gerade steckt.<br/><br/></p>",
+            "row_content": "<p>Sobald Ihre Bestellung unterwegs ist, erhalten Sie von uns eine Versandbestätigung mit Sendungsnummer. So können Sie jederzeit sehen, wo Ihre Lieferung gerade steckt.</p>",
             "page": ""
           }
         },
@@ -338,7 +338,7 @@
           "settings": {
             "heading": "Welche Zahlungsarten werden akzeptiert?",
             "icon": "check_mark",
-            "row_content": "<p>Sie können bequem per PayPal, Kreditkarte, Sofortüberweisung, Lastschrift oder Vorkasse zahlen. Alle Zahlungen laufen über sichere, verschlüsselte Systeme.<br/><br/></p>",
+            "row_content": "<p>Sie können bequem per PayPal, Kreditkarte, Sofortüberweisung, Lastschrift oder Vorkasse zahlen. Alle Zahlungen laufen über sichere, verschlüsselte Systeme.</p>",
             "page": ""
           }
         },
@@ -347,7 +347,7 @@
           "settings": {
             "heading": "Gibt es eine Garantie auf Produkte?",
             "icon": "check_mark",
-            "row_content": "<p>Unsere Produkte unterliegen der gesetzlichen Gewährleistung. Sollte etwas nicht stimmen, melden Sie sich bitte – wir finden schnell eine Lösung.<br/><br/></p>",
+            "row_content": "<p>Unsere Produkte unterliegen der gesetzlichen Gewährleistung. Sollte etwas nicht stimmen, melden Sie sich bitte – wir finden schnell eine Lösung.</p>",
             "page": ""
           }
         },
@@ -356,7 +356,7 @@
           "settings": {
             "heading": "Wie erreiche ich Sie bei Fragen zur Bestellung?",
             "icon": "check_mark",
-            "row_content": "<p>Einfach per E-Mail oder Kontaktformular. Wir melden uns schnell zurück – meist innerhalb eines Werktags, oft früher.<br/><br/></p>",
+            "row_content": "<p>Einfach per E-Mail oder Kontaktformular. Wir melden uns schnell zurück – meist innerhalb eines Werktags, oft früher.</p>",
             "page": ""
           }
         },
@@ -365,7 +365,7 @@
           "settings": {
             "heading": "Versenden Sie auch international, und wie sicher ist der Versand?",
             "icon": "check_mark",
-            "row_content": "<p>Ja, wir liefern nach ganz Europa und die USA. Jede Bestellung wird stabil verpackt – besonders unsere Schallplatten. So kommt alles sicher und unbeschädigt bei Ihnen an.<br/><br/><br/></p>",
+            "row_content": "<p>Ja, wir liefern nach ganz Europa und die USA. Jede Bestellung wird stabil verpackt – besonders unsere Schallplatten. So kommt alles sicher und unbeschädigt bei Ihnen an.</p>",
             "page": ""
           }
         },
@@ -374,7 +374,7 @@
           "settings": {
             "heading": "Ich suche ein Geschenk – können Sie helfen?",
             "icon": "check_mark",
-            "row_content": "<p>Natürlich! Schreiben Sie uns kurz, wer beschenkt werden soll und was Sie sich vorstellen. Wir empfehlen gern passende Alben.<br/><br/></p>",
+            "row_content": "<p>Natürlich! Schreiben Sie uns kurz, wer beschenkt werden soll und was Sie sich vorstellen. Wir empfehlen gern passende Alben.</p>",
             "page": ""
           }
         },
@@ -383,7 +383,7 @@
           "settings": {
             "heading": "Wie pflege ich meine alten Vinyls am besten?",
             "icon": "check_mark",
-            "row_content": "<p>Mit einer antistatischen Bürste vor dem Abspielen reinigen, gelegentlich nass waschen, trocken lagern – und nie aufeinanderstapeln. So bleiben Ihre Platten lange in Form.<br/><br/></p>",
+            "row_content": "<p>Mit einer antistatischen Bürste vor dem Abspielen reinigen, gelegentlich nass waschen, trocken lagern – und nie aufeinanderstapeln. So bleiben Ihre Platten lange in Form.</p>",
             "page": ""
           }
         },
