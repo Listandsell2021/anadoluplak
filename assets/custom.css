@@ -1928,9 +1928,6 @@ ul.product-grid{margin-bottom: 0;}
 html{
   scroll-behavior: smooth;
 }
-.loader,
-.loading,
-.preloader,
-#loader {
-    display: none !important;
+.predictive-search__loading-state {
+    display: none;
 }
