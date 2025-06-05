@@ -1947,3 +1947,12 @@ p.product__text {
     padding: 10px;
     width: 100%;
 }
+.deliverstuts > div {
+    font-size: 11px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.deliverstuts > div strong{
+  font-size: 12px;
+}
