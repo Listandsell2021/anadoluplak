@@ -62,19 +62,19 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
         "paymenticons_fTpkG3": {
           "type": "paymenticons",
           "settings": {
             "payment_image": "shopify://shop_images/paymenticons.png",
             "payment_image_width": 600,
             "payment_image_height": 80
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
           }
         },
         "description": {
@@ -98,8 +98,8 @@
         "sku_PmgnyJ",
         "inventory_zHWmce",
         "quantity_selector",
-        "paymenticons_fTpkG3",
         "buy_buttons",
+        "paymenticons_fTpkG3",
         "description",
         "share"
       ],
