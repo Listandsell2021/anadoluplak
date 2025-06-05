@@ -3564,7 +3564,6 @@ details-disclosure > details {
 
 .spinner {
   animation: rotator 1.4s linear infinite;
-  display: none;
 }
 
 @keyframes rotator {
