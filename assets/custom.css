@@ -1953,6 +1953,7 @@ p.product__text {
     display: flex;
     align-items: center;
 }
-.deliverstuts > div strong{
-  font-size: 12px;
+.deliverstuts > div strong {
+    font-size: 12px;
+    color: #000000;
 }
