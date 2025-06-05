@@ -1931,3 +1931,10 @@ html{
 .predictive-search__loading-state {
     display: none;
 }
+.product__title h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+p.product__text {
+    font-size: 12px;
+}
