@@ -453,7 +453,19 @@
                       {%- endif -%}
                     </volume-pricing>
                   {%- endif -%}
-              jjfljnpöxdfgküp
+              {% if product.available %}
+                <div style="border: 1px solid #007aff; padding: 10px; max-width: 250px; font-family: sans-serif; font-size: 14px; margin-top: 15px;">
+                  <div style="color: #c24627; display: flex; align-items: center;">
+                    <svg style="width: 20px; height: 20px; margin-right: 6px;" fill="#c24627" viewBox="0 0 24 24">
+                      <path d="M3 3h2v2H3V3m16 0h2v2h-2V3M5 6h14a1 1 0 0 1 1 1v9H4V7a1 1 0 0 1 1-1m14 11a2 2 0 0 0 2-2v-1H3v1a2 2 0 0 0 2 2h14M9 18h6v2H9v-2z" />
+                    </svg>
+                    <strong>Sofort verfügbar</strong>
+                  </div>
+                  <div style="color: #000; margin-top: 4px;">
+                    Lieferzeit: 2–5 Werktage (DE – Ausland abweichend)
+                  </div>
+                </div>
+            {% endif %}    
                 </div>
               
               {%- when 'paymenticons' -%}
