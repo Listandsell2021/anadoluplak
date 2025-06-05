@@ -36,4 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
+window.addEventListener('load', function () {
+    const loader = document.querySelector('.loader, .loading, .preloader, #loader');
+    if (loader) loader.style.display = 'none';
+});
+
 
