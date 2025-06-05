@@ -1931,16 +1931,3 @@ html{
 .predictive-search__loading-state {
     display: none;
 }
-.product-form__quantity .form__label {
-    margin-bottom: .6rem;
-    display: inline-flex;
-    font-size: 16px;
-    margin-bottom: 20px;
-    font-weight: bolder;
-    color: #000000;
-    gap: 15px
-}
-.product-form__quantity .quantity__rules-cart {
-    position: relative;
-    display: inline-block !important;
-}
