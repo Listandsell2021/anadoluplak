@@ -180,7 +180,7 @@
         "featured_collection_wbK3pM": {
           "type": "featured_collection",
           "settings": {
-            "collection": "arabesk",
+            "collection": "balkan",
             "button_explore": "Explore Now"
           }
         },
@@ -223,7 +223,7 @@
       "settings": {
         "collection": "ozgun-muzik",
         "products_to_show": 20,
-        "title": "Wieder auf Lager",
+        "title": "Wieder auf",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
