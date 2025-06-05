@@ -1938,3 +1938,12 @@ html{
 p.product__text {
     font-size: 12px;
 }
+.product__inventory {
+    display: inline-flex !important;
+    background: #fef5eb;
+    gap: 6px !important;
+    color: var(--secondary-color);
+    font-weight: 300;
+    padding: 10px;
+    width: 100%;
+}
