@@ -50,10 +50,6 @@
             "text_style": "body"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "inventory_zHWmce": {
           "type": "inventory",
           "settings": {
@@ -61,6 +57,10 @@
             "inventory_threshold": 10,
             "show_inventory_quantity": true
           }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -96,8 +96,8 @@
         "variant_picker",
         "erscheinungsdatum_BQ9KEB",
         "sku_PmgnyJ",
-        "quantity_selector",
         "inventory_zHWmce",
+        "quantity_selector",
         "buy_buttons",
         "paymenticons_fTpkG3",
         "description",
