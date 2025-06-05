@@ -1957,3 +1957,6 @@ p.product__text {
     font-size: 12px;
     color: #000000;
 }
+h1.main-page-title.page-title.h0.scroll-trigger.animate--fade-in {
+    font-size: 32px;
+}
