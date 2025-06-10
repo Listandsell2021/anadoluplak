@@ -218,7 +218,7 @@
                    {{- product.selected_or_first_available_variant.sku -}}
                 </p>
               {% if product.variants.first.barcode != blank %}
-                <p class="productBarcode"><strong>Barcode:</strong> {{ product.variants.first.barcode }}</p>
+                <p class="productBarcode"><strong>{{'product.variants.first.barcode' | t  }} :</strong> {{ product.variants.first.barcode }}</p>
               {% endif %}
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
