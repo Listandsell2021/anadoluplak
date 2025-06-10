@@ -149,10 +149,10 @@
                 {% assign date_format = "%d %B %Y" %}
               {% endif %}
               
-              {{ release_date | date: date_format }}
+              
                 {% if release_date %}
                   <div class="product-release-date" {{ block.shopify_attributes }}>
-                    <strong>{{ block.settings.release_title }}:</strong> {{ release_date | date: "%B %d, %Y" }}
+                    <strong>{{ block.settings.release_title }}:</strong> {{ release_date | date: date_format }}
                   </div>
                 {% endif %}
                <div class="comn-inventry">
