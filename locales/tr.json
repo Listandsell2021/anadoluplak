@@ -118,6 +118,8 @@
       "add_to_cart": "Sepete ekle",
       "description": "Açıklama",
       "on_sale": "İndirim",
+       "sku": "Stok Kodu",
+       "barcode": "Barkod",
       "quantity": {
         "label": "Adet",
         "input_label": "{{ product }} için adet",
