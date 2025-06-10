@@ -215,7 +215,7 @@
                   {{ block.shopify_attributes }}
                 >
                   <span class="sku-txt">{{ 'products.product.sku' | t }}:</span>
-                   {{- product.selected_or_first_available_variant.sku -}}
+                   {{- product.selected_or_first_available_variant.sku -}} 
                 </p>
               {% if product.variants.first.barcode != blank %}
                 <p class="productBarcode"><strong>{{ 'products.product.barcode' | t }}</strong> {{ product.variants.first.barcode }}</p>
