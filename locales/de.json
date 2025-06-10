@@ -118,6 +118,8 @@
       "add_to_cart": "In den Warenkorb legen",
       "description": "Beschreibung",
       "on_sale": "Sale",
+       "sku": "SKU",
+      "barcode": "Strichcode",
       "quantity": {
         "label": "Anzahl",
         "input_label": "Anzahl von {{ product }}",
