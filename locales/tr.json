@@ -118,6 +118,7 @@
       "add_to_cart": "Sepete ekle",
       "description": "Açıklama",
       "on_sale": "İndirim",
+      "release_date": "Yayın Tarihi",
        "sku": "Stok Kodu",
        "barcode": "Barkod",
       "quantity": {
