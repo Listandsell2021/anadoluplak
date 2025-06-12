@@ -141,7 +141,7 @@
                   {%- endform -%}
                 </div>
             {% when 'erscheinungsdatum' %}
-               {% assign release_date = product.metafields.custom.dates %}
+               {% assign release_date = product.metafields.custom.erscheinungsdatum %}
               {% if release_date %}
                 <div class="product-release-date" {{ block.shopify_attributes }}>
                   <strong>{{ 'products.product.release_date' | t }}:</strong> {{ release_date}}
