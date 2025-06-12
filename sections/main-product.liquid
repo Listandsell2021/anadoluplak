@@ -140,13 +140,13 @@
                     {{ form | payment_terms }}
                   {%- endform -%}
                 </div>
-              {% when 'erscheinungsdatum' %}
-                {% assign release_date = product.metafields.custom.erscheinungsdatum %}
-                {% if release_date %}
-                  <div class="product-release-date" {{ block.shopify_attributes }}>
-                    <strong>{{ block.settings.release_title }}:</strong> {{ release_date | date: "%B %d, %Y" }}
-                  </div>
-                {% endif %}
+            {% when 'erscheinungsdatum' %}
+              {% assign release_date = product.metafields.custom.erscheinungsdatum %}
+              {% if release_date %}
+                <div class="product-release-date" {{ block.shopify_attributes }}>
+                  <strong>{{ 'product.release_date' | t }}:</strong> {{ release_date | date: "%B %d, %Y" }}
+                </div>
+              {% endif %}
                <div class="comn-inventry">
               {%- when 'inventory' -%}
                 <p
