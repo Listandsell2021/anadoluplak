@@ -1,7 +1,7 @@
 :root {
   --page-width: 130rem;
   /* --page-width: 145rem; */
-  /* --primary-color: #FEF5EB; */
+  /* --primary-color: rgb(254, 252, 235); */
   --primary-color: rgb(254, 252, 235);
   --secondary-color: #C47959;
   --font-body-family: 'PangeaAfrikanTrial', sans-serif;
@@ -635,7 +635,7 @@ margin-top:0.7rem;
 }
 .product__inventory{
    display: inline-flex !important;
-    background: #fef5eb;
+    background: rgb(254, 252, 235);
     gap: 10px !important;
     color: var(--secondary-color);
     font-weight: 300;
@@ -982,7 +982,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     font-size: 12px !important;
     font-weight: 100;
     color: #000 !important;
-    background: #fef5eb;
+    background: rgb(254, 252, 235);
     display: inline-block !important;
     padding: 2px 10px;
     margin-bottom: 10px;
@@ -1945,7 +1945,7 @@ p.product__text {
 }
 .product__inventory {
     display: inline-flex !important;
-    background: #fef5eb;
+    background: rgb(254, 252, 235);
     gap: 6px !important;
     color: var(--secondary-color);
     font-weight: 300;
