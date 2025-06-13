@@ -181,21 +181,21 @@
           "type": "featured_collection",
           "settings": {
             "collection": "balkan",
-            "button_explore": "Jetzt entdecken"
+            "button_explore": "Learn More"
           }
         },
         "featured_collection_RyKtEF": {
           "type": "featured_collection",
           "settings": {
             "collection": "hip-hop-rap",
-            "button_explore": "Jetzt entdecken"
+            "button_explore": "Learn More"
           }
         },
         "featured_collection_rXQYNC": {
           "type": "featured_collection",
           "settings": {
             "collection": "klassik-musik",
-            "button_explore": "Jetzt entdecken"
+            "button_explore": "Learn More"
           }
         }
       },
