@@ -1,7 +1,8 @@
 :root {
   --page-width: 130rem;
   /* --page-width: 145rem; */
-  --primary-color: #FEF5EB;
+  /* --primary-color: #FEF5EB; */
+  --primary-color: rgb(254, 252, 235);
   --secondary-color: #C47959;
   --font-body-family: 'PangeaAfrikanTrial', sans-serif;
     --font-heading-family: 'PangeaAfrikanTrial', sans-serif;
