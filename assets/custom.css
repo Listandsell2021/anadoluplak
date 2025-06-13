@@ -834,6 +834,7 @@ p.product__text {
   position:relative;
       display: flex;
     align-items: center;
+      text-transform: capitalize;
 }
 .sidebarBox .collection-list__item.active a{
   color:var(--secondary-color);
