@@ -475,6 +475,16 @@
         "Schallplatten_detail_paragraph_3": "Also: Neugierig geworden? Stöbern Sie los. Tauchen Sie ein in eine Musikwelt zwischen Bosporus und Berliner Hinterhof – und finden Sie den Sound, der Sie nicht mehr loslässt.",
         "Schallplatten_side_image": "shopify://shop_images/SchallplattenImg.webp"
       }
+    },
+    "custom_liquid_Nm6BMq": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div id=\"srt-customer-data\" style=\"display:none;\">\n\t<span id=\"srt-customer-email\">{{ customer.email }}</span>\n\t<span id=\"srt-customer-reference\">{{ checkout.id }}</span>\n</div>\n<div id=\"SHOPVOTECheckoutProducts\" style=\"display: none;\" translate=\"no\">\n\t{%- for line_item in order.line_items -%}\n    <span class=\"SVCheckoutProductItem\">\n\t\t<span class=\"sv-i-product-url\">{{ shop.url }}{{line_item.product.url}}</span>\n\t\t<span class=\"sv-i-product-image-url\">{{ line_item.product | img_url }}</span>\n\t\t<span class=\"sv-i-product-name\">{{line_item.product.title}}</span>\n\t\t<span class=\"sv-i-product-gtin\">{{line_item.variant.barcode}}</span>\n\t\t<span class=\"sv-i-product-sku\">{{line_item.variant.sku}}</span>\n\t\t<span class=\"sv-i-product-brand\">{{line_item.vendor}}</span>\n\t</span>\n    {%- endfor -%}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -486,6 +496,7 @@
     "image_banner",
     "featured_collection_gTVNC4",
     "collapsible_content_hnKRnA",
-    "ls_imageicon_fbwJeA"
+    "ls_imageicon_fbwJeA",
+    "custom_liquid_Nm6BMq"
   ]
 }
