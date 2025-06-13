@@ -112,7 +112,7 @@
   "onboarding": {
     "product_title": "Example product title",
     "collection_title": "Your collection's name",
-     "link_collection": "Explore Now" 
+     "button_explore": "Explore Now" 
   },
   "products": {
     "product": {
