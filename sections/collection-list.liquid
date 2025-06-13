@@ -73,10 +73,19 @@
             {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
           <div class="fokus-sction">
+          {% assign button_label = '' %}
+            {% case request.locale.iso_code %}
+              {% when 'de' %}
+                {% assign button_label = block.settings.button_explore_de %}
+              {% when 'tr' %}
+                {% assign button_label = block.settings.button_explore_tr %}
+              {% else %}
+                {% assign button_label = block.settings.button_explore %}
+            {% endcase %}
             {% render 'card-collection',
               card_collection: block.settings.collection,
               media_aspect_ratio: section.settings.image_ratio,
-              link_collection: block.settings.button_explore,
+              link_collection: button_label,
               columns: columns,
               placeholder_image: placeholder_image
             %}
