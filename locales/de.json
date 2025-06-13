@@ -111,7 +111,8 @@
   },
   "onboarding": {
     "product_title": "Beispiel für Produkttitel",
-    "collection_title": "Name deiner Kollektion"
+    "collection_title": "Name deiner Kollektion",
+     "button_explore": "Jetzt entdecken"
   },
   "products": {
     "product": {
