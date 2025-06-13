@@ -259,7 +259,8 @@ button:focus, button:focus-visible{
 }
 
 .faqGrid>.grid__item {
-  display: grid;
+  display: flex;
+      flex-direction: column;
   /* grid-template-columns: repeat(2, 48.5%); */
   column-gap: 3%;
   row-gap: 20px;
