@@ -12,5 +12,25 @@
   "context": {
     "market": "de"
   },
-  "sections": {}
+  "sections": {
+    "collection_list_4gJAij": {
+      "blocks": {
+        "featured_collection_wbK3pM": {
+          "settings": {
+            "button_explore": "Jetzt entdecken"
+          }
+        },
+        "featured_collection_RyKtEF": {
+          "settings": {
+            "button_explore": "Jetzt entdecken"
+          }
+        },
+        "featured_collection_rXQYNC": {
+          "settings": {
+            "button_explore": "Jetzt entdecken"
+          }
+        }
+      }
+    }
+  }
 }
