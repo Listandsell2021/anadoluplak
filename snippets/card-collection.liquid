@@ -141,8 +141,8 @@
               {%- endif %}
             </a>
             <a  href="{{ card_collection.url }}" class="explore-button">
-                 {{ link_collection }}
-                </a>
+                 {{ link_collection | t  }}
+              </a>
           </h3>
           </div>
           {%- if card_collection.featured_image == null and card_collection.description != blank -%}
