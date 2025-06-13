@@ -112,7 +112,7 @@
   "onboarding": {
     "product_title": "Örnek ürün başlığı",
     "collection_title": "Koleksiyonunuzun adı",
-    "link_collection": "Hemen Keşfet"
+    "button_explore": "Hemen Keşfet"
   },
   "products": {
     "product": {
