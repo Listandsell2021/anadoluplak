@@ -260,7 +260,7 @@ button:focus, button:focus-visible{
 
 .faqGrid>.grid__item {
   display: grid;
-  grid-template-columns: repeat(2, 48.5%);
+  /* grid-template-columns: repeat(2, 48.5%); */
   column-gap: 3%;
   row-gap: 20px;
 }
