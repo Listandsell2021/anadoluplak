@@ -373,7 +373,8 @@ button:focus, button:focus-visible{
 }
 
 .collectionProducts {
-  background: #F2E1CE;
+  /* background: #F2E1CE; */
+  background: rgb(254, 252, 235);
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top:50px;
