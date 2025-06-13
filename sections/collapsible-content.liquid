@@ -21,7 +21,7 @@
 {%- assign last_index = column_count | minus: 1 -%}
 
 {%- for column_index in (0..last_index) -%}
-  <div class="grid__item">
+  <div class="grid__item {% if section.settings.layout == 'section' %} page-width{% elsif section.settings.layout == 'none' %} content-container content-container--full-width{% endif %} ">
     {%- assign start_index = column_index | times: blocks_per_column -%}
     {%- assign end_index = start_index | plus: blocks_per_column | minus: 1 -%}
     {%- for block in section.blocks offset: start_index limit: blocks_per_column -%}
