@@ -516,18 +516,28 @@
 }
 {% endschema %}
 <style>
-  .accordion__content {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-details[open] .accordion__content {
-  margin-top: 0 !important;
-}
-
-.accordion details[open] {
+/* Eliminate extra space caused by grid or details */
+.faqGrid .accordion {
   margin-bottom: 0 !important;
 }
 
+/* Prevent vertical expansion padding/margin when open */
+.faqGrid details[open] {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Remove spacing within the accordion content */
+.faqGrid .accordion__content {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Remove paragraph spacing inside content */
+.faqGrid .accordion__content > *:first-child {
+  margin-top: 0 !important;
+}
+.faqGrid .accordion__content > *:last-child {
+  margin-bottom: 0 !important;
+}
 </style>
