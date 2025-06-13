@@ -67,11 +67,10 @@
               </div>
             </div>
           {% endif %}
-   {%- assign total_blocks = section.blocks.size -%}
-{%- assign blocks_per_column = 4 -%}
-{%- assign column_count = total_blocks | divided_by: blocks_per_column | ceil -%}
-{%- assign last_index = column_count | minus: 1 -%}
-
+        {%- assign total_blocks = section.blocks.size -%}
+        {%- assign blocks_per_column = 4 -%}
+        {%- assign column_count = total_blocks | divided_by: blocks_per_column | ceil -%}
+        {%- assign last_index = column_count | minus: 1 -%}
         {%- for column_index in (0..last_index) -%}
           <div class="grid__item">
             {%- assign start_index = column_index | times: blocks_per_column -%}
