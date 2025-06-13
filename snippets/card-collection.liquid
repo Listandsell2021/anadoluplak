@@ -140,20 +140,7 @@
                 </span>
               {%- endif %}
             </a>
-            {% assign button_label = '' %}
-            {% case request.locale.iso_code %}
-              {% when 'de' %}
-                {% assign button_label = 'Jetzt entdecken' %}
-              {% when 'tr' %}
-                {% assign button_label = 'Şimdi Keşfet' %}
-              {% else %}
-                {% assign button_label = block.settings.button_explore %}
-            {% endcase %}
-
-            <a href="{{ card_collection.url }}" class="explore-button">
-              {{ button_label }}
-            </a>
-
+        
             <a href="{{ card_collection.url }}" class="explore-button">
                  {{ link_collection }}
               </a>
