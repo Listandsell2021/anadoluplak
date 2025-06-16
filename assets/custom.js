@@ -41,35 +41,7 @@ window.addEventListener('load', function () {
     if (loader) loader.style.display = 'none';
 });
 
-  document.addEventListener("DOMContentLoaded", function () {
-    const form = document.getElementById("no-result-contact-form");
-    const successMsg = document.getElementById("form-success-message");
 
-    if (form) {
-      form.addEventListener("submit", function (e) {
-        e.preventDefault();
-
-        const formData = new FormData(form);
-
-        fetch("/contact", {
-          method: "POST",
-          body: formData,
-        })
-        .then(response => {
-          if (response.ok) {
-            form.style.display = "none";
-            successMsg.style.display = "block";
-          } else {
-            alert("Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut.");
-          }
-        })
-        .catch(error => {
-          console.error("Fehler beim Senden:", error);
-          alert("Es gab ein Problem beim Senden.");
-        });
-      });
-    }
-  });
 
 
 
