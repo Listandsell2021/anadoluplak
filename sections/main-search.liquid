@@ -330,34 +330,35 @@
      <div class="page-width">
            {% if search.results_count == 0 %}
             {% if request.query_params.contact_posted %}
-            <div class="success-message" style="color: green; margin-bottom: 1rem;">
-              ✅ Thank you! Your request has been sent.
+              <div class="success-message" style="color: green; margin-bottom: 1rem;">
+                ✅ Thank you! Your request has been sent.
+              </div>
+            {% endif %}
+            
+            <div class="no-results-message">
+              <h2>No results found for “{{ search.terms }}”.</h2>
+              <p>Let us know what you're looking for. We might be able to stock it!</p>
+            
+              <form method="post" action="/contact">
+                <input type="hidden" name="form_type" value="contact">
+                <input type="hidden" name="utf8" value="✓">
+                <input type="hidden" name="contact[body]" value="Customer searched for: {{ search.terms }}">
+            
+                <div style="margin-bottom: 1rem;">
+                  <label for="ContactFormEmail">Your Email:</label><br>
+                  <input type="email" name="contact[email]" id="ContactFormEmail" required style="width:100%; padding:0.5rem;">
+                </div>
+            
+                <div style="margin-bottom: 1rem;">
+                  <label for="ContactFormMessage">Message:</label><br>
+                  <textarea name="contact[body]" id="ContactFormMessage" rows="4" required style="width:100%; padding:0.5rem;">
+            I searched for "{{ search.terms }}" and couldn’t find it. Please let me know if it becomes available.
+                  </textarea>
+                </div>
+            
+                <button type="submit" class="button" style="padding: 0.7rem 1.2rem;">Send Request</button>
+              </form>
             </div>
-          {% endif %}
-          <div class="no-results-message page-width">
-            <h2>No results found for “{{ search.terms }}”.</h2>
-            <p>Let us know what you're looking for. We might be able to stock it!</p>
-          
-            <form method="post" action="/contact">
-              <input type="hidden" name="form_type" value="contact">
-              <input type="hidden" name="utf8" value="✓">
-              <input type="hidden" name="contact[body]" value="Customer searched for: {{ search.terms }}">
-          
-              <div style="margin-bottom: 1rem;">
-                <label for="ContactFormEmail">Your Email:</label><br>
-                <input type="email" name="contact[email]" id="ContactFormEmail" required style="width:100%; padding:0.5rem;">
-              </div>
-          
-              <div style="margin-bottom: 1rem;">
-                <label for="ContactFormMessage">Message:</label><br>
-                <textarea name="contact[body]" id="ContactFormMessage" rows="4" required style="width:100%; padding:0.5rem;">
-          I searched for "{{ search.terms }}" and couldn’t find it. Please let me know if it becomes available.
-                </textarea>
-              </div>
-          
-              <button type="submit" class="button" style="padding: 0.7rem 1.2rem;">Send Request</button>
-            </form>
-          </div>
       {% endif %}
      </div>
   </div>
