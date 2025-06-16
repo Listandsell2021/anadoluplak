@@ -1969,8 +1969,9 @@ h1.main-page-title.page-title.h0.scroll-trigger.animate--fade-in {
 .no-results-message button {
   height: 45px;
   padding: 10px 20px;
-  background: var(--primary-color);
+  background: var(--secondary-color);
   color:#fff;
+  border:0;
 }
 .no-results-message input {
     border: 1px solid #000;
