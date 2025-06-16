@@ -62,22 +62,7 @@
     }
   }
 {%- endstyle -%}
-{% if search.results_count == 0 %}
-  <div class="no-results-message">
-    <h2>Leider haben wir nichts gefunden für „{{ search.terms }}“.</h2>
-    <p>Wir haben das Produkt aktuell nicht im Sortiment.</p>
-    <p>Teilen Sie uns mit, was Sie suchen – vielleicht können wir es bald für Sie anbieten!</p>
 
-    <form method="post" action="/contact#contact_form">
-      <input type="hidden" name="contact[body]" value="Suchanfrage ohne Ergebnis: {{ search.terms }}">
-      <label for="email">Ihre E-Mail-Adresse:</label><br>
-      <input type="email" name="contact[email]" required><br><br>
-      <label for="message">Was haben Sie gesucht?</label><br>
-      <textarea name="contact[body]" rows="4" required>Ich habe nach „{{ search.terms }}“ gesucht und es nicht gefunden.</textarea><br><br>
-      <button type="submit">Anfrage senden</button>
-    </form>
-  </div>
-{% endif %}
 {% paginate search.results by 24 %}
   <div class="template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
     <div class="template-search__header page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -342,6 +327,22 @@
         </div>
       </div>
     {%- endif -%}
+      {% if search.results_count == 0 %}
+          <div class="no-results-message">
+            <h2>Leider haben wir nichts gefunden für „{{ search.terms }}“.</h2>
+            <p>Wir haben das Produkt aktuell nicht im Sortiment.</p>
+            <p>Teilen Sie uns mit, was Sie suchen – vielleicht können wir es bald für Sie anbieten!</p>
+        
+            <form method="post" action="/contact#contact_form">
+              <input type="hidden" name="contact[body]" value="Suchanfrage ohne Ergebnis: {{ search.terms }}">
+              <label for="email">Ihre E-Mail-Adresse:</label><br>
+              <input type="email" name="contact[email]" required><br><br>
+              <label for="message">Was haben Sie gesucht?</label><br>
+              <textarea name="contact[body]" rows="4" required>Ich habe nach „{{ search.terms }}“ gesucht und es nicht gefunden.</textarea><br><br>
+              <button type="submit">Anfrage senden</button>
+            </form>
+          </div>
+       {% endif %}
   </div>
 {% endpaginate %}
 {% if section.settings.image_shape == 'arch' %}
