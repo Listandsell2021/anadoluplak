@@ -1965,3 +1965,20 @@ p.product__text {
 h1.main-page-title.page-title.h0.scroll-trigger.animate--fade-in {
     font-size: 32px;
 }
+
+.no-results-message input {
+    border: 1px solid #000;
+    height: 45px;
+    width: 100%;
+}
+.no-results-message textarea {
+    border: 1px solid #000;
+    height: 100px;
+    width: 100%;
+}
+.no-results-message {
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 10px 0px #d4d4d4;
+    padding: 25px;
+}
