@@ -329,6 +329,12 @@
     {%- endif -%}
      <div class="page-width">
            {% if search.results_count == 0 %}
+             {% if request.query_params.contact_posted %}
+                <div class="success-message" style="color: green; margin-bottom: 1rem;">
+                  ✅ Thank you! Your request has been sent.
+                </div>
+              {% endif %}
+
         <div class="no-results-message page-width">
           <h2>Leider haben wir nichts gefunden für „{{ search.terms }}“.</h2>
           <p>Teilen Sie uns mit, was Sie suchen – vielleicht können wir es bald ins Sortiment aufnehmen!</p>
