@@ -1966,6 +1966,12 @@ h1.main-page-title.page-title.h0.scroll-trigger.animate--fade-in {
     font-size: 32px;
 }
 
+.no-results-message button {
+  height: 45px;
+  padding: 10px 20px;
+  background: var(--primary-color);
+  color:#fff;
+}
 .no-results-message input {
     border: 1px solid #000;
     height: 45px;
