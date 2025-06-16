@@ -40,7 +40,43 @@ window.addEventListener('load', function () {
     const loader = document.querySelector('.loader, .loading, .preloader, #loader');
     if (loader) loader.style.display = 'none';
 });
-
+      document.getElementById('no-result-contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const form = e.target;
+        const successMessage = document.getElementById('form-success-message');
+        
+        // Get form data
+        const formData = new FormData(form);
+        
+        // Add Shopify AJAX form requirements
+        formData.append('return_to', window.location.pathname + '?contact_posted=true');
+        
+        // Submit via AJAX
+        fetch('/contact', {
+          method: 'POST',
+          body: formData
+        })
+        .then(response => {
+          if (response.ok) {
+            // Show success message
+            successMessage.style.display = 'block';
+            form.reset();
+            
+            // Optionally scroll to show the message
+            successMessage.scrollIntoView({ behavior: 'smooth' });
+            
+            // Update URL to show success message on refresh
+            window.history.replaceState({}, '', window.location.pathname + '?contact_posted=true');
+          } else {
+            throw new Error('Form submission failed');
+          }
+        })
+        .catch(error => {
+          alert('An error occurred. Please try again.');
+          console.error(error);
+        });
+      });
+  
 
 
 
