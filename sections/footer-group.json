@@ -15,7 +15,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "<!-- ANFANG -->\n<a href=\"https://www.shopvote.de/bewertung_anadoluplak_com_26824.html\" target=\"_blank\">\n<img src=\"https://widgets.shopvote.de/view.php?shopid=26824&bn=51&lang=de\" id=\"svimage-51\" alt=\"Shopbewertung - anadoluplak.com\" border=\"0\" align=\"bottom\" hspace=\"1\"/>\n</a>\n<!-- ENDE -->",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
