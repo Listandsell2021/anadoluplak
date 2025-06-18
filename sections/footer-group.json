@@ -11,16 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "custom_liquid_eajNKp": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<!-- ANFANG -->\n<a href=\"https://www.shopvote.de/bewertung_anadoluplak_com_26824.html\" target=\"_blank\">\n<img src=\"https://widgets.shopvote.de/view.php?shopid=26824&bn=51&lang=de\" id=\"svimage-51\" alt=\"Shopbewertung - anadoluplak.com\" border=\"0\" align=\"bottom\" hspace=\"1\"/>\n</a>\n<!-- ENDE -->",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -65,10 +55,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_eajNKp": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!-- ANFANG -->\n<a href=\"https://www.shopvote.de/bewertung_anadoluplak_com_26824.html\" target=\"_blank\">\n<img src=\"https://widgets.shopvote.de/view.php?shopid=26824&bn=51&lang=de\" id=\"svimage-51\" alt=\"Shopbewertung - anadoluplak.com\" border=\"0\" align=\"bottom\" hspace=\"1\"/>\n</a>\n<!-- ENDE -->",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "custom_liquid_eajNKp",
-    "footer"
+    "footer",
+    "custom_liquid_eajNKp"
   ]
 }
