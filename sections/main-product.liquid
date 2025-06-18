@@ -2333,33 +2333,4 @@
   ]
 }
 {% endschema %}
-<!-- BEGIN - ShopVote-Reviews -->
-<div id="srt-customer-data" style="display:none;">
-	<span id="srt-customer-email">CUSTOMERMAIL</span>
-	<span id="srt-customer-reference">ORDERNUMBER</span>
-</div>
-<!-- BEGIN - ShopVote Product Reviews -->
-<div id="SHOPVOTECheckoutProducts" style="display: none;" translate="no">
-	<!-- Ein Artikel (Item) pro Artikel im Warenkorb -->
-	<span class="SVCheckoutProductItem">
-		<span class="sv-i-product-url">PRODUCT_URL</span>
-		<span class="sv-i-product-image-url">PRODUCT_IMG_URL</span>
-		<span class="sv-i-product-name">PRODUCT_NAME</span>
-		<span class="sv-i-product-gtin">PRODUCT_GTIN</span>
-		<span class="sv-i-product-sku">PRODUCT_SKU</span>
-		<span class="sv-i-product-brand">PRODUCT_BRAND</span>
-	</span>
-	<!-- END item -->
-</div>
-<!-- END - ShopVote Reviews -->
-<!-- BEGIN - ShopVote Reviews JS -->
-<script src="https://feedback.shopvote.de/srt-v4.min.js"></script>
-<script type="text/javascript">
-	window.addEventListener('DOMContentLoaded', function (e) {
-		var myToken = "097965544c7cabfaa56f3ab5db8d2ed6";
-		var myLanguage = 'DE';
-		var mySrc = ('https:' === document.location.protocol ? 'https' : 'http');
-		loadSRT(myToken, mySrc);
-	});
-</script>
-<!-- END - ShopVote Reviews JS -->
+
