@@ -248,6 +248,14 @@
             </ul>
           </div>
         {%- endif -%}
+         {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'custom_html' %}
+            <div class="footer__custom-html" {{ block.shopify_attributes }}>
+              {{ block.settings.shopvoteseal}}
+            </div>
+        {% endcase %}
+      {% endfor %}
 
  </div>
 
@@ -261,17 +269,7 @@
             {%- render 'social-icons', class: 'footer__list-social' -%}
           {%- endif -%}
       
-        {% for block in section.blocks %}
-        {% case block.type %}
-          {% when 'custom_html' %}
-            <div class="footer__custom-html" {{ block.shopify_attributes }}>
-              {{ block.settings.shopvoteseal}}
-            </div>
-      
-          {% else %}
-            <!-- Handle unknown block types -->
-        {% endcase %}
-      {% endfor %}
+     
         </div>
       </div>
     {%- endunless -%}
