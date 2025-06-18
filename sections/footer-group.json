@@ -37,7 +37,7 @@
         "custom_html_azfeVd": {
           "type": "custom_html",
           "settings": {
-            "shopvoteseal": "<script src=\"https://widgets.shopvote.de/js/votebadge.min.js\" defer></script>\n<script>\nwindow.addEventListener?window.addEventListener(\"load\",loadBadge,!1):window.attachEvent&&window.attachEvent(\"onload\",loadBadge);\nfunction loadBadge(){\nvar myShopID = 26824; var myBadgetType = 3; var myLanguage = 'DE';\nvar mySrc = ('https:' === document.location.protocol ? 'https' : 'http');\ncreateVBadge(myShopID, myBadgetType,mySrc);}\n</script>"
+            "shopvoteseal": "<script src=\"https://widgets.shopvote.de/js/votebadge.min.js\" defer></script>\n<script>\nwindow.addEventListener?window.addEventListener(\"load\",loadBadge,!1):window.attachEvent&&window.attachEvent(\"onload\",loadBadge);\nfunction loadBadge(){\nvar myShopID = 26824; var myBadgetType = 2; var myLanguage = 'DE';\nvar mySrc = ('https:' === document.location.protocol ? 'https' : 'http');\ncreateVBadge(myShopID, myBadgetType,mySrc);}\n</script>"
           }
         }
       },
