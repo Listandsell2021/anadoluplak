@@ -33,12 +33,19 @@
             "heading": "Kundenbetreuung",
             "menu": "footer"
           }
+        },
+        "custom_html_azfeVd": {
+          "type": "custom_html",
+          "settings": {
+            "shopvoteseal": "<!-- ANFANG -->\n<a href=\"https://www.shopvote.de/bewertung_anadoluplak_com_26824.html\" target=\"_blank\">\n<img src=\"https://widgets.shopvote.de/view.php?shopid=26824&bn=51&lang=de\" id=\"svimage-51\" alt=\"Shopbewertung - anadoluplak.com\" border=\"0\" align=\"bottom\" hspace=\"1\">\n</a>\n<!-- ENDE -->"
+          }
         }
       },
       "block_order": [
         "brand_information_neyXMe",
         "link_list_jxqDkF",
-        "link_list_9xUyWd"
+        "link_list_9xUyWd",
+        "custom_html_azfeVd"
       ],
       "settings": {
         "color_scheme": "scheme-1",
