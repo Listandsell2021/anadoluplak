@@ -240,13 +240,17 @@
           <div class="footer__payment">
             <h2 class="footer-block__heading">{{ section.settings.payment_title}}</h2>
             <ul class="list list-payment" role="list">
-              {%- for type in shop.enabled_payment_types -%}
+           {%- for type in shop.enabled_payment_types -%}
                 <li class="list-payment__item">
-                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                {{ section.settings.payment_image}}
-                
+                  {%- if type == 'bank_transfer' -%}
+                    {%- if section.settings.payment_image != blank -%}
+                      <img src="{{ section.settings.payment_image | img_url: '100x' }}" alt="Bank Transfer" class="icon icon--full-color">
+                    {%- endif -%}
+                  {%- else -%}
+                    {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                  {%- endif -%}
                 </li>
-              {%- endfor -%}
+            {%- endfor -%}
             </ul>
           </div>
         {%- endif -%}
