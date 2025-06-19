@@ -236,24 +236,27 @@
             </div>
           {%- endif -%}
    
-        {%- if section.settings.payment_enable -%}
-          <div class="footer__payment">
-            <h2 class="footer-block__heading">{{ section.settings.payment_title}}</h2>
-            <ul class="list list-payment" role="list">
-              {%- for type in shop.enabled_payment_types -%}
-              <li class="list-payment__item">
-                {%- if type == 'bank_transfer' -%}
-                  {%- if section.settings.payment_image != blank -%}
-                    <img src="{{ section.settings.payment_image | image_url: width: 80 }}" alt="Bank Transfer" class="icon icon--full-color" loading="lazy">
-                  {%- endif -%}
-                {%- else -%}
-                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                {%- endif -%}
-              </li>
-            {%- endfor -%}
-            </ul>
-          </div>
-        {%- endif -%}
+          {%- if section.settings.payment_enable -%}
+            <div class="footer__payment">
+              <h2 class="footer-block__heading">{{ section.settings.payment_title }}</h2>
+              <ul class="list list-payment" role="list">
+                {%- for type in shop.enabled_payment_types -%}
+                  <li class="list-payment__item">
+                    {%- if type == 'bank_transfer' -%}
+                      {%- if section.settings.payment_image != blank -%}
+                      <img src="{{ section.settings.payment_image | image_url: width: 80 }}" alt="Bank Transfer" class="icon icon--full-color" loading="lazy">
+                      {%- else -%}
+                        <!-- Optional fallback text/icon -->
+                        <span class="icon icon--full-color">Bank Transfer</span>
+                      {%- endif -%}
+                    {%- else -%}
+                      {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                    {%- endif -%}
+                  </li>
+                {%- endfor -%}
+              </ul>
+            </div>
+          {%- endif -%}
          {% for block in section.blocks %}
         {% case block.type %}
           {% when 'custom_html' %}
