@@ -1097,7 +1097,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
     height: 100%;
   object-fit: scale-down;
 }
-.list-payment__item {
+ul.list-payment li {
     max-width: 85px;
     height: 43px;
     background: #fff;
@@ -1989,3 +1989,4 @@ h1.main-page-title.page-title.h0.scroll-trigger.animate--fade-in {
     padding: 25px;
 }
 #sv-vbadge-box.sv-vbadge-vb3fx{bottom:20px !important;right:20px !important;}
+.footer__payment{width: 100%;}
