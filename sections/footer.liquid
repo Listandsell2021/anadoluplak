@@ -243,6 +243,8 @@
               {%- for type in shop.enabled_payment_types -%}
                 <li class="list-payment__item">
                   {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                {{ section.settings.payment_image}}
+                
                 </li>
               {%- endfor -%}
             </ul>
