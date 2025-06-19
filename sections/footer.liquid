@@ -242,11 +242,10 @@
               <ul class="list list-payment" role="list">
                 {%- for type in shop.enabled_payment_types -%}
                   <li class="list-payment__item">
-                      <img src="{{ section.settings.payment_image | image_url: width: 80 }}" alt="Bank Transfer" class="icon icon--full-color" loading="lazy">
-              
                       {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
                   </li>
                 {%- endfor -%}
+             <img src="{{ section.settings.payment_image | image_url: width: 80 }}" alt="Bank Transfer" class="icon icon--full-color" loading="lazy">
               </ul>
             </div>
           {%- endif -%}
