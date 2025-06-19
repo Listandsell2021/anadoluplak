@@ -1091,6 +1091,7 @@ html.gf-theme-version-15.spf-has-filter .gf-filter-selection select, html.gf-the
 .list-payment {
         justify-content: start !important;
         gap: 15px;
+  list-style: none;
 }
 .list-payment__item svg{
       width: 100%;
