@@ -40,26 +40,35 @@ window.addEventListener('load', function () {
     const loader = document.querySelector('.loader, .loading, .preloader, #loader');
     if (loader) loader.style.display = 'none';
 });
- document.addEventListener("DOMContentLoaded", function () {
-  const form = document.querySelector("form[action='/contact']");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault(); // stop form from submitting and reloading
 
-      form.style.display = "none";
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form[action='/contact']");
+    if (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent real submission (only for JS-based display)
+        form.style.display = "none";
 
-      const message = document.createElement("div");
-      message.className = "success-message";
-      message.innerHTML = `
-        <h2>Vielen Dank für Ihre Nachricht!</h2>
-        <p>Wir haben Ihre Anfrage erhalten und melden uns so schnell wie möglich.</p>
-      `;
+        const message = document.createElement("div");
+        message.className = "success-message";
+        message.innerHTML = `
+          <h2>Vielen Dank für Ihre Nachricht!</h2>
+          <p>Wir haben Ihre Anfrage erhalten und melden uns so schnell wie möglich.</p>
+        `;
 
-      const container = document.querySelector(".no-results-message");
-      container.appendChild(message);
-    });
-  }
-});
+        const container = document.querySelector(".no-results-message");
+        container.appendChild(message);
+
+        // Keep the message visible for 8 seconds, then fade it out
+        setTimeout(() => {
+          message.style.transition = "opacity 1s ease-out";
+          message.style.opacity = "0";
+          setTimeout(() => message.remove(), 1000); // Remove from DOM after fade out
+        }, 8000); // 8 seconds
+      });
+    }
+  });
+
+
 
 
 
