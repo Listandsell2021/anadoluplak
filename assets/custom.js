@@ -40,6 +40,22 @@ window.addEventListener('load', function () {
     const loader = document.querySelector('.loader, .loading, .preloader, #loader');
     if (loader) loader.style.display = 'none';
 });
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form[action='/contact']");
+    if (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent actual submit if using JS only
+        form.style.display = "none";
+        const message = document.createElement("div");
+        message.innerHTML = `
+          <h2>Vielen Dank für Ihre Nachricht!</h2>
+          <p>Wir haben Ihre Anfrage erhalten und melden uns so schnell wie möglich.</p>
+        `;
+        document.querySelector(".no-results-message").appendChild(message);
+      });
+    }
+  });
+
      
   
 
