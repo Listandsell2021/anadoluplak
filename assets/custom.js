@@ -40,43 +40,26 @@ window.addEventListener('load', function () {
     const loader = document.querySelector('.loader, .loading, .preloader, #loader');
     if (loader) loader.style.display = 'none';
 });
-document.addEventListener("DOMContentLoaded", function () {
-  const form = document.querySelector("form[action='/contact']");
-  if (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault(); // Prevent page reload
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form[action='/contact']");
+    if (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent real submission (only for JS-based display)
+        form.style.display = "none";
 
-      const formData = new FormData(form);
+        const message = document.createElement("div");
+        message.className = "success-message";
+        message.innerHTML = `
+          <h2>Vielen Dank für Ihre Nachricht!</h2>
+          <p>Wir haben Ihre Anfrage erhalten und melden uns so schnell wie möglich.</p>
+        `;
 
-      fetch(form.action, {
-        method: "POST",
-        body: formData
-      })
-      .then(response => {
-        if (response.ok) {
-          form.style.display = "none";
+        const container = document.querySelector(".no-results-message");
+        container.appendChild(message);
 
-          const message = document.createElement("div");
-          message.className = "success-message";
-          message.innerHTML = `
-            <h2>Vielen Dank für Ihre Nachricht!</h2>
-            <p>Wir haben Ihre Anfrage erhalten und melden uns so schnell wie möglich.</p>
-          `;
-
-          const container = document.querySelector(".no-results-message");
-          container.appendChild(message);
-        } else {
-          alert("Fehler beim Senden des Formulars. Bitte versuchen Sie es erneut.");
-        }
-      })
-      .catch(error => {
-        console.error("Fehler beim Senden:", error);
-        alert("Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.");
       });
-    });
-  }
-});
-
+    }
+  });
 
 
      
