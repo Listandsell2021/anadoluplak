@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Kostenloser Versand für Einkäufe von 50€ oder mehr!",
+            "text": "Kostenloser Versand deutschlandweit. Europaweit 13,95 €",
             "link": "",
             "anmenu": "announcement-menu"
           }
