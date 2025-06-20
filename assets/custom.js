@@ -57,12 +57,6 @@ window.addEventListener('load', function () {
         const container = document.querySelector(".no-results-message");
         container.appendChild(message);
 
-        // Keep the message visible for 8 seconds, then fade it out
-        setTimeout(() => {
-          message.style.transition = "opacity 1s ease-out";
-          message.style.opacity = "0";
-          setTimeout(() => message.remove(), 1000); // Remove from DOM after fade out
-        }, 8000); // 8 seconds
       });
     }
   });
